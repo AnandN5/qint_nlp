@@ -1,1592 +1,0 @@
-Audit 2004-029
-
-Audit Number is 2004-029.
-Scope:
-Audit 2004-029 is a System audit falling under Vendor category; this Audit was conducted for compound Gaboxadol for study trial no GXP no: 10403. The purpose was to conduct an audit CVB Corporation, US, the supplier of the electronic diaries used in H Acme Corporation. During the audit two ongoing studies were conducted (gaboxadol 10402 & 10403), using CVB’s electronic diaries. CVB is responsible for setting up study specific items in the LogPads, validating the study specific setup, delivering the LogPads and cleaning of data using paper based DCFs.
-
-It is a Acme Corporation policy to audit suppliers of automated systems used in ICR (International Clinical Research) and the audit is carried out as part of the Clinical Quality Assurance Program.
-
-The scope of the audit is the Quality Management System, policies and procedures associated with development, testing and releasing of the electronic diaries “LogPad” and the software associated with them.
-
-Approach:
-The audit was conducted according to Acme Corporation SOP ICR/CQA/AUDIT/SYS/01; the audit agenda dated 26-Oct-2004, and included the following activities:
-
-• Opening meeting
-• CVB Corporation; the company and its organisation
-• Project management 
-• LogPad/StudyWorks 
-• Quality Management
-• Documentation review and review of job descriptions and training records for Senior Software Developer Thomas McLoughlin; Principal Software Quality Engineer Frances Goldstein; Client Services Project Manager; Director of Regulatory Compliance Richard LaFleur
-• Facility tour and quick demonstration of activities
-• Infrastructure and Security
-• Archive Facilities
-• Core Product Engineering
-• Customer Service and Support Services  
-• Closing meeting
-
-Non Conformances:
-
-Non Conformance 2004-029_1 is found during Audit 2004-029;
-Inadequate documentation of delegated trial-related duties for the clinical trial staff – non-compliance with ICH GCP 4.1.5 and 21 CFR 312.60.
-
-The primary and back-up coordinators were not listed on the Signature and Delegation Log to perform the tasks of “dispensing drug and performing drug accountability”. According to the Site Signature and Delegation Log, the PI was to dispense drug and perform drug accountability, but in practice he did not perform these tasks.
-Non Conformance 2004-029_1 reported date is 23/05/2012;
-its closed date is 18/06/2012;
-its rating is Minor;
-its type is Deviation from Process and procedures.
-								
-Non Conformance 2004-029_2 is found during Audit 2004-029;
-Inadequate resources for conducting trial related exams – non-compliance with ICH GCP 4.2.3. 
-
-The facilities did not contain an examination room with an exam table and the PI conducted physical examinations and ECGs on the couch in his Office.
-
-Non Conformance 2004-029_2 reported date is 23/05/2012;
-its closed date is 18/06/2012;
-its rating is Minor;
-its type is Other.
-		
-Non Conformance 2004-029_3 is found during Audit 2004-029;
-Discrepancy and conflicting information in the approval letter for the Canadian Consent /Assent – non compliance with ICH-GCP 4.4., 21 CFR 56.109
-
-Inclusion Criteria #5 required that subjects be ≥18  and ≤65.The Quorum IRB approval letter dated 09-Nov-2011; approved versions 1, of the Information and Consent /Assent form for Canadian Sites and the Information Consent/Assent Form for Genetics Study for Canadian sites both dated 02-Nov-11, which stated that “enrollment requiring the use of Legally Authorised Representatives is prohibited for this protocol”  and that “enrollment of minors as defined by local law is permitted with the permission of 1 parent/legal guardian.  In addition, the Consent / Assent was not available in Pluto or at the site.
-
-Non Conformance 2004-029_3 reported at 23/05/2012;
-its closed date is 18/06/2012;
-its rating is Minor;
-its type is Deviation from Process and procedures.
-										
-Non Conformance 2004-029_4 is found during Audit 2004-029;
-Non-Compliance with the protocol – non-compliance with ICH-GCP 4.5.1, 21 CFR 312.60.
-There was no documentation to verify that Subject S1013 had received “prescribed prior treatment for a previous episode of depression” as required according to inclusion criteria #7.  The PI documented that the patient received supportive therapy from the General Practitioner; however, medical records obtained from the General Practitioner for that time period did not support the claim of supportive therapy. 
-
-The Ongoing Site Visit report for the visit conducted on 04-05-Apr-2012 noted the lack of documentation for the supportive therapy; however, per the report the Lundbeck Medical Expert agreed that Dr. Philips documenting that the General Practitioner provided supportive therapy for the patient was “sufficient” documentation. On 09-May-2012, the PI faxed a letter to the General Practitioner indicating that the patient had verbally stated that he had received supportive therapy for depression in Aug 2010 and was out of work for 6 weeks due to his depression and if this “information is reasonably accurate” to please sign the note and fax back to Dr. Philips office; however, at the time of this audit the General Practitioner had not responded..
-
-The medical records pertaining to the previous episode of MDE and supportive therapy should have been collected by the PI prior to the randomization of the subject. In addition there was not adequate follow-up by the PI to get the supporting documentation from the General Practitioner.
-Non Conformance 2004-029_4 is reported on 23/05/2012;
-its closed date is 31/08/2012;
-its rating is Major;
-And its type is Deviation from Process and procedures.
-										
-Non Conformance 2004-029_6 is found during Audit 2004-029;
-Falsification of records by the Investigator – non-compliance with ICH-GCP 4.9.1, 21 CFR 312.62, CPSO Policy #5-05.
-
-For patient S1012 the disability insurance claim forms dated 06 Feb 2012 and 05 Apr 2012, respectively, contained different information compared to the entries in the medical records and eCRF. The entries were as follows:
-- Insurance form dated 06-Feb-2012 - prescribed treatment as “medication and support therapy”
-- Insurance form dated 05-Apr-2012 - prescribed treatment as “antidepressant therapy and support therapy, Cipralex to be discontinued, pt is to start Cymbalta 60mg PO QD by next visit”
-- Medical records and eCRF - concomitant medication Cipralex and the support therapy not documented
-
-The PI confirmed during an interview that the medication and therapy recorded on the insurance forms had not been prescribed and he had only recorded this information on the insurance forms so the patient would not lose their insurance benefits.  The prescribed treatments documented on the insurance forms were exclusionary making the subject ineligible for study participation and contradicted what was documented in the medical records. 
-
-This issue was noted by the CRA since 05-Mar-2012; however, the CRA did not notify ICON and/or Lundbeck management and did not document the issue in a monitoring report. (see observation #10).
-Non Conformance 2004-029_6 reported date is 23/05/2012;
-its closed date is 31/08/2012;
-Its rating is Critical;
-its type is Personnel.
-								
-Non Conformance 2004-029_7 is found during Audit 2004-029;
-Incomplete and inaccurate medical records / documentation  – non-compliance with ICH-GCP 4.9.1, 21 CFR 312.62, CPSO Policy #5-05.
-
-The site was not provided with instructions as to the information that should be included in the medical records for the study. 
-
-Source documentation consisted of dictated clinical trial notes, source document worksheets, laboratory reports, and ECGs printouts.  Dr. Philip’s also maintained medical progress notes on his patient’s which were unlike his dictated clinical trials notes which were vague and did not provide adequate information, for example:
-• It was not always documented  that patients were participating in a clinical trial, ie: for patient S1012, there was no documentation in the medical records of participation in a clinical trial
-• For patients S1007, S1012, S1013, S1032 it was documented in the medical records that they were to “continue current treatment”; however, the current treatment was not defined in any of the medical progress notes and was not always consistent with what was documented on other source documents  
-• There were discrepancies noted in the source documents:
-•  Onset of the episodes of depression / duration for subject S1013
-•  Start and stop dates of medications were not always recorded for subjects S1007, S1012, S1013
-•  Subject S1007 letter dated 11-Jan-12 patient does not smoke vs. letter dated 08-Feb-2010, source document worksheets and the eCRF             which documented that the patient smoked.
-Non Conformance  2004-029_7 reported date is 23/05/2012;
-its closed date is 31/08/2012;
-Its rating is Major;
-Its type is Deviation from Process and procedures.
-									
-Non Conformance 2004-029_8 is found during Audit 2004-029;
-Lack of appropriate personnel on the FDA Form 1572 – non-compliance with 21 CFR 312.53.
-
-The primary study coordinator and the back-up study coordinator have not been listed on the FDA 1572. Both individuals assisted with the administration of the Neuropsychological tests which contribute significantly to the primary and secondary endpoints and therefore required by the FDA, as part of the investigative team to be listed on the 1572. In addition, the study coordinator and back-up study coordinator would also need to complete Financial Disclosures forms.
-
-Non Conformance 2004-029_8 reported date is 23/05/2012;
-its closed date is 18/06/2012;
-its rating is Minor;
-Its type is Deviation from Process and procedures.
-
-Non Conformance 2004-029_9 is found during Audit 2004-029;
-Lack of documentation for personnel to conduct study specific testing – non-compliance with the protocol.
-
-There was no documentation from the scale manager allowing for the primary and back-up study coordinators who were not psychiatrists or Neuro-psychologists to conduct the neuropsychological testing, as required by the protocol.  
-
-Non Conformance 2004-029_9 reported date is 23/05/2012;
-Non Conformance closed date is 15/06/2012;
-Non Conformance rating is Minor;
-Non Conformance type is Deviation from Process and procedures.
-
-Non Conformance 2004-029_10 is found during Audit 2004-029;
-Failure by the CRA to report quality issues promptly and  take appropriate action – non-compliance ICH-GCP 5.20.1, 21 CFR 312.56.
-
-The monitor confirmed that she had reviewed the information on the insurance forms for Subject S1012 and had questioned the PI as the treatments documented on the insurance forms were exclusionary for the study. After questioning the PI, she was aware that the information was erroneous; however, there was no documentation that she reported the issue to Lundbeck or escalated the issue to ICON management. In addition, the information was not documented in the OSV reports dated 05-Mar-2012 or 04-Apr-2012. The latest monitoring visit was conducted on 02-03-May-2012 by the CRA and Lead CRA; however, this report was not available in the sponsor TMF and it was not known if this information was reported in this OSV report.
-
-Non Conformance 2004-029_10 reported date is 23/05/2012;
-Non Conformance closed date is 31/08/2012;
-Non Conformance rating is Major;
-Non Conformance type is Event and incident.
-									
-Non Conformance 2004-029_11 is found during Audit 2004-029;
-Inadequate instructions provided for sites on compliance with inclusion criteria #7 which requires that patients received prescribed treatment for previous episode of depression – non compliance with ICH-GCP 5.23.4, 21CFR 312.50.
-
-The protocol does not define “prescribed treatment” and it was determined by the Lundbeck Medical Expert that “supportive therapy” could be considered a prescribed treatment; however, this information is not captured in any of the study documentation reviewed and it is not clear what would be considered supportive therapy.
-
-Non Conformance 2004-029_11 reported date is 23/05/2012;
-Non Conformance closed date is 31/08/2012;
-Non Conformance rating is Major;
-Non Conformance type is Deviation from Process and procedures.
-
-					
-
-
-Audit 2005-011
-
-Audit Number is 2005-011.
-Scope:
-Audit 2005-011 is a System audit falling under Vendor category; this Audit was conducted for compound Escitalopram for study trial no: 10990. 
-Review of the facilities and server room and relevant procedures at the DFG site in VA, USA where hosting of data will take place.  Audit objective:  To: • evaluate whether the facilities and the security around them are considered adequate for hosting of clinical data.  • review procedures with special focus on important issues as user administration, change control and disaster recovery.  • investigate whether DFG is able to encrypt files using a type of Public Key Encryption (eg: PGP).  • evaluate if DFG is able to provide Acme Corporation with their data  regardless what happens (disaster recovery). 
-Approach:
-The audit was conducted according to Acme Corporation SOP ICR/CQA/AUDIT/SYS/01; Process and System Audit and the audit agenda dated 09-Jun-2005, and included the following activities:  • Opening meeting • Interviews with key personnel • Review documentation incl. potential validation documents • Review of facilities eg: archiving, computer systems and other equipment used   • Closing meeting														
-
-Non Conformances:
-
-Non Conformance ID is 2005-011_1 is found during Audit 2005-011;
-Lack of adherence with the protocol (ICH-GCP 4.5.1)
-
-The blood analysis results for subject S1798 were received on 05-Nov-2008, one day after the subject was randomised on 04-Nov-2008 and as per the source document, these were only reviewed on 08-Nov-2008. As per the interview the PI always received the results timely from the central lab, if needed over the telephone; however this was not documented.
-For the non conformance 2005-011_1, the reported date is 9/06/2012;
-the closed date is 9/08/2012;
-the rating is Minor;
-And the non Conformance type is Deviation from Process and procedures.
-
-Non Conformance ID is 2005-011_2 is found during Audit 2005-011;
-Inadequate informed consent procedures (ICH-GCP 4.8)
- 
-a) There were two copies of the pharmacogenetics consent present on file for subject S1080; both were signed by the PI but not by the patient, which suggests that the investigator would sign before the subject. This is not considered appropriate as per ICH-GCP and was already pointed in a previous audit.
-b) There was no full name present on the consent for subject S1378 as required
-c) S1575: the ICF stated that an original ICF was handed out to the subject on 16-Oct-2008, while the subject was consented on 01-Oct-2008. Further the ICF was not signed but double-dated by the PI.
-d) Two copies of the SIS/ICF version 02 were found for subjects S1264 and S1378. The reason was unclear.
-
-For the non conformance 2005-011_2, the reported date is 9/06/2012;
-the closed date is 9/08/2012;
-the rating is Minor;
-And the non Conformance type is Deviation from Process and procedures.
-
-Non Conformance ID is 2005-011_3 is found during Audit 2005-011;
-Lack of recording data in the eCRF (ICH-GCP 4.9.1).
-I - Subject S1798:
-a) As per the eCRF the patient took no concomitant medication at all; however the
-medical records mentioned that the subject took SERETIDE 50/500 bid and
-VENTOLINE prn, and that she was taking STILNOX in the evenings. This is
-mentioned in a letter from another physician dated 22-0ct-2008, while the
-subject was screened 31-0ct-2008 and enrolled 04-Nov-2008.
-b) The subject's medical condition at screening as per the medical records included
-irritable bowel and pseudomembranic colitis, which were not recorded as part of
-medical history
-c) After Subject S1798 experienced worsening of depression (SAE occurred on 06-
-Nov-2008), she went to consult a cardiologist as she had a feeling of quick heart
-frequency; however this was not recorded as an AE in the eCRF, as well as the
-concomitant drug (Lanoxin) given when the condition (ATRIAL TACHYCARDIA)
-was confirmed by the cardiologist.
-II - Subject S1246
-d) As per his records the subject took Nestrolan and Alprazolan due to stress
-(disallowed medication; however intake dates unclear), which were noted in a
-Letter to patient's GP in 14 May 2008. It was unclear if the patient really took
-these medications, as these were not reported in the eCRF. In the same way the
-stress was not reported in the eCRF
-e) Further, sleep disorders and then irritability were noted in the subject medical
-records; however not in the eCRF.
-
-For the non conformance 2005-011_3, the reported date is 9/06/2012;
-the closed date is 6/08/2012;
-the rating is Major;
-And the non Conformance type is Data breach.
-									
-Non Conformance ID is 2005-011_4 is found during Audit 2005-011;
-Lack of supportive information in the patient medical records (ICH-GCP 4.9.2).
-
-A- Lack of source or supportive documentation for reported serious adverse events:
-For two of the patients reviewed S1102 and S1798, there was an overall lack of
-information in the subject medical records regarding the SAEs experienced and course
-of the events as well as treatments; eg:
-1. For S1102 having experienced 'Hospitalisation due to acute abdominal pain', the
-only documentation in the source was at visit 5 regarding a telephone visit,
-because the subject was admitted in another hospital for pains in stomach and
-received IV antibiotics. There was no hospitalisation report and it was therefore
-not possible to reconcile the information present in the eCRF and CIOMS form
-versus a source document.
-2. For S1798 experiencing 'Worsening of depression', there was neither element in
-the medical records to indicate that the subject experienced a SAE as such. A
-short hospitalisation report was however present, which stated that the reason
-for admission was a psychiatric decompensation, and the subject stayed at
-hospital for some days to get support. It was not clear from this report or other
-source documents what the course of the event was, whether the subject took
-any medication or had to undertake psychotherapy during the hospitalisation
-period.
-B - Discrepancies between eCRF, or reported data and the source documents
-3. Subject S1246: Paracetamol taken from OS - 10 Jun 2008 was noted in the
-eCRF; however not noted in the subject medical records
-4. As per medical records subject S1102 experienced panic attack in Jun-2007; this
-was not reported and it is unclear if this should have been noted in the eCRF as
-a relevant medical history.
-5. Subject S1102 took CONTRAMAL (derivative of TRAMADOL) from 04-Apr to 10-
-May-2008; however there was no AE/justification/indication for starting intake of
-CONTRAMAL at this date in the medical records and the eCRF indicated 'pains'
-without specifying which kind of pains. This was an excluded concomitant medication (use of analgesics disallowed during the study as per appendix II)
-and was reported in listing 2 of the C5R. Additionally, the CONTRAMAL drug was
-not reported on the 5AE CIOM5 form as a concomitant medication, while it was
-started 1 month before the 5AE 'acute abdominal pain' and continued during the
-event (the field 'concomitant drug and dates ... ' in the CIOM5 was left with a
-comment 'CM not available'.
-C - General deficiencies in the source documentation
-6. It could be seen from the subject medical notes that they were followed in the
-clinic for several years; however all eligibility criteria were not always described,
-eg: for 51102 or 51246 who lacked documentation of their previous episodes
-reported in the eCRF.
-7. There were generally no progress notes in the source documents and
-additionally start and stop dates for AEs or concomitant medication could not
-always be verified in the source. This prevented among others verification that
-some of the eligibility criteria (eg: required wash-out) were fulfilled.
-8. Further IMP compliance or/and changes in dosage were lacking documentation in
-the subject notes.
-Action to A-B-C; No Corrective action
-However the PI was advised to look if further source documentation for the
-5AE experienced by subjects 51102 and 51798 was present in the clinic
-archives, as supportive documentation for the 5AE cases. If more
-documentation is found or if discrepancies are confirmed, the 5AE
-cases/CIOM5 may be updated.
-
-For the non conformance 2005-011_4, the reported date is 9/06/2012;
-the closed date is 6/08/2012;
-the rating is Major;
-And the non Conformance type is Data breach.
-
-Non Conformance ID is 2005-011_5 is found during Audit 2005-011;
-Inadequate supply of the IMP (ICH-GCP 5.14.1).
-a) As per one of the memo from Lundbeck Clinical Trial Supply informing of
-continuation double blinded treatment, the patient randomised to R3492 needed
-to receive the two following IP numbers: R5065 and R5067; however there were
-neither received IMP package nor patient allocated with this R number 3492 at
-this site. There was no follow-up documentation regarding this and it is unclear,
-if the mistake had any consequence, eg: if the two allocated IMP packs missed
-at another site.
-b) On one of the IMP packs (Order 096/P1286) sent 15-Jul-2008 and received by
-the site on 18-Jul-2008, the site staff/CRA commented t hat the package for
-subject no A1615, which was due to be in the delivered package, was not
-included in the box. There was no follow-up documentation and it is unclear if the
-pack could be retrieved and how this was further followed-up.
-
-For the non conformance 2005-011_5, the reported date is 9/06/2012;
-the closed date is 9/08/2012;
-the rating is Minor;
-And the non Conformance type is Event and incident.
-
-Non Conformance ID is 2005-011_6 is found during Audit 2005-011;
-Discrepancies in the site study essential documents (ICH-GCP 8.4.3).
-The following discrepancies were noted on the Patient identification and enrolment log:
-a) Randomisation numbers for 6 of the randomised patients were lacking: 51399,
-51431, 51486, 51571, 51575 and 51798.
-b) Additionally the following mistakes/lacked were noticed on the id log :
-• Patient 51127 hold R3131 as Randomisation number on id log instead of R3231
-• Patient 51575 had Female as gender instead of Male
-• For subject 51264 there was no internal dossier number on the log stated as
-('not present'), although the file for this patient could be retrieved in the hospital
-Action: The Patient identification and enrolment log should be corrected/completed
-with the lacking information.
-
-For the non conformance 2005-011_6, the reported date is 9/06/2012;
-the closed date is 9/08/2012;
-the rating is Minor;
-And the non Conformance type is Data breach.
-											
-Non Conformance ID is 2005-011_7 is found during Audit 2005-011;
-Lack of essential documents in the sponsor TMF (ICH-GCP 8.4).
-As the study essential documents were reconciled from H. Lundbeck Central Archives
-(RCA), it was noticed that only 3 of the 4 SAEs reported for this site, could be retrieved
-in the sponsor TMF. The SAE for subject 51102 (DKLU1032295- hospitalisation due to
-acute abdominal pain) was not present as well as the correspondence regarding this
-case.
-A copy of the full set of documentation regarding this SAE case was taken from the site
-Investigator-TM F.
-For the non conformance 2005-011_7, the reported date is 9/06/2012;
-the closed date is 9/08/2012;
-the rating is Minor;
-And the non Conformance type is Data breach.
-										
-
-
-Audit 2006-022
-
-Audit Number is 2006-022.
-Scope: Audit 2006-022 is a System audit falling under Vendor category; the purpose is to conduct an audit at QWEglobal US, the supplier of the QWEg system used in H Acme Corporation to handle and process Serious Adverse Events from clinical trials and spontaneous reports on adverse reactions, ie: pharmacovigilance activities.  The audit was carried out as part of the Clinical Quality Assurance Program. However, the audit has been scheduled as part of the possible upgrade to version 5.1 during 2007.   The scope of the audit was the Quality Management Systems and processes associated with development, testing, release and functionalities in the QWEg software with particular focus on QWEg version 5.1. "         Approach: "The audit was conducted according to Acme Corporation SOP ICR/CQA/AUDIT/SYS/01 and the audit agenda, and included the following activities:  • Opening meeting • Short presentation of the Organisation • Short presentation of QMS and SDLC • Presentation of customer support incl. demonstration of issue tracking log. • Review of written procedures  • Interfaces with SAP and developers in India.  • Access to QWEg 5.1 including updated dictionaries (MedDRA, WHO-DD etc.) " Non Conformances:
-
-Non Conformance ID 2006-022_2a is found during Audit 2006-022; Inadequate local SOPs describing the processes taking place at the clinical trial site- non-conformance with ICH GCP 4.2.3.  a) The site had developed their own SOPs; however, SOP 2.2 entitled “Adverse Event Reporting” does not document that the PI is to assess the severity and causality of AE."        
-
-For the non conformance 2006-022_2a, the reported date is 12/12/2012;
-the closed date is NA;
-the rating is Minor;
-And the non Conformance type is Deviation from Process and procedures.
-
-
-
-
-Non Conformance ID is 2006-022_2b is found during Audit 20016-022;
-Inadequate local SOPs describing the processes taking place at the clinical trial site- non-conformance with ICH GCP 4.2.3.                                                                                                                      b) The SOP discusses the responsibilities of the “Site Manager”, as did several other SOPs; however, the site did not have a Site Manager, so it is unclear to who handled the responsibilities delegated to Site Manager." Non Conformance 2006-022_2b reported date is 12/12/2012; Non Conformance closed date is NA; Non Conformance rating is Minor; Non Conformance type is Deviation from Process and procedures        .  Non Conformance ID is 2006-022_4a is found during audit 2006-022; Lack of adequate documentation for the processing of the laboratory samples for metabolomics/proteomics and gene expression samples – non-conformance with ICH GCP 4.5.2 and 21 CFR 312.60.  a)  Metabolomics/proteomics testing requires that the samples are centrifuged at 2000g or 5000 rpm for 10-15 minutes preferably at 4ºC and frozen in an upright position within 30 minutes of collecting the samples.  There was no documentation verifying that samples were processed and frozen within the specified time frame. In addition, although, the site had access to a refrigerated centrifuge, they did not use the refrigerated centrifuge to spin the specimens and the centrifuge used did not meet the required speed for the processing of the specimens."         Non Conformance 2006-022_4a reported date is 12/12/2012; Non Conformance closed date is 19/03/2012; Non Conformance rating is Major; Non Conformance type is Deviation from Process and procedures.  Non Conformance ID is 2006-022_4b is found during audit 2006-022;. Non Conformance details:                                                                                         "Lack of adequate documentation for the processing of the laboratory samples for metabolomics/proteomics and gene expression samples – non-conformance with ICH GCP 4.5.2 and 21 CFR 312.60  b) Gene Expression testing requires that the samples are drawn with a butterfly needle and the tubes held vertically below the patients arm during collection.  Then after drawing, the samples must be inverted 8-10 times then kept in an upright position at room temperature for 2-3 hours; after which they are frozen upright for a minimum of 24 hours.  There was no documentation verifying that samples were drawn properly, inverted, and left to sit at room temperature for 2-3 hours prior to freezing"
-Non Conformance 2006-022_4b reported date is 12/12/2012; Non Conformance closed date is 19/03/2012; Non Conformance rating is Major; Non Conformance type is Deviation from Process and procedures.                                                                                                           
-Non Conformance ID is 2006-022_4c is found during audit 2006-022;
-Lack of adequate documentation for the processing of the laboratory samples for metabolomics/proteomics and gene expression samples – non-conformance with ICH GCP 4.5.2 and 21 CFR 312.60.  c) Although, the centrifuge for this site will be replaced; it is unclear what are the actions taken to identify the specimens centrifuged with inadequate instruments and the communication to the bio-bank for samples affected." Non Conformance 2006-022_4c reported date is 12/12/2012; Non Conformance closed date is 19/03/2012; Non Conformance rating is Major; Non Conformance type is Deviation from Process and procedures. 
-Non Conformance ID is 2006-022_5a is found during audit 2006-022; Lack of evidence ensuring adequate processes to obtain informed consent – non-conformance with ICH GCP 4.8.1, 21 CFR 50.20 and SOP_13576 Source Data Requirements.  a) It is unclear if all subjects enrolled in the clinical trial had ample time to consider their participation in the trial. The PI indicated that subject information sheet and informed consent form was provided to the subjects on the day of screening.  The main consent form had 17 pages for the English version and 19 pages for the Spanish version, the pharmacogenetic study consent had 11 pages.  According to the appointment schedule, the period of time between the time of appointment and first study procedure was relatively short; ie: i) S1164 had his screening appointment at 10:00AM, the MINI questionnaire was started at 10:30  ii) S1439 had his screening appointment at 09:00AM, the MINI was started at 09:31 iii) S1466; screening appointment was at 09:15AM; however, the practice run for the scales began at 09:45, the MINI was initiated at 10:29AM and the laboratory specimens were obtained 10:56AM. " Non Conformance 2006-022_5a reported date is 12/12/2012; Non Conformance closed date is 25/02/2013; Non Conformance rating is Minor; Non Conformance type is Deviation from Process and procedures  . 
-Non Conformance ID is 2006-022_5b is found during audit 2006-022; Lack of evidence ensuring adequate processes to obtain informed consent – non-conformance with ICH GCP 4.8.1, 21 CFR 50.20 and SOP_13576 Source Data Requirements.  b) For some of the subjects, there is a lack of evidence that informed consents were signed prior any study specific procedures being performed: i) S1632 had his screening appointment at 14:00PM, but the MINI was initiated at 10:33 and the laboratory blood sampling done at 12:40; ii) S1633 had his screening appointment at 11:15AM, but the MINI was initiated at 10:40 and the laboratory blood sampling done at 11:45; iii) Although informed consents were signed on the day of screening visit, all the patients reviewed had their screening blood sampling done while fasting: S1091, S1164, S1439, S1466, S1632, S1633.  Non Conformance 2006-022_5b reported date is 12/12/2012; Non Conformance closed date is 25/02/2013; Non Conformance rating is Minor; Non Conformance type is Deviation from Process and procedures.       Non Conformance ID is 2006-022_6a is found during audit 2006-022; Lack of complete accurate and timely records – non-conformance with ICH GCP 4.9.1 and 21 CFR 312.60 and SOP 13576 Source Data Requirements.
- a) Although telephone screen questionnaires were completed for each of the patients enrolled in the clinical trial; these had not been printed out and made available in the patients’ study binder and medical records. In addition, there wasn’t documented evidence that the completed questionnaires had been reviewed by the investigator, consequently there were some discrepancies between the completed questionnaires and the information available in the source documentation, ie:  i) For S1439, the questionnaire indicated that for the first MDD episode in 2010, a psychologist had recommend the patient consult a psychiatrist; however, the psychiatric evaluation for this patient indicates that he had not received psychotherapy for the previous MDD episode; ii) For S1164, the questionnaire indicates that patient was taking citalopram 20 mg with a start date on 30-Jul-2012, in addition there were two other drugs mentioned on the questionnaires: Mirtazapine and Abilify; the patient was screened on 29-May-2012 and according to the information in the patient‘s source documentation the treatment for previous treated MDD episode is unknown." Non Conformance 2006-022_6a reported date is 12/12/2012. Non Conformance closed date is NA; Non Conformance rating is Major; Non Conformance type is Deviation from Process and procedures.          Non Conformance ID is 2006-022_6b is found during audit 2006-022; Lack of complete accurate and timely records – non-conformance with ICH GCP 4.9.1 and 21 CFR 312.60 and SOP 13576 Source Data Requirements .  b) For all the patients reviewed, the medical progress notes and anamnesis were incomplete and did not meet the requirements described in the protocol and Lundbeck SOP_13576: i) There were no medical progress notes written at any of the patients’ visits;  ii) The anamnesis/ psychiatric evaluation completed at the screening visit consisted of a checklist completed by the study coordinator.  It was not possible to know the onset of symptoms for the current episode or how the patient responded to previous treatment.  iii) The DSM IV list of symptoms was not signed off by the investigator; it was unclear who had completed the forms. iv) Although the medical history portion of the psychiatric evaluation was completed by the PI, there was no signature indicating that he had completed it and there was no evidence indicating that he had reviewed the portion of the document completed by the study coordinator. v) The checklist / form entitled “Inclusion/Exclusion Criteria” included in the screening source documentation had been completed for criteria pertaining to the laboratory results; however, these results are not available until days after the completion of the screening visit. "         Non Conformance 2006-022_6 reported date is 12/12/2012; Non Conformance closed date is NA; Non Conformance rating is Major; Non Conformance type is Deviation from Process and procedures.          Non Conformance ID is 2006-022_6c is found during audit 2006-022; Lack of complete accurate and timely records – non-conformance with ICH GCP 4.9.1 and 21 CFR 312.60 and SOP 13576 Source Data Requirements.  c) For patient S1439, although the treatment for the previous episode was known, there was no telephone contact with the treating physician or documentation of previous medical records collaborating inclusion criteria # 7 (“The patient has received prescribed treatment for a previous episode of depression”).  In addition, although a fax form documenting the three attempts made to obtain records was on file, the medical release form signed by the patient was not."         Non Conformance 2006-022_6creported date is 12/12/2012; Non Conformance closed date is NA; Non Conformance rating is Major; Non Conformance type is Deviation from Process and procedures.  Non Conformance ID is 2006-022_6d is found during audit 2006-022; Lack of complete accurate and timely records – non-conformance with ICH GCP 4.9.1 and 21 CFR 312.60 and SOP 13576 Source Data Requirements.  d) The screening ECG for subject S1439 randomised on 27-Sep-2012 was not performed according to the ECG manual and SOP_13576 requirements; the ECG tracing did not show the three evaluable beats per lead, consequently, the ECG tracing was not fully assessed by Quintiles Cardiac Safety due to poor quality; the Quintiles report indicated incomplete analysis “axis not definable” due to lead misplacement." Non Conformance 2006-022_6dreported date is 12/12/2012; Non Conformance closed date is NA; Non Conformance rating is Major; Non Conformance type is Deviation from Process and procedures.                                                                                          Non Conformance ID is 2006-022_7a is found during audit 2006-022;
-Discrepancies between source documents and data reported in the eCRFs – non-compliance with ICH GCP 4.9.2 and 21 CFR 312.62.  a) For subject S1164:  i) There was a discrepancy within the source documentation at the screening visit (29-May-2012). To the item “Suicide attempts”, a response indicated “Ø” initialled and date and next to it 1989; it is unclear if the subject had a previous suicide attempt or not. ii) At visit 3 (13-Jun-2012), the source documentation indicated that subject had no AEs, however, the eCRF indicated that subject had an urinary tract infection initiated on 29-May-2012. In addition, at visit 5 (30-Jul-2012), the laboratory results signed by the PI on 31-Jul-2012 indicated CS for the value “bacteria in urine”; the source documentation completed by the SC indicated NCS. Non Conformance 2006-022_7a reported date is 12/12/2012; Non Conformance closed date is NA; Non Conformance rating is Minor; Non Conformance type is Other        .    Non Conformance ID is 2006-022_7b is found during audit 2006-022; Discrepancies between source documents and data reported in the eCRFs – non-compliance with ICH GCP 4.9.2 and 21 CFR 312.62.
- b) For subject S1091: i) A log to record “Concomitant medication” identified the sponsor and was titled “Lilly protocol schizophrenia” which was located in the subject study binder."        
-For the non conformance 2006-022_7b, the reported date is 12/12/2012;
-the closed date is NA;
-the rating is Minor;
-And the non Conformance type is Other.
-                                                                              Non Conformance ID is 2006-022_7c is found during audit 2006-022;
-Discrepancies between source documents and data reported in the eCRFs – non-compliance with ICH GCP 4.9.2 and 21 CFR 312.62.  c) For subject S1439, there were some discrepancies for the calculation of the DSST rating: i) For visit 2 (27-Sep-2012) it is indicated no errors noted, but the symbol for the second row #4 was incorrect. ii) For visit 3 (27-Sep-2012), there was one undetected error; symbol at row 1  # 5 iii) Laboratory reports and requisitions indicated incorrect DOB; 01-May-1987 instead of 05-Jan-1987; it was unclear if corrections from Quintiles Laboratory had been requested. iv) AE hematuria was entered as an AE on the AE log and was signed off by the PI on 29-Nov-2012, however, on the laboratory report , the out of range value was identified as NCS and the AE was not reported in the eCRF."         Non Conformance 2006-022_7c reported date is 12/12/2012; Non Conformance closed date is NA; Non Conformance rating is Minor; Non Conformance type is Other.    Non Conformance ID is 2006-022_7d is found during audit 2006-022; Discrepancies between source documents and data reported in the eCRFs – non-compliance with ICH GCP 4.9.2 and 21 CFR 312.62.
- d) For subject S1466:  i) Medical History dated 16-Aug-2011 recorded subject was taking Fish Oil 1000 mg PRN; however, this was not captured in eCRF and it was not indicated if the subject had stopped taking the Fish oil. ii) The time that the Supine BP was obtained was not recorded for Visit 4 (31-Oct-2012) or Visit 5 (28-Nov-2012). iii) Laboratory tests were performed at visit 5 (28-Nov-2012) @1225; however, the laboratory report was not located in the file. In addition for the same visit, the laboratory requisition indicates female of childbearing potential / however, source indicated post-menopausal since 2005. iv) An ECG was obtained on 28-Nov-2012 @12:20 and was signed /dated by the PI on the same day; however, there was no ECG report from Quintiles on file." Non Conformance 2006-022_7d  reported date is 12/12/2012; Non Conformance closed date is NA; Non Conformance rating is Minor; Non Conformance type is Other.   Non Conformance ID is 2006-022_8 is found during audit 2006-022; Inadequate Study Specific Source Documentation to capture the time of ratings for RAVLT – non-conformance with ICH GCP 4.9.2.  According to the PRO guidelines, the delayed recall exercise in the RAVLT rating should be performed 20-30 minutes after the last recall of words (Trial IV); however, the source documentation only indicated the time of the first recall, consequently it is unclear if the correct time period (20-30 minutes) have elapsed, ie: S1164 Visit 3 (13-Jun-2012) delayed recall performed at 20 minutes post first recall." Non Conformance 2006-022_8 reported date is 12/12/2012; Non Conformance closed date is 25/02/2013; Non Conformance rating is Minor; Non Conformance type is Deviation from Process and procedures. 
-Non Conformance ID is 2006-022_9 is found during audit 2006-022; Discrepancies within the temperature log records – non-conformance with ICH 4.9.4.  Temperatures on the temperature log for the -20°C freezer were recorded twice for 07/1-7/2; it appears this was an error and the dates should be 8/1-8/2 as the next date was 8/3 and the temperatures were recorded for 07/1-7/2 during the month of July." Non Conformance 2006-022_9 reported date is 12/12/2012; Non Conformance closed date is NA ; Non Conformance rating is Minor; Non Conformance type is Event and incident        .      Non Conformance ID is 2006-022_10a is found during audit 2006-022; Failure to ensure the reliability of the ECG data- non-conformance with ICH GCP 5.1.3- 21 CFR Part 11 and WO No: 257  ECG instrument ; there is a lack of control for the demographics data of subjects for ECGs already performed and interpreted as subject identifiers and demographics listed on ECGs tracings can be modified without providing an audit trail of the changes:  a) For S1439, the ECGs performed at Visit 1 (20-Sep-2012) and at visit 5 (20-Nov-2012) indicated the incorrect DOB 01-May-1987 as opposed to 05-Jan-1987. The Lab Assistant at the site was able to retrieve the ECGs electronically, modify the demographics and re-print the ECG tracings. In addition during the audit, the audit team requested to have a demonstration and it was possible to observe that dates and screening number could also be modified."         Non Conformance 2006-022_10a reported date is 12/12/2012; Non Conformance closed date is 23/04/2013; Non Conformance rating is Major; Non Conformance type is Deviation from Process and procedures.       Non Conformance ID is 2006-022_10b is found during audit 2006-022; Failure to ensure the reliability of the ECG data- non-conformance with ICH GCP 5.1.3- 21 CFR Part 11 and WO No: 257  b) According to the WO NO: 257, the auto-analysis function on the ECG machine should be turned off; however, it appears from the ECG tracing that the auto analysis was not turned off as interpretation of the ECG was available." Non Conformance 2006-022_10b reported date is 12/12/2012; Non Conformance closed date is 23/04/2013; Non Conformance rating is Major; Non Conformance type is Deviation from Process and procedures.   Non Conformance ID is 2006-022_11 is found during audit 2006-022;
-Unclear process for the quality control of the Subject Information Sheet (SIS) and  Informed Consent Form (ICF) - non-conformance with ICH GCP 5.1.1  The ICON process for the verification of the ICF /SIS forms is unclear and may cause a delay in initiating the study:  The SIS/ICF checklist for the English Version 2 dated 18-Jan-2012 and IRB approved 18-Jan-2012 was reviewed by ICON on 13-Mar-2012 and 22-Mar-2012 which is after the IRB approval of the IRB. Should the SIS/ICF not conform to the requirement and require changes, it would then have to be re-submitted to the IRB.  The same process was used for all SIS/ICF versions." Non Conformance 2006-022_11 reported date is 12/12/2012; Non Conformance closed date is NA; Non Conformance rating is Minor; Non Conformance type is Deviation from Process and procedures.  Non Conformance ID is 2006-022_12a is found during audit 2006-022;
-Insufficient extent of monitoring to verify and ensure adherence to the protocol and ICH Guidelines for GCP – non-compliance with ICH GCP 5.18.4 .  a) According to the Monitoring plan dated 19-Dec-2011, the first monitoring visit should occur within two weeks of screening the first subject.  The first subject was enrolled on 12-Mar-2012 and the first monitoring visit occurred on 03-Apr-2012; three weeks after the patient was enrolled." Non Conformance 2006-022_12a reported date is 12/12/2012; Non Conformance closed date is NA; Non Conformance rating is Minor; Non Conformance type is Deviation from Process and procedures.  Non Conformance ID is 2006-022_12b is found during audit 2006-022;
-Insufficient extent of monitoring to verify and ensure adherence to the protocol and ICH Guidelines for GCP – non-compliance with ICH GCP 5.18.4 b).
- According to the Monitoring plan, monitoring visits are to occur every 4 weeks however they can be extended per the ICON PM/LCRA.  However, the following visits did not occur within 4 weeks and documentation for extending the time period between visits was not located in the sponsor eTMF:  • Monitoring visit occurred 21-Jun-2012 and not again until 10-Aug-2012 • Monitoring visit occurred 17-Aug-2012 and not again until 15-Oct-2012 Consequently, there was a backlog for the monitoring as the site recruited patients rapidly; ie: between the 17-Aug-2012 and 15-Oct-2012, the site enrolled 7 subjects and randomised five."        
- Non Conformance  2006-022_12b reported date is 12/12/2012; Non Conformance closed date is NA; Non Conformance rating is Minor; Non Conformance type is Deviation from Process and procedures        .      
-Non Conformance ID is 2006-022_13 is found during audit 2006-022;
-Inadequate process for reporting monitoring visits – non-conformance with ICH GCP 5.18.6  According to the ICH GCP guideline, the monitor should submit a written report after each monitoring visit; however, for the site visits that have occurred on the 29-Oct, 08-09-Nov and 15-16-Nov- 2012, only one monitoring visit report grouping the three visits was written.  "         Non Conformance  2006-022_13 reported date is 12/12/2012; Non Conformance closed date is NA; Non Conformance rating is Minor; Non Conformance type is Deviation from Process and procedures.   Non Conformance ID is 2006-022_14a is found during audit 2006-022;
-Inadequate instructions and training  provided to the investigator and clinical staff – non-compliance with ICH GCP 5.23.4  It was unclear at the time of the audit if the clinical staff had received adequate instructions and training regarding the handling of the metabolomics/proteomics, gene expressions and safety specimens.   a) When questioned about the process used to handle the metabolomics/proteomics specimens for the centrifuge and freezing, the study coordinator did not appear to be aware of the instructions provided in the lab manual. "         Non Conformance reported date is  2006-022_14a; Non Conformance closed date is 12/04/2013        ; Non Conformance rating is Major; Non Conformance type is Training.      Non Conformance ID is 2006-022_14b is found during audit 2006-022;
-Inadequate instructions and training  provided to the investigator and clinical staff – non-compliance with ICH GCP 5.23.4.  b) There is no mention in the laboratory manual of the consequences/effect on the metabolomics/proteomics specimens if they are not handled according to the conditions specified in the laboratory manual. Consequently, neither the study management team, the CRAs or the investigational sites were aware of the negative consequences on the specimens." Non Conformance 2006-022_14b reported date is 12/12/2012; Non Conformance closed date is 12/04/2013 ; Non Conformance rating is Major; Non Conformance type is Training.  Non Conformance ID is 2006-022_14c is found during audit 2006-022; Inadequate instructions and training  provided to the investigator and clinical staff – non-compliance with ICH GCP 5.23.4. c) It is unclear if the site is aware of the preferred temperature condition for the centrifuge of the metabolomics/proteomics specimens. The lab manual indicates that temperature for the spinning of the tubes should be preferable 4ºC, and although the site had a refrigerated centrifuge, all the specimens were centrifuged using the room temperature centrifuge." Non Conformance  2006-022_14c reported date is 12/12/2012; Non Conformance closed date is 12/04/2013; Non Conformance rating is Major; Non Conformance type is Training.   Non Conformance ID is 2006-022_15a is found during audit 2006-022; Incomplete filing in the investigator and sponsor TMF - non-conformance with ICH GCP 8.3 .  a) Several essential documents were missing or filed in duplicate in the investigator TMF (I-TMF): • Qlabs – State of Georgia Lab license expired 31-Mar-2012; new license was not D9 • Qlabs – CAP with Alan Stevenson expired on 08-Nov-2012; current CAP was not located in the I-TMF • Qlabs, CV for Dr. Farhi dated 30-Apr-2012 was not located in the I-TMF • CVs were not in order and were misfiled under the different tabs (PI, Sub-investigator, Other site staff) • Pre-screening log; the identification type was not checked for two subjects indicating if they responded to the advertisement or were from the PIs research DB; these subject were listed on the log as  o 02-Nov-2012; 40  o 07-Nov-2012; 44 • Safety letters were not well-organized; sometimes there were two and three copies of the same reports. The auditor was unable to determine that all safety reports had been submitted to the IRB; for example, DKLU1080931(0), DKLU1084513(3) DKLU1084513(2), DKLU1084858(0), DKLU1083997(2), DKLU1033771(2), DKLU1083997(1), DKLU1083997(1).  • There were duplicate protocol signature pages for Protocol version 1 dated 01-Jul-11; signed 22-Sep-11 and 10-Jan-12 • The protocol and signature page was not on file for the Consolidated Protocol version 4.0 dated 30-Apr-2012. • Investigator Brochure Annual Review Sheet Ed. 9 was not located in the file • Quorum Translation certifications for Spanish advertisement and informed consents (main  / genetics) was not located in the file • Original 1572’s were located in the file and had not been sent to the sponsor; these were 1572s dated 02-Apr-2012, 01-Oct-2012 and 01-Nov-2011 • Missing follow-up letter for site visit that occurred on 15-Oct-2012" Non Conformance 2006-022_15a reported date is 12/12/2012; Non Conformance closed date is 19/03/2013; Non Conformance rating is Minor; Non Conformance type is Data breach.                            Non Conformance ID is 2006-022_15b is found during audit 2006-022; Incomplete filing in the investigator and sponsor TMF - non-conformance with ICH GCP 8.3 .  b) Several essential documents were not located in the sponsor TMF (S-TMF): • Medical Licenses for the PI and sub-investigators could not be located • The translated Spanish SIS/ICFs for the main and pharmacogenetic study were not on file. In addition, the checklist for the QC of the Spanish version as well as the certificate of translation was not on file. • Some attachments to email correspondence were missing, ie: a Memo from Quorum dated 25-May-2012 requesting modification to the recruitment material indicated that an attachment was included; there was no attachment filed in the TMF • The IRB approval for the English advertisement was not located • The IRB membership list filed in the eTMF was dated (Oct-2011) prior the approval of the study at the site (Nov-2011) • Several IMP consignments shipment forms for shipments made from Jun-Nov were missing in the eTMF; ie: consignments 10207, 10305, 10345, 10447, 10460, 10480, 10506, 10579, 10599 • Monitoring visit reports and follow-up letters for the visit performed on 21-Jun-2012 and combined visit performed in Oct-Nov-2012 were not filed in the eTMF  Non Conformance 2006-022_15b  reported date is 12/12/2012; Non Conformance closed date is 19/03/2013; Non Conformance rating is Minor; Non Conformance type is Data breach. 
-
-
-
-Audit 2007-011
-
-Audit Number is 2007-011.
-
-Scope: Audit 2007-011 is a System audit falling under Vendor category; this Audit was conducted for compound Ac AA24530 for study trial no: 11918A. 
-The audit covered GHJ Solutions Organisation and Quality Management System, Product specifics, Software Development Life Cycle (SDLC), Support and maintenance. Furthermore validation of the software was reviewed and assessed according to Acme Corporation standards and eg: 21 CFR Part 11.  The audit covered a thorough review of the system, how the system works, which facilities are “locked” and which are configurable, audit trail facility, query facility etc.  The Objectives of the audit are to: • Review the Quality Management System (QMS) and assess the level of its implementation. • Review the SDLC. • Review validation documentation of the eDC system (including release documentation). • Review specifics of the product (eg: handling of amendments in multi national studies) • Evaluate Customer Support procedures (eg: system for following up on customer queries). • Evaluate Maintenance procedures • Assess to which degree the validation package complies with Acme Corporation requirement as well as regulatory requirements (eg: 21 CFR Part 11, ICH GCP) • If areas do not comply with our requirements to evaluate whether a workaround solution is possible. "         Approach "The audit was conducted according to Acme Corporation SOP ICR/CQA/AUDIT/SYS/01; Process and System Audit and the audit agenda dated 08-May-2007, and included the following activities:  • Opening meeting • Presentation of The company and its organisation • Presentation of The Quality Management System • Presentation of The Product, Rave version 5.6 • Presentation of Customer Service and Support Services • Facility Tour • Documentation Review • Closing meeting " Non Conformances:
-   Non Conformance 2007-011_1 is found during Audit 2007-011; Non-compliance between IMP boxes on stock and the inventory log (ICH-GCP 4.6.3).
- When comparing the data on the “Overall Investigational Product Inventory Form” with the stock of IMP boxes the following was found: - Two boxes, A59699 and A68271, were listed as not having been dispensed. These boxes could not be found on stock. - A52825 was found on stock but was not listed on the form." Non Conformance 2007-011_1 reported date is 6/12/2012; Non Conformance closed date is 22/08/2012; Non Conformance rating is Minor; Non Conformance type is Other.                                                                                                                                                                                  Non Conformance 2007-011_2 is found during Audit 2007-011; Lack of documentation about increase in dose (ICH-GCP 4.9.2).
-According to the protocol the HLu AA21004 dose can be increased to 20 mg/day at the end of weeks 1, 2, 3, and 4. The dose of agomelatine can be increased to 50 mg/day at the end of weeks 2, 3, and 4. When reviewing subject S1149 it was observed that the dose on the IWRS email on 02-May-2012 (visit 3) was stated as “high”. When asked about this the investigators answered that this was the documentation for increasing the dose in IWRS. This was however the only documentation on file for the dose increase – it was not commented upon in the notes in the medical record. The same was observed for the other randomised subjects when briefly comparing the notes for visit 3 with the IWRS documentation."         Non Conformance 2007-011_2 reported date is 6/12/2012; Non Conformance closed date is 22/08/2012; Non Conformance rating is Minor; Non Conformance type is Deviation from Process and procedures.  Non Conformance 2007-011_3 is found during Audit 2007-011; No subject identifier on each page in the medical record. (ICH-GCP 4.9.1).
- The medical records consist of either handwritten notes or typed notes, printed by the investigator. Normally each visit is summarised on one paper with a subject identifier at the top of the page, but for certain visits, eg: the screening visit, more than one page is used to summarise the status of the subject. Then only the first page carries a subject identifier. To make sure all pages can be linked to a specific subject, each page should carry a subject identifier." Non Conformance 2007-011_3 reported date is 6/12/2012; Non Conformance closed date is 22/08/2012; Non Conformance rating is Minor; Non Conformance type is Deviation from Process and procedures.  Non Conformance 2007-011_4 is found during Audit 2007-011;
-Late date entry (ICH-GCP 4.9.1).
- When reviewing S1149 it was observed that some data points had been entered late compared to the requirement in the protocol. Data from visits 3 and 4, on 01-May-2012 and 08-May-2012 respectively, had not been entered until 28-May-2012, a date when a lot of data had been entered for this subject. Furthermore, the consent for the pharmacogenetic part was signed by S1217 on 03-May-2012, this information was not entered in the eCRF at the time of the audit." 
-Non Conformance  2007-011_4 reported date is 6/12/2012; Non Conformance closed date is 22/08/2012; Non Conformance rating is Minor; Non Conformance type is Deviation from Process and procedures;   Non Conformance 2007-011_5 is found during Audit 2007-011;
-Ambiguous questions in the eCRF (ICH-GCP 2.10). There are two questions in the eCRF regarding the previous anti-depression therapy the subjects had received. One is ""Did the patient respond to t reatment"" and the other is ""Did the patient tolerate the treatment"". When reviewing 51149 it was observed that the investigators had answered ""Yes"" to the first question and ""No"" to the second. The explanation was that t he investigators had seen partial response. ""Tolerate"" was interpreted as ""developing tolerance"" and hence answered with no. No adverse events from previous antidepressant t herapy were documented in the medical record. This issue had been ra ised by the CRA and the ICON PM to DM since investigators also in Lithuania and Estonia had made the same interpretation." Non Conformance 2007-011_5 reported date is 6/12/2012; Non Conformance closed date is 22/08/2012; Non Conformance rating is Major; Non Conformance type is Event and incident.   Non Conformance 2007-011_6 is found during Audit 2007-011;
-Limited number of un-blinding codes. (ICH-GCP 5.13.1).
- Breaking the blind in emergency situations is done through the IWRS system and requires a specific code. At this site only the PI had been provided with such a code. The same was noted in another site audit in March 2012 (Audit No: 2003-018) and the PM responded in late May 2012 that “Clarification sent to all CRAs to request unblinding access to second person on site”. According to the documentation at site, this had not yet been done for this site." Non Conformance 2007-011_6 reported date is 6/12/2012; Non Conformance closed date is 22/08/2012; Non Conformance rating is Minor; Non Conformance type is Other.    Non Conformance 2007-011_7 is found during Audit 2007-011;
-Lack of SUSAR line listings or other updated safety information (ICH-GCP 5.16.2 and ICH-GCP 7.1).
- There was no updated safety information on file regarding the time period from June 2011 to October 2011. On file at site was only the latest edition of the Investigator Brochure (IB) with a cut-off date as per 01-Jun-2011 and the monthly SUSAR line listings from November 2011 and onwards. The investigators should have access to the relevant new information from the cut-off date of the current IB version to the start of the study at each site. If there is no relevant new information, there should be a note documenting this. Furthermore, the line listings from November 2011 to April 2012 were signed off in a batch on 25-Jun-2012 by the PI. Non Conformance 2007-011_7 reported date is 6/12/2012; Non Conformance closed date is 23/08/2012; Non Conformance rating is Minor; Non Conformance type is Deviation from Process and procedures.          Non Conformance 2007-011_8 is found during Audit 2007-011;
-Lack of information on the ""Investigator Source Agreement"" (ICH-GCP 1.51, 1.52 and 6.4.9). The ""Investigator Source Agreement"" is an ICON standard document. When reviewing the form it was observed that several data items were missing, eg: all rating scales, patient reported outcome documents and the ECG measurement. This is not an all-inclusive list of missing data items, the form should be updated according to the requirements in the protocol. Furthermore, the form is not specific enough regarding what document a specific data item is recorded on and where the document is located. For several items - eg: ""statement of consent obtained before study participation"" and "" randomisation details"" both ""hospital records"" and ""clinic charts"" are stated as being the source." Non Conformance 2007-011_8 reported date is 6/12/2012; Non Conformance closed date is 14/08/2012; Non Conformance rating is Major; Non Conformance type is Data breach.   Non Conformance 2007-011_9 is found during Audit 2007-011;
-Incorrect information on the Subject Identification Log (ICH-GCP 8.3.21). When reviewing the consent forms versus the Subject Identification Log and medical records it was observed that S1204 and S1331 had the incorrect date of birth (DoB) stated on the identification log. According to the medical record the DoB for S1204 is 05-Aug-1977, on the log it was stated 08-Aug-1977. For S1331 the DoB according to the medical record is 21-Sep-1986, on the log it was stated 21-Nov-1986." Non Conformance 2007-011_9 reported date is 6/12/2012; Non Conformance closed date is 23/08/2012; Non Conformance rating is Minor; Non Conformance type is Event and incident.  
-
-Audit 2007-020
-
-Audit Number is 2007-020.
-Scope:
-Audit 2007-020 is a System audit falling under Vendor category. 
-Auditten er udført i henhold til audit plan 2007. Formålet med auditten var at vurdere hvorvidt TYU er en kompetent leverandør af et nyt system til fremstilling af etiketter i afdeling CTS. 
-Approach:
-Presentation of TYU company data (size, no of staff etc.), organisational structure etc. Tour around the facilities Training, job description and CV Validation strategy, validation documents, deviations, change control Backup and recovery Quality Management System, including the Quality unit’s approval procedure Help desk/customer support Server room and archive.									
-
-Non Conformances:
-
-Non Conformance 2007-020_1 is found during Audit 2007-020;
-Inadequate photocopying quality and filing of ECG tracings – non-compliance with the protocol section 5.4.7.
-
-The ECG equipment provided to the site printed ECGs tracings on American standard size (8.5x11) photolabil paper; copies of the ECG tracings were made for each ECG performed, however, the copies made using A4 size paper failed to include either the complete header or footer; consequently information such as date and time (header) or voltage and speed (footer) of the ECGs were missing on the photocopies.
-
-Corrections, Corrective & preventive actions required 
-CAPAs to be reviewed and approved by GCQA.
-
-For the non conformance 2007-020_1, the reported date is 27/06/2012;
-the closed date is 23/08/2012;
-the rating is Minor;
-And the non Conformance type is Other.
-
-Non Conformance 2007-020_1 is found during Audit 2007-020;
-Non-compliance with the protocol for the performance of haematology testing – non compliance with ICH GCP 4.3.2.
-
-For at least two patients, subjects S1619 and S1618, the V4 haematology results were not available; it was indicated on the lab results “deleted due to specimen not received or damaged”; there was no medical notes made to this effect and there was no evidence that actions were taken. Visit 5 performed 2 weeks later had all laboratory testing results available and within normal limits.
-
-No corrections or corrective actions;
-Preventive actions required.
-
-For the non conformance 2007-020_1, the reported date is 27/06/2012;
-the closed date is 23/08/2012;
-the rating is Minor;
-And the non Conformance type is Deviation from Process and procedures.
-
-Non Conformance 2007-020_3 is found during Audit 2007-020;
-Inadequate and incomplete medical records – non-compliance with ICH GCP 4.9.2 and Source Data Identification Form as referenced in the protocol section 18.6 and local Act regarding medical records (298/2009).
-
-a) As required in the Source Data Identification Form first signed by the investigator on 06-Feb and 17-Mar-2009, information on how the patients were recruited including any pre-screening procedures were to be described or included in the medical records; the following non-compliances were observed: 
-Although, the investigator indicated that patients were recruited via advertisement, there were no progress notes describing  the telephone contact made with the patients during the pre-screening processes.  In addition, the initial medical progress notes made at screening did not explain the information obtained and given to the patients during the pre-screening process;
-
-b) There were no medical records from external sources providing documentation on the patient’s previous medical history of major depressive disorder(s) and treatment(s).  In addition, there was no documentation evidencing that the investigator had made an attempt to obtain such information from previous treating physicians or clinics.
-
-c) The medical note sheets lacked identification of the clinic and investigator / physician name; instead only investigator’s initials were used.
-
-d) Information about dates and results of ECGs and laboratory tests were not described in the medical progress notes; only a notation “OK” was written when results were reviewed.
-
-e) Subject Screening/Enrolment Log lacked randomisation date and numbers for three subjects (R8628, R8629 and R8630).
-
-
-No corrections or corrective actions required
-Preventive actions required.
-
-For the non conformance 2007-020_3, the reported date is 27/06/2012;
-the closed date is 26/11/2012;
-the rating is Minor;
-And the non Conformance type is Deviation from Process and procedures.
-								
-Non Conformance 2007-020_4 is found during Audit 2007-020;
-Discrepancies within source documentation and between source documentation and eCRF were observed  – non-compliances with ICH GCP 4.9.1.
-
-The following discrepancies were observed:
-- S1032; LSEQ at Visit 2 (02-Mar-2009) was not date or sign by subject. In addition for the same subject, the DDST performed at visit 7 (05-May-2009) was missing the patient’s signature and date
-- S1052; several pages of the study binder V6 (20-Apr-2009) were incorrectly identified with S1152; there was no subject S1152 at the site.
-For the same subject, a correction was made on the IMP intake form but was not initialled and dated
-- S1622, MADRS at V7 (16-Dec-2009) indicated a total score of 24 in the eCRF, however, the study specific worksheet indicated a score of 23
-- S1618; ECG report for V5 (17-Nov-2009) was not signed off by the PI, however, the ECG tracing was signed 
-
-No corrections or corrective actions required
-Preventive actions required.
-
-For the non conformance 2007-020_4, the reported date is 27/06/2012;
-the closed date is 23/08/2012;
-the rating is Minor;
-And the non Conformance type is Data breach.
-
-Non Conformance 2007-020_5 is found during Audit 2007-020;
-Inadequate quality control process for the reporting of protocol deviations in the Clinical
-Study Report (CSR) - non-compliance with ICH GCP 5.1.3.
-
-According to the audit performed in study 12541A (Observation # 3a ) and according to
-Note To File # 137, patient 51052, was randomised and completed the study despite
-taking a disallowed medication (metoprolol). This protocol deviation was not reported in
-the CSR and there were no records of the protocol deviation been discussed during the
-blind review meeting.
-No corrections or corrective actions required
-Preventive actions required.
-For the non conformance 2007-020_5, the reported date is 27/06/2012;
-the closed date is 28/09/2012;
-the rating is Major;
-And the non Conformance type is Deviation from Process and procedures.
-
-
-Non Conformance 2007-020_6 is found during Audit 2007-020;
-Inadequate packaging of the investigator TMF for the long-term archiving – non-compliance with ICH GCP 5.5.6.
-
-The archived boxes containing the investigator TMF were in poor condition and found partially opened, according to the investigator, they arrived in such condition.
-
-In addition, the documents were packed filling up above the maximum capacity the snap binders used to collate them; consequently, when taking out of the boxes or handled, the documents were falling out of the snap binders.
-
-Corrections, corrective & preventive actions required.
-For the non conformance 2007-020_6, the reported date is 27/06/2012;
-the closed date is 23/08/2012;
-the rating is Minor;
-And the non Conformance type is Deviation from Process and procedures.
-
-Non Conformance 2007-020_7 is found during Audit 2007-020;
-Inadequate quality control and documentation on the IMP returned form – non-compliance with ICH GCP 5.14.4.
-
-According to observation #13b reported in the audit report: “Code envelope of R8548 for patient S1069 was found damaged during the monitoring visit performed on the 16-17-Jun-2009 with the strip on the left part of the envelope partly torn off”, although the monitor had noted the damaged code envelope in her monitoring visit report; the code envelope was marked intact on the IMP return form.  
-
-The damage code break envelope is documented in the CSR and patient has been excluded from the PPS, but according to the blind review meeting minutes, it was unknown that the code break envelope was damaged while at the investigator site.
-
-No corrections or corrective actions
-Preventive actions required.
-For the non conformance 2007-020_7, the reported date is 27/06/2012;
-the closed date is 24/10/2012;
-the rating is Minor;
-And the non Conformance type is Event and incident.
-
-Non Conformance 2007-020_8 is found during Audit 2007-020;
-Inadequate and insufficient safety reporting to CA and ECs - non-compliance with the
-local regulation (Medical Research Act §lOg 23.4.2004/295) and ICH GCP 5.17.3. 
-
-As per local regulation the sponsor must submit a list of all suspected study-emergent
-serious adverse reactions to the Competent authority and relevant Ethics Committee
-once a year throughout the clinical trial. The submission must include a Finnish version
-of an evaluation on the study subjects' safety, which is to be provided by the person in
-charge (country coordinating investigator) of the study.
-a) There was no evidence that the annual safety information to the Ethics Committee
-was submitted during the course of the study as required by the focal regulation. The
-AA21004 Annual Safety Reports {ASRs) covering period 01-May-2008 - 30-Apr-2009
-and 01-May-2009-30-Apr-2010 were submitted to the Competent Authority by LuFinland
-(Lu-FIN) on 29-Jun-2009 and 29-Jun-2010 respectively. The Appendix 1 of the
-Adverse Event Management Plan study 12541A that describes the safety reporting
-responsibilities in Finland stated that ASR was to be submitted to the CA (by Lu-FIN PV
-contact person), however, the plan lacked to describe the submission responsibility of
-the ASR to the EC.
-b) The submission of the AA21004 Annual Safety Reports (ASRs) covering period 01-
-May-2008- 30-Apr-2009, which was submitted to theCA by Lu-FIN on 29-Jun-2009,
-lacked the coordinating investigator's evaluation regarding subjects' safety in study
-12541A. According to Event Management Plan study 12541A the CRO (ICON) was
-responsible to provide the statement to Lu-FIN PV contact person for the submission.
-c) There was no documentation available in 1-TMF or 5-TMF evidencing that the
-Investigators Brochure version 7, 09-0ct-2009 was submitted to the Competent
-Authority and Ethics Committee by the CRO.
-No corrections required
-Corrective & Preventive actions required.
-
-
-For the non conformance 2007-020_8, the reported date is 27/06/2012;
-the closed date is 23/11/2012;
-the rating is Major;
-And the non Conformance type is Deviation from Process and procedures.
-											
-Non Conformance 2007-020_9 is found during Audit 2007-020;
-Non-compliance with local regulation and Adverse Event Management Plan in safety reporting. ICH GCP5.17.1.
-
-SAE DKLU1037654(0) occurred in Finland and updated CIOMS form versions had been reported to the CA and EC by the CRO although the SAE was not a SUSAR. As per local regulation expedite reporting concerned only SUSARs. 
-Furthermore, according to the Adverse Even Management Plan the CRO was responsible only for expedite reporting to EC; reporting to CA was Lundbeck responsibility. 
-
-No corrections or corrective actions required
-Preventive actions required.
-For the non conformance 2007-020_9, the reported date is 27/06/2012;
-the closed date is 26/11/2012;
-the rating is Minor;
-And the non Conformance type is Deviation from Process and procedures.
-
-Non Conformance 2007-020_10 is found during Audit 2007-020;
-Inadequate filing of essential documents after completion of the study – non- compliance with ICH GCP8.4
-
-a. The following documents related to CA and EC submissions and approvals were missing from the I-TMF:
-
-i. Competent authority:
-- Document attached to the initial submission (11-Nov-2008) of the study to the CA eg: list of investigators/sites. ie: it could not be confirmed which sites were included in the initial submission. 
-- Acknowledgement of receipt by CA of submission done on 30-Jan-2009 for the submission including information of Dr Savela’s site
-- Acknowledgement of receipt by CA of the End of Trial Notification sent to CA on 25-Feb-2010
-
-ii. Ethics committee:
-- Letter from Central Ethics Committee (TUKIJA) regarding transfer of the study to another Ethics committee (located in S-TMF)
-- Submission to the EC of the Subject Information Sheet / Informed Consent Form  in Swedish, 03-Nov-2008 (located in S-TMF)
-- EC meeting minutes regarding handling of End of Trial Notification (located in S-TMF)
-
-b. Contract/Agreement issued with the Cardiologist Seppo Mattila.
-
-c. There were no “pre-screening log “ completed for this study
-
-d. Several documents were not located in the paper sponsor TMF, ie: documents attached to the ECs submission such as newspaper advertisement, telephone contact from and procedures regarding patient selection, it was then unclear what were the pre-screening procedures approved by the ECs.
-
-Corrections, corrective and preventive actions required.
-For the non conformance 2007-020_10, the reported date is 27/06/2012;
-the closed date is 26/11/2012;
-the rating is Minor;
-And the non Conformance type is Data breach.
-
-
-Audit 2007-026
-
-Audit Number is 2007-026.
-Scope:
-Audit 2007-026 is a System audit falling under Vendor category.
- The audit of UIO Group covered their Organisation and Quality Management System, Product Specifics, SDLC, Support and Maintenance incl. interface to the office in UK. Furthermore the audit will cover general procedures regarding patches and releases.	
-Approach:
-The audit was conducted according to Acme Corporation SOP ICR/CQA/AUDIT/SYS/01, Process and System Audit; edition 01, and the audit agenda dated 16-Oct-2007, and included the following activities:  • Opening meeting • Quality Management • Customer Service & Support Services (incl. Contract handling and help desk) • Review of facilities  • The Product  (eTMF) • Documentation review  • Closing meeting 									
-
-Non Conformances:
-
-Non Conformance 2007-026_1 is found during Audit 2007-026;
-Lack of compliance with the protocol; inadequate source data to confirm eligibility of
-the Ratients- non-compliance with ICH GCP 4.5.1 -and non-compliance with
-implementing CAPAs audit# 2010-104-0bs. #4
-There were no medical records from external sources providing documentation on the
-patient's previous medical history of major depressive disorder(s) and treatment(s). In
-addition, there was no documentation evidencing that the investigator had made an
-attempt to obtain such information from previous treating physicians c1r clinics.
-Although this observation was noted during the previous audit, this audit team did not
-see documented evidence of corrective actions taken by the investigator.
-No corrections or corrective actions; 
-PA required.
-For the non conformance 2007-026_1, the reported date is 27/06/2012;
-the closed date is 24/10/2012;
-the rating is Major;
-And the non Conformance type is Deviation from Process and procedures.
-
-
-Non Conformance 2007-026_2 is found during Audit 2007-026;
-Inadequate photocopying quality and filing of ECG tracings- non-compliance with the
-protocol section 5.4.7.
-The ECG equipment provided to the site printed ECGs tracings on American standard
-size (8.5x11) photo label paper; copies of the ECG tracings were made For each ECG
-performed, however, the copies made using A4 size paper failed to include either the
-complete header or footer; consequently information such as date and time (header) or
-voltage and speed (footer) of the ECGs were missing on the photocopies.
-Corrections, Corrective & preventive actions required.
-CAPAs to be reviewed and approved by GCQA.
-For the non conformance 2007-026_2, the reported date is 27/06/2012;
-the closed date is 24/10/2012;
-the rating is Minor;
-And the non Conformance type is Other.
-									
-Non Conformance 2007-026_3 is found during Audit 2007-026;
-Inadequate and incomplete medical records- non-compliance with IC -i GCP 4.9.2.
-
-Source Data Identification Form as referenced in the protocol section ~ ) . 6, and local Act
-regarding medical records (298/2009)
-a) As required in the Source Data Identification Form first signed by the investigator on
-27-May-2010, information on how the patients were recruited including any prescreening
-procedures were to be described or included in the medical ·records; the
-following non-compliances were observed:
-i) Faxed information received from the Call Center and including the potential subjects
-contact information were destroyed
-ii) There were no progress notes from the investigator describing the telephone contact
-made with the patients during the pre-screening processes. In addition, the initial
-medical progress notes made at screening did not explain the information obtained and
-given to the patients during the pre-screening process;
-iii) As required by the protocol, the investigator was to provide the potential subjects
-with the subject information sheet and informed consent form prior the screening visit;
-there were no medical notes written prior the screening visit. The mec ical records at
-screening only indicated briefly that the informed consent form had been provided to
-the patient on DD-MMM-YYYY.
-b) The medical notes were a mixture of typed (using computer) and hand written notes.
-According to the investigator the hand written text was added when she had noticed
-that relevant information was missing or when the CRA had requested further
-information/SO. The retrospective notes lacked date and initials.
-c) The medical note sheets lacked identification of the clinic and investigator I physician
-name; instead only investigator's initials were used.
-d) Information about dates and results of ECGs and laboratory tests were not described
-in the medical progress notes; only a notation ""OK"" was written when results were
-reviewed.
-No corrections or corrective actions required
-Preventive actions required.
-For the non conformance 2007-026_3, the reported date is 27/06/2012;
-the closed date is 26/11/2012;
-the rating is Minor;
-And the non Conformance type is Deviation from Process and procedures.
-
-Non Conformance 2007-026_4 is found during Audit 2007-026;
-Non-compliance by the investigator in reporting of adverse events. ICt-1 GCP 4.11.2
-Subject 51003 1 R4122: The adverse event (urinary tract infection) anj concomitant
-medication {Trimopan 300 x 1 I 5 days, to be start on 19-Aug-2010) s·:ated in the
-medica l notes of Visit 9, 18-Aug-2010 were not captured in the eCRF.
-No corrections or corrective actions required.
-For the non conformance 2007-026_4, the reported date is 27/06/2012;
-the closed date is 24/10/2012;
-the rating is Minor;
-And the non Conformance type is Data breach.
-									
-Non Conformance 2007-026_5 is found during Audit 2007-026;
-Inadequate packaging of the investigator TMF for the long-term archiving - non-compiance with ICH GCP 5.5.6.
-The archived boxes containing the investigator TMF were in poor condition and found
-partially opened, according to the investigator, they arrived in such c )ndition.
-In addition, the documents were packed fi lling up above the maximum capacity the
-snap binders used to collate them; consequently, when taking out of the boxes or
-handled, the documents were falling out of the snap binders.
-Corrections, corrective & preventive actions required.
-For the non conformance 2007-026_5, the reported date is 27/06/2012;
-the closed date is 10/12/2012;
-the rating is Minor;
-And the non Conformance type is Deviation from Process and procedures.
-
-Non Conformance 2007-026_7 is found during Audit 2007-026;
-Inadequate forms used to obtain the Financial Disclosure Statements from the
-investigator and sub-investigator- non-compliance with ICH GCP 5.1 and FDA 21 CFR
-312.53 as referred in the protocol section 17.2.
-
-A Form FDA 3455 entitled: ""Disclosure Financial Interests and Arrangements of Clinical
-Investigators"" has been completed by the investigator and sub-investi9ator at the
-close8 out of the site (30-Nov-2011). The form used is inadequate as it should be
-completed by the applicant and not the investigators. The investigator should have
-been informed to complete the Takeda Lund beck Financial Disclosure Form if there is a
-change in one of the financial disclosure statements, and this up to ont! year after the
-completion of the study (22-Sep-2012).
-No corrections or corrective actions required
-Preventive actions required.
-For the non conformance 2007-026_7, the reported date is 27/06/2012;
-the closed date is 23/08/2012;
-the rating is Minor;
-And the non Conformance type is Deviation from Process and procedures.
-
-Non Conformance 2007-026_8 is found during Audit 2007-026;
-Inadequate filing of essential documents after completion of the study;  Non-compliance
-with ICH GCP 8.4.
-The SAE form in paper to be used as a back up procedures in case of failure of the eCRF
-system was missing from the 1-TMF, instead a Memo stating that ""the SAE form is the
-eCRF"" was filed. According to the SOP 09322 (GPV - RAVE eCRF Seric us Adverse Event
-Reporting Fallback Procedure) SAE Fallback Forms and SAE Fallback Log should be filed
-in the 1-TMF.
-No correction or corrective actions required
-Preventive actions are to be developed.
-For the non conformance 2007-026_8, the reported date is 27/06/2012
-the closed date is 24/10/2012;
-the rating is Minor;
-And the non Conformance type is Deviation from Process and procedures.
-
-
-
-Audit 2007-030
-
-Audit Number is 2007-030.
-Scope:
-Audit 2007-030 is a System audit falling under Vendor category.
- The audit was planned to cover Oriam’s Organisation and Quality Management System, Product specifics, Software Development Life Cycle (SDLC), Support and maintenance. Follow up from previous audits in 2002 and 2004 were also in scope for the audit.
-Approach:
-The audit was conducted according to Acme Corporation SOP ICR/CQA/AUDIT/SYS/01, Process and System Audit; edition 02, and the audit agenda dated 21-Sep-2007, and included the following activities:  • Opening meeting • Interviews with Quality Manager Philippe Baschenis • Review of facilities eg:, computer systems and server room  • Closing meeting																						
-Non Conformances:
-
-Non Conformance 2007-030_1 is found during Audit 2007-030;
-Discrepancies between source documentation and eCRFs – non-compliance with ICH GCP 4.9.2.  For patient S3658; the concomitant medication “zopinex” taken within three months of the screening visit was not captured within the eCRF. No corrections or corrective actions; Preventive actions required.
-For the non conformance 2007-030_1, the reported date is 11/07/2012;
-the closed date is 24/10/2012;
-the rating is Minor;
-And the non Conformance type is Data breach.
-
-Non Conformance 2007-030_2 is found during Audit 2007-030;
-Inadequate Quality Control process - Non-compliance with ICH GCP 5.1.3.  a) The CD-ROM including the eCRFs copy for the 11492A patients at site FI001  included one patient from the site FI002 (patient S4431)  b) The SUSARs listings had the following discrepancies: i) SUSARs listing report for the period covering 01-29-Feb-2008 is dated 27-Mar-2007 ii) SUSARs listing report for the period covering 01-31-Aug-2008 is dated 15-Jul-2008  No corrections or corrective actions; Preventive actions required.
-For the non conformance 2007-030_2, the reported date is 11/07/2012;
-the closed date is 28/09/2012;
-the rating is Minor;
-And the non Conformance type is Deviation from Process and procedures.
-
-Non Conformance 2007-030_3 is found during Audit 2007-030;
-Inadequate process for providing within the agreed timelines the off-site archived  I-TMF to the investigator – non-compliance with ICH GCP 5.5.6.  a) According to the instructions provided in the off-site archived booklet and on the RECALL Retrieval Form; RECALL should ship the I-TMF to an investigator within 24 hours of receiving the faxed Retrieval Form. A fax confirmation demonstrated that the Retrieval Form for the I-TMF had been successfully faxed to RECALL on the 25-Jun-2012 at 09:33 AM.  It was later confirmed by RECALL that the I-TMF had not been shipped until the afternoon of the 27-Jun-2012. In addition, RECALL did not inform the investigator of the receipt of the fax or of the date as to when the I-TMF would be shipped to him.  b) There was insufficient contact information provided to the investigator; the only contact information provided by RECALL was a fax number and the general phone number for Lundbeck with instructions to request for the RCA department. The investigator informed the audit team that he did attempt to call Lundbeck at the number provided on the retrieval form, but was unable to get in touch with the RCA department.  Corrections, corrective & preventive actions required.
-For the non conformance 2007-030_3, the reported date is 11/07/2012;
-the closed date is 28/09/2012;
-the rating is Minor;
-And the non Conformance type is Deviation from Process and procedures.
-
-Non Conformance 2007-030_4 is found during Audit 2007-030;
-Inadequate completion of the IMP Shipment and Return Forms – non-compliance with ICH GCP 5.14.4.
- The IMP shipments and return forms were not completed adequately providing full traceability and accountability of the IMPs, for example: a) The first shipment of IMP dated 18-Aug-2006 included shipment of 8 patients kits (R1017 through R1024);  i) For the information pertaining to the treatment period, number of tablets, expiry date and packaging number, was recorded for only one row (one IMP randomisation kit) as opposed to have it completed for each individual rows where the randomisation kits were listed. It was then unclear if the number of tablets “158” applied to each of the randomisation kits or to the whole shipment. ii)The treatment period covered by the IMP kits was not indicated, the number “o” was recorded under that column  b ) Inadequacies similar to what was described above were observed on the IMP shipments forms for each of the six shipments made to the site.  No corrections or corrective actions; Preventive actions required.
-For the non conformance 2007-030_4, the reported date is 11/07/2012;
-the closed date is 26/11/2012;
-the rating is Minor;
-And the non Conformance type is Deviation from Process and procedures.
-									 Non Conformance 2007-030_5 is found during Audit 2007-030;
-										 	Incomplete filing of the IMP Shipment and Return Forms in the sponsor TMF -Non compliance with ICH GCP 8.4.1.  According to the sponsor TMF index, IMP shipments and returns forms should be filed in section 2.1 at the site level. There were not any IMP shipments and return forms filed in the sponsor TMF either at the site or country level. Copies of the IMP shipments and returns forms provided to the audit team by the Clinical Supplies department had been obtained. These IMP shipments and returns forms were filed in the sponsor CMC file,  however, some of the IMP shipments and return forms were missing, ie:  i) For shipment made on 18-Aug-2006; the IMP shipment form for the IMP sent from CTS HLu to Tamro OY was not on file ii) For shipment sent on 09-Oct-2006, the IMP shipment form for the IMP sent from Tamro Oy to Dr. Ahokas was not on file iii) For shipment sent 18-Dec-2006, the IMP shipment form for the IMP sent from CTS HLu to Tamro Oy was missing  iv) For the shipment made on 09-Jan-2007, the IMP shipment form from Tamro OY to Dr. Ahokas was missing v)  For the shipment made on 05-Feb-2007 (R1897-1900), the IMP shipment form indicated that the shipment was sent to the site directly from CTS HLU; however, in the investigator TMF, a shipment form indicated that a shipment with the same IMP (R1897 to R1900) was sent from Tamro OY to the site.   vi) For the shipment made on 02-Mar-2007, the IMP shipment form from Tamro OY to Dr. Ahokas was missing  vii) For all the corresponding IMP shipments, the IMP return forms (from the CMC file) for the returns from the site to Tamro OY were missing. Corrections, corrective & preventive actions required  GCQA to review CAPAs.
-For the non conformance 2007-030_5, the reported date is 11/07/2012;
-the closed date is 26/11/2012;
-the rating is Minor;
-And the non Conformance type is Deviation from Process and procedures.
-
-Non Conformance 2007-030_6 is found during Audit 2007-030;
-Inadequate packaging of the investigator TMF for the long-term archiving - noncompliance with ICH GCP 8.4.
- a) Original medical records were filed within the study binders of the investigator TMF; original medical notes and pre-screened questionnaires were filed in the investigator TMF as opposed being filed with the patient's medical records. The investigator did not remember the rationale for having the records filed within the I-TMF. At the request of the investigator, the original medical records were removed from the I-TMF and filed with the patients medical records. b) Documents from both the 11492A and 11492C were filed within the same TMF. Each patient study binder included the patient binder for the 11492C study followed by the patient binder of the 11492A study. In addition snap binders were packed with the binders from two patients; this made it difficult to consult. The audit team repacked the study binders for each patient separately keeping a chronologie order (the documents for the 11492A study in front of the documents 11492C study). No corrections or corrective actions; Preventive actions required.
-For the non conformance 2007-030_6, the reported date is 11/07/2012;
-the closed date is 28/09/2012;
-the rating is Minor;
-And the non Conformance type is Deviation from Process and procedures.
-										 
-
-Audit 2008-001
-
-Audit Number is 2008-001.
-Scope:
-Audit 2008-001 is a System audit falling under Vendor category. 
-Previously, a secure pdf copy of data entered from sites through the eDE system was hosted by DFG, VA, USA (Site Audit no 2005-GCP-011). Acme Corporation has chosen to use BGT’ Data Center in Kansas City for the third party hosting instead.  The BGT Data Center in Kansas, USA where hosting of data collected through eRT’s eDE will take place. Review of the facilities and server room and relevant procedures is included.
-Approach:
-The audit was conducted according to Acme Corporation SOP Process and System Audits SOP_04025, edition 2.0, and the audit agenda dated 14-Dec-2007, and included the following activities:  • Opening meeting • Interviews with key personnel • Review documentation  • Review of facilities and the Data Center • Closing meeting																						
-Non Conformances:
-
-Non Conformance 2008-001_1 is found during Audit 2008-001;
-Discrepancies between source documentation and eCRF were observed - noncompliances
-with ICH GCP 4. 9.1.
-
-Medical records indicated that patient 51041 was taking concomitant medication
-Trendal 400mg for asthma prior and during the conduct of the study, however, the
-concomitant medication was not captured in the eCRF.
-No corrections or corrective actions required
-Preventive actions required.
-For the non conformance 2008-001_1, the reported date is 9/07/2012;
-the closed date is 26/11/2012;
-the rating is Minor;
-And the non Conformance type is Other.
-
-Non Conformance 2008-001_2 is found during Audit 2008-001;
-Inadequate documentation for the reporting of adverse events. Non-compliance with
-ICH GCP 4.11.2.
-a) Subject 51589 I R8904: The adverse event (dizziness) recorded in visit 3 (06-0ct-
-2009) medical notes was not captured in the eCRF.
-b) Although data entry was performed timely and only by the PI, the adverse events
-recorded in the medical notes lacked details for the assessments of their causality and
-intensity.
-According to the Source Data Identification Form signed by the investigator on 11-May-
-2009, the medical records were to be considered the source data for the reporting of
-AEs, however, the study binder included a study specific AE Form; the form was only
-partially completed by the investigator, ie:
-i) For patient 51557; the medical records indicated two AEs (nausea and dizziness),
-however, on the Lundbeck AE form only nausea was reported
-ii) For patient 51585; the medical records indicated one AE constipation with a start
-date of 30-0ct-2009 was reported at V6, however, the Lundbeck AE form was left
-blank, etc.
-c) There were several discrepancies for the SAE/AE reporting of patient 51050 (SAE
-DKLU1037654- cholangiocarcinoma):
-i) Out of ranges laboratory values considered clinically significant by the investigator
-should be reported as an adverse event, the elevated GGT, ALT, AST (which lead to the
-diagnosis of the SAE) were considered clinically significant by the investigator and had
-been reported on the eCRF AE form; it was unclear why the events were later marked
-deleted on the AE form although captured on the eCRF SAE Form. According to the
-investigator, these values were deleted following receipt of a query; it was not possible
-to see from the audit trail of the eCRF CD-ROM that a query had been issued to the
-investigator.
-ii) The Lundbeck AE Form filed in the study binder listed the elevated values as AEs,
-however the form was partially completed by the investigator and was left unsigned by the investigator.
-No corrections or corrective actions required
-Preventive Actions required.
-For the non conformance 2008-001_2, the reported date is 9/07/2012;
-the closed date is 26/11/2012;
-the rating is Minor;
-And the non Conformance type is Other.
-
-Non Conformance 2008-001_3 is found during Audit 2008-001;
-Inadequate process for providing within the agreed timelines the off-site archived ITMF
-to the investigator - non-compliance with ICH GCP 5.5.6.
-
-a) According to the instructions provided in the off-site archived booklet and on the
-RECALL Retrieval Form; RECALL should ship the I-TMF to an investigator within 24
-hours of receiving the faxed Retrieval Form. A fax confirmation demonstrated that the
-Retrieval Form for the I-TMF had been successfully faxed to RECALL on the 25-Jun-
-2012 at 09:33AM. It was later confirmed by RECALL that the I-TMF had not been
-shipped until the afternoon of the 27-Jun-2012. In addition, RECALL did not informed
-the investigator of the receipt of the fax or of the date as to when the I-TMF would be
-shipped to him.
-b) There was insufficient contact information provided to the investigator; the only
-contact information provided by RECALL was a fax number and the general phone
-number for Lundbeck with instructions to request for the RCA department. The
-investigator informed the audit team that he did attempted to call Lundbeck at the
-number provided on the retrieval form, but was unable to get in touch with the RCA
-department.
-Corrections, corrective & preventive actions required.
-For the non conformance 2008-001_3, the reported date is 9/07/2012;
-the closed date is 16/01/2013;
-the rating is Minor;
-And the non Conformance type is Deviation from Process and procedures.
-
-										
-Non Conformance 2008-001_4 is found during Audit 2008-001;
-Incomplete audit trail and unclear versioning of the eCRF- non-compliance with ICH
-GCP 5.5.3c).
-The date and version number indicated in the footer of the pdf of the eCRF pages kept
-in the I-TMF did not match with the date when the data was entered in the eCRF, ie:
-Patient 1006 signed the informed consent on 29-Jan-2009 and t he data entry for the
-screening visit was done on the same day, however, the pdf of the CRF pages was
-identified in the footer of the pages as follows in the footer: ""07.0163 21-Apr-2009
-(5105""). It was therefore unclear what the date in the footer meant, and how could this
-date be later than the data entry date.
-Six versions of the eCRF Specification Migrations for eCRF version 5105 were available
-in PLUTO; however, according to the history provided on these documents it was the
-unapproved version 0.1 entitled ""original draft"" that corresponded to the date 21-Apr-
-2009. It is not possible to see from the documentation available the corresponding
-date to the approved eCRF and the corresponding migration dates for the
-implementation of the updated eCRFs.
-Corrections, corrective & preventive actions required.
-For the non conformance 2008-001_4, the reported date is 9/07/2012;
-the closed date is 28/01/2012;
-the rating is Minor;
-And the non Conformance type is Deviation from Process and procedures.
-
-Non Conformance 2008-001_5 is found during Audit 2008-001;
-Services Agreements with the Call Center (CRO) "Trial Support Form"and the
-Cardiology Services were not located in the sponsor and investigator TMF- Non -
-compliance with ICH GCP 8.4.
-a) Although the responsible person at the Call Center was listed on the signature
-and delegation log, the investigator indicated that the Call Center person was
-part of the CRO Trial Support Form. There was no agreement available in either
-the sponsor or investigator TMF documenting the contractual arrangements made
-with the CRO. According to the investigator, this Call Center was used for all the
-sites in Finland; he was not aware if contractual arrangements had been made or
-not with the CRO, but for previous and subsequent studies conducted in Finland,
-a service agreement had been located in the sponsor TMF.
-b) The Service Agreement made with the Cardiology Services was not located in
-either sponsor or investigator TMF; the cardiologists providing the services were
-listed on the signature and delegation list.
-No corrections or corrective actions required
-Preventive Actions required.
-For the non conformance 2008-001_5, the reported date is 9/07/2012;
-the closed date is 30/01/2013;
-the rating is Minor;
-And the non Conformance type is Deviation from Process and procedures.
-
-Non Conformance 2008-001_6 is found during Audit 2008-001;
-Inadequate packaging of t he investigator TMF for the long-term archiving - noncompliance
-with ICH GCP 8.4.
-The documents within the archived boxes were packed filling up above the maximum
-capacity the snap binders used to collate them; consequently, when taking out of the
-iboxes or handled, t he documents were fall ing out of the snap binders.
-No corrections or corrective actions required
-Preventive Actions required.
-For the non conformance 2008-001_6, the reported date is 9/07/2012;
-the closed date is 28/09/2012;
-the rating is Minor;
-And the non Conformance type is Deviation from Process and procedures.
-
-
-
-Audit 2008-002
-
-Audit Number is 2008-002.
-Scope:
-Audit 2008-002 is a System audit falling under Vendor category. The GHJ Data Center in Houston, USA where hosting of data collected through GHJ’s Rave system will take place. Review of the facilities and server room and relevant procedures is included.  Some issues regarding GHJ’s handling of Corrective and Preventive Actions had occurred late 2007 and in the beginning of 2008. The CAPA procedures were also included in the audit.
-Approach:
-	The audit was conducted according to Acme Corporation Process and System Audits SOP_04025, edition 2.0, and the audit agenda dated 14-Dec-2007, and included the following activities:  • Opening meeting • Interviews with key personnel • Review documentation incl. potential validation documents • Review of the facilities   • Closing meeting																						
-Non Conformances:
-
-Non Conformance 2008-002_1 is found during Audit 2008-002;
-Lack or properly randomising a subject and informing the Ethics Committee thereof
-(ICH-GCP 4.7).
-Subject 51704 was dispensed a wrong IMP kit at visit 2 occurring 21 -Jun-2011: the
-subject received the kit numbered A16628 instead of 16862; which was only noted by
-the PI one month later, on 27-Jul-2011 in the subject medical records. Although the
-protocol deviation was reported in the protocol deviation log; the deviation was not
-reported to the ECs
-
-CAPA required.
-For the non conformance 2008-002_1, the reported date is 3/07/2012;
-the closed date is 27/02/2013;
-the rating is Minor;
-And the non Conformance type is Deviation from Process and procedures.
-
-Non Conformance 2008-002_2 is found during Audit 2008-002;
-
-
-Inappropriate request prior taking a subject informed consent (ICH-GCP 4.8.8).
-
-For all the subjects reviewed, the study information was given few days prior to the
-screening visit and the subject was sent home with the SIS to take ample time for
-considering participation as required.
-However all subjects were advised that if they would agree to participate to the study,
-it was better if they would come back fasting. As per the PI this was only a suggestion,
-not a request. It was noticed that some of the subjects went back fast ing for the
-screening visit and some did not.
-It was explained that for insurance and liability reasons, requesting or suggesting a
-subject to fast in the perspective of the study is considered a study procedure and
-therefore, not considered appropriate before a consent is signed.
-No corrections required.
-
-For the non conformance 2008-002_2, the reported date is 3/07/2012;
-the closed date is 27/02/2013
-the rating is Minor;
-And the non Conformance type is Deviation from Process and procedures.
-									
-Non Conformance 2008-002_3 is found during Audit 2008-002;
-
-Discrepancies between the source documents and the eCRF (ICH-GCP 4.9.2).
-
-a) According to the protocol section 7.2, concomitant medication taken within 3
-months of screening visit were to be captured in the eCRF. There were lacks in
-reporting these into the eCRF for at least two patients, ie:
-i) patient 51711 was screened on 16-Jun-2011 and received last dose of
-immovane (prescribed for insomnia) on 15-May-2011
-ii) patient 51247 was screened on 28-Dec-2011 and received last dose of
-zopiclone (prescribed for insomnia) on 01-0ct-2010
-b) For patient 51515; AE nausea was reported at visit 3 (26-Apr-2011); there was
-no stop date mentioned in the source, although in the eCRF there was a stop date
-of 01-Jun-2011.
-No corrections required.
-For the non conformance 2008-002_3, the reported date is 3/07/2012;
-the closed date is 27/02/2013;
-the rating is Minor;
-And the non Conformance type is Other.
-										
-
-
-
-
-
-Non Conformance 2008-002_4 is found during Audit 2008-002;
-
-Incomplete medical notes with regards to laboratory tests not performed (ICH-GCP
-4.9.1).
-For patient 51113, the laboratory results indicated that the haematology tests were
-deleted (ie:, they were shipped but could not be analysed); however, there was no
-explanation either on the lab results or in the medical progress notes indicating the
-lacking test and the actions taken.
-No corrections required.
-For the non conformance 2008-002_4, the reported date is 3/07/2012;
-the closed date is 27/02/2013;
-the rating is Minor;
-And the non Conformance type is Data breach.
-
-Non Conformance 2008-002_5 is found during Audit 2008-002;
-
-ECG printouts not on A4 format paper; therefore not allowing good quality copies to be
-made (ICH-GCP 4.9.4).
-The ECG print outs were on American standard size paper (81/2 Xll i'lches),
-consequently it had not been not possible to make same size copies; all copies made
-had either the header or footer cut-off, as the EU size paper is narrower. When the
-header was cut off, the date and time of the ECG as well as the patient ID number were
-lacking; when the footer was cut off, the voltage and speed of the ECG equipment were
-lacking.
-Since all the ECG machines were provided by Lundbeck, this may concern all sites using
-the same kind of machine and therefore should be taken-up at the process level.
-CAPA required.
-For the non conformance 2008-002_5, the reported date is 3/07/2012;
-the closed date is 27/02/2013;
-the rating is Minor;
-And the non Conformance type is Other.
-
-Non Conformance 2008-002_6 is found during Audit 2008-002;
-
-lack of submission of an annual report to the ECs.
-
-There was no documented evidence either in the sponsor eTMF or the I -TMF that an
-annual renewal report had been submitted to the ECs as required.
-CAPA required.
-For the non conformance 2008-002_6, the reported date is 3/07/2012;
-the closed date is 27/02/2013;
-the rating is Minor;
-And the non Conformance type is Deviation from Process and procedures.
-										
-
-Non Conformance 2008-002_7 is found during Audit 2008-002;
-
-Unclear process for the submission of CIOMS to the site (ICH-GCP 4.11.1).
-
-According to the Operational Manual, Quintiles was responsible to submit the SUSAR
-line listing to the ECs, it is unclear why letters with CIOMS attached we re sent to the
-investigator requesting him to submit the CIOMS to his EC. In addition the following
-discrepancies were found :
-1. Letter was not sent to the investigator for every SUSARS reported in the
-line listing, ie: CIOMS DKLU1067675; a letter was sent for the initial
-CIOMS as well as follow-up CIOMS 1,4,5,6, however, there were no CIOMS
-2 and 3 available;
-2. Some letters made a reference to study 11984A as opposed to 13267A;
-3. Some letters made a reference to an SAE (eg:, DKLU1070543) as
-opposed to a SUSAR;
-4. Several letters were filed in duplicate.
-No corrections required.
-For the non conformance 2008-002_7, the reported date is 3/07/2012;
-the closed date is 27/02/2013;
-the rating is Minor;
-And the non Conformance type is Deviation from Process and procedures.
-									
-Non Conformance 2008-002_8 is found during Audit 2008-002;
-Unclear handling of a wrongly randomised subject (ICH-GCP 5.5.1).
-
-As described in observation # 1, Subject 51704 was dispensed a wrong IMP kit at visit
-2 (randomisation) occurring 21-Jun-2011: the subject received the kit numbered
-A16628 instead of 16862; which was only noted by the PI one month later, on 27-Jul-
-2011.
-It was further noticed that this patient was not excluded from the per protocol set, and
-this deviation to the randomisation schedule was not documented in t1e blinded data
-review meeting minutes.
-CAPA required.
-For the non conformance 2008-002_8, the reported date is 3/07/2012;
-the closed date is 27/02/2013;
-the rating is Minor;
-And the non Conformance type is Deviation from Process and procedures.
-										
-Non Conformance 2008-002_9 is found during Audit 2008-002;
-Incomplete audit trail and unclear versioning of the eCRF - non-compliance with ICH
-GCP 5.5.3c).
-The date and version number indicated in the footer of the pdf of the · ~CRF pages kept
-in the I-TMF did not match with the date when the data was entered i 1 the eCRF, ie:
-Patient 1159 signed the informed consent on 25-0ct-2010 and the da·:a entry for the
-screening visit was done either the same day or within a few days of the patient's visit,
-however, the pdf of the CRF pages was identified in the footer of the pages as follows in
-the footer:"" 03.0264 07-Jan-2011 RS Post Amendment (6008""). It was therefore
-unclear what the date in the footer meant, and how could this date be later than the
-data entry date.
-In addition, it was not possible to locate in PLUTO, the history of the versions of the
-eCRF or to have a listing indicating as to when these versions were migrated at the
-country and site level. Hence, it was not possible either to verify if the investigator had
-the correct blank copies of the eCRFs updates.
-CAPA required.
-For the non conformance 2008-002_9, the reported date is 3/07/2012;
-the closed date is 27/02/2013;
-the rating is Minor;
-And the non Conformance type is Deviation from Process and procedures.
-
-Non Conformance 2008-002_10 is found during Audit 2008-002;
-Lacking or inadequate essential documents in the sponsor eTMF and I -TMF (ICH-GCP
-8.4).
-
-a) TheCA acknowledgment of the end of the trial notification was rot located in the
-sponsor eTMF
-b) Amendment 5A01 and 5A02 were not filed in the I-TMF; only th •~ consolidated
-protocol
-c) Quintiles have issued two File Notes dated 20-0ct-2011 pertaining to the
-Urinalysis Microscopy and Exclusion Criteria Creatinine and Total Bilirubin,
-however, the Files Notes are not included in the sponsor TMF an ::I it is unclear if
-they have been included in all the sites I-TMFs
-i. The first File Note pertaining to Urinalysis Microscopic indicated that the
-""trigger for completion of Urine Microscopy based on an abnormal Ketone
-result was programmed incorrectly"". For the patients where Urine Ketone
-results were abnormal, urine microscopic was not performed as indicated in
-the protocol. Attached to the File Note, a list of sites and patients including the
-visit # is included. Dr. Magi had two patients (51113 and 51 ~ ) 85) for which
-trace of ketone did not trigger an urine microscopic test.
-ii. The second File Note is to advise of a calculation error with t he exclusion
-criteria for Total Bilirubin and the exclusion criteria for Creati 1ine for male
-patients. For total bilirubin, the exclusion value was calculated at 31umoi/L as
-opposed to 32unmoi/L and for Creatinine, the value was calcJiated at
-172unmoi/L as opposed to 171unmoi/L. A list of the laboratory standards
-values is attached; Quintiles confirmed that none of the pati€ nts included in
-the trial were affected by the deviation.
-CAPA required.
-For the non conformance 2008-002_9, the reported date is 3/07/2012;
-the closed date is 27/02/2013;
-the rating is Minor;
-And the non Conformance type is Data breach.
-
-Non Conformance 2008-002_10 is found during Audit 2008-002;
-Incomplete or inadequate study essential documentation (ICH-GCP 8.4).
-
-a) Incorrect Financial Disclosure forms signed by the investigators
-The form FDA 3455 was signed by the investigators; this form should be signed off
-by the applicant (study sponsor); in addition the form does not state the names of
-the company for which interest should be declared (ie: Lundbeck <md Takeda)
-b) The temperature log covering the period from 24-Dec-2010 to 26-Jan-2011 was
-lacking from the I-TMF. The single sheet covering this period could neither be
-located in the sponsor TMF during the audit.
-c) One of the IMP tear-off labels was lacking from the dedicated label sheet; this
-concerned one of the four IMP boxes which had been lost.
-d) For subject 51159 the randomisation number R4271 number is lacking on the
-subject identification list
-No corrections required.
-For the non conformance 2008-002_10, the reported date is 3/07/2012;
-the closed date is 27/02/2013;
-the rating is Minor;
-And the non Conformance type is Data breach.
-									
-
-
-Audit 2008-005
-
-Audit Number is 2008-005.
-Scope:
-Audit 2008-005 is a System audit falling under Vendor category. 
-The audit covered VBN’s organisation and Quality Management System, product specifics, SDLC and support and maintenance. Furthermore validation of the software was reviewed and assessed according to Acme Corporation standards and eg: 21 CFR Part 11.  The Objectives of the audit were to: • Review the Quality Management System (QMS) and assess the level of its implementation • Review the SDLC  • Review validation documentation of the system (including release documentation). • Evaluate customer support procedures (eg: system for following up on customer queries/issues) • Evaluate maintenance procedures • Assess to which degree the validation package complies with Acme Corporation requirement as well as regulatory requirements (eg: 21 CFR Part 11, ICH GCP) • If areas do not comply with Acme Corporation’s requirements to evaluate whether a workaround solution is possible  It was not in scope of the audit to make a technical assessment of the suitability of the software: CDR/SCE for the intended use. Also it is not in scope of the audit to make any investigation of the vendor’s financial status.
-Approach:
-	The audit was conducted according to Acme Corporation SOP _04025: Process and System Audit; version 2, and the audit agenda dated 08-Jan-2008, and included the following activities: • Opening meeting • Presentations by VBN according to the agenda • Review of documentation incl. validation documents • Review of facilities  • Closing meeting.																					
-Non Conformances:
-
-Non Conformance 2008-005_6 is found during Audit 2008-005;
-Lack of compliance with the approved protocol (ICH-GCP 4.5.2).
-
-A) According to the SI (XKP), she did all her ratings of the patient and subsequently the patient,
-did the Patient-Reported Outcome scales. This is not in accordance with the protocol section 7.4,
-according to which the patient reported health economy assessments (PDQ-3? and EQ-50))
-should be completed before the clinician-rated assessments.
-B) Patients are requested to completed a diary prior to visit 3, although not required by the
-protocol
-C) Prior to the on-site audit, GCQA had been alerted by the Clinical Team, that there were issues
-with the patient diaries, at the site. For some of the data, they were identical at some
-subsequent days. This was the case for subjectS 1049, for whom all data including the patient
-diary was reviewed during the audit.
-For S 1049 the following data were identical:
-• Visit 2, day 2 (19-Mar-20 12) and day 3 (20-Mar-2012)
-• Visit 4, day 1 (15-Apr-2012), day 2 (16-Apr-2012) and day 3 (17-Apr-2012)
-The diary completion process was discussed in details with the SI (XKP) after review of the
-completed source diaries. From review of the diaries, it looks like two different persons, may
-have completed them and they are also signed by both the patient and the care-giver. From the
-review it cannot be excluded, that the caregiver completed part of the diary for the patient.
-The SI denied that she had completed any patient diary, and also stated that she had instructed
-the patient and the caregiver to be more careful, when completing the dia1 ies.
-The 13445 Patient Reported-outcomes Guideline, H. Lundbeck, 27-July-2011 (which was
-obtained in the English version after the on-site audit) writes that the caregiver's signature
-must be compl eted~ however it is not described that the caregiver can complete the diary.
-For the non conformance 2008-005_6, the reported date is 7/09/2012;
-the closed date is 23/11/2012;
-the rating is Major;
-And the non Conformance type is Deviation from Process and procedures.
-
-Non Conformance 2008-005_7 is found during Audit 2008-005;
-Failure by the investigator to Provide/documentation that subjects were given ample time to decide on whether or not to ParticiPate in the trial (ICH-GCP 4.8.7).
-
-All of the included patients were consented during the screening visit. It was not clear how they were
-provided with ample time to consider their participation.
-The Pre-Trial Visit Report section 20, identifies ample time as at least one day.
-A) According to the Investigators most patients had their caregiver with them for the visits to the
-clinic, however this was not documented in the medical records, and it was not documented
-how ample time was ensured during the screening visit. The Investigators were recommended
-for future studies to consider changing the informed consent process to ensure that the
-patients' are given ample time to consider study participation.
-B) Further it was not clear from the medical notes, that patient had been informed that they can
-withdraw from the study at any time.
-For the non conformance 2008-005_7, the reported date is 7/09/2012;
-the closed date is 23/11/2012;
-the rating is Major;
-And the non Conformance type is Other.
-				
-Non Conformance 2008-005_8 is found during Audit 2008-005;
-Failure by the Investigator to maintain adequate records and reports and to give access to the CRA to the electronic in-patient records (ICH-GCP 4.9).
-
-In general the quality of the medical records was good and included clinical progtess notes. However
-for concomitant medication the medical records were not always specific on start and stop dates. In
-relation to eligibil ity they did not include absence of relevant psychiatric diseases The following
-issues were noted with the medical notes:
-A) The CRA did not have access to the electronic inpatient medical records, which she should
-have as 30% of the patients, which is about 6 patients, had been in-patient -; according to the SI
-(XKP). The Auditor had access to the hospitalisation records for one patient (S 1 002). This
-patient had one hospitalisation about one month prior to enrolment and a second during
-admission due to anSAE during the trial. For this patient the CRA only got access to a copy
-of the discharge summary
-B) For S 1002 it was found out during the audit, that the patient had participated in a Sifrol study,
-however this is not mentioned in the medical records. According to SI there are study specific
-records on file in the Department, as they are archived with the Institution, at study
-conclusion. In addition medical records are not kept at the hospital for any out-patient visit, as
-these records in China belongs to the patient. It was suggest considering creating a system, for
-these patients if they participates in the trial/trials, keeping copies of the medical records for
-routine outpatient visits and creating a list for their participation in clinical trials and to
-include information about previous participation in clinical studies.
-The electronic medical records system used by the hospital for all in-patie'1ts did not requi re
-any change in password (only to reset the first password assigned by IT) (non-compliance
-with FDA 21 CFR Part 11).
-For the non conformance 2008-005_8, the reported date is 7/09/2012;
-the closed date is 23/11/2012;
-the rating is Major;
-And the non Conformance type is Deviation from Process and procedures.
-
-Non Conformance 2008-005_9 is found during Audit 2008-005;
-Failure b;t the investigator to ensure timeliness of the data reported to sponsor in the eCRF (ICH-GCP 4.9.1).
-During the audit preparations (starting 19-Jul-20 12) it was noticed that the folio\\ ing visits were not
-yet entered in the eCRF/Rave. According to the protocol it is recommended to have data reported into
-the eCRF/Rave within 2-3 days.
-Some examples of late data entry:
-• S1069: Visit V5 (04-Jun-2012) was data entered 20-Jul-2012 and visit 6 ( 2-Jul-2012) was
-entered 20-Jul-2012
-• S1071: Visit 5 (06-Jun-20 12) was data entered 11-Jun-2012 and visit 6 (O·l-Jul-2012) was data
-entered 19-Jul-20 12
-• Sl091 : Visit 5 (29-Jun-2012) was data entered 20-Jul-2012
-• S 1112: Visit 4 (25-Jun-2012) was data entered 20-Jul-2012.
-For the non conformance 2008-005_9, the reported date is 7/09/2012;
-the closed date is 31/10/2012;
-the rating is Major;
-And the non Conformance type is Deviation from Process and procedures.
-
-Non Conformance 2008-005_10 is found during Audit 2008-005;
-Multiple inconsistencies between the data in the eCRF/Rave and the source documents (ICH-GCP 4.9.2);
-Multiple inconsistencies were observed between the Rave data and the source documents, most
-notably related to lack of reporting of adverse events and concomitant medication, and inconsistency
-in the concomitant medication in the Rave compared to the data in the source.
-Due to this and due to the lack of access to the electronic in-patients ' records, it i 'i recommended to
-consider re-monitoring of the study at the site.
-The following observations were made:
-81002 (screened on 21-Dec-2011)
-i) Madopar, and Sinemet was started 21-0ct-20 11 according to Rave -the rr edical record stated
-Nov-2011.
-ii) Diamicron 50 mg in Rave was, it should be 30 mg
-iii) 02-Apr-2012 aspirin 1 OOmg was prescribed according to medical record, this was not included
-in Rave. According to SI (XKP) the patient did not want to take it- a note about this is
-missing in medical record. Aspirin was prescribed following a MRI/MRA scan showing
-vascular thinning.
-iv) Piribedil treatment started UU2011 according to Rave, but this date could not be verified in
-the medical record.
-v) During hospitalisation for the SAE (date of di scharge 02-Apr-2012) the patient was diagnosed
-with REM sleep disorder, this was not entered in Rave as AE.
-81049 (screened on 22-Feb-2012)
-i) According to the medical record the patient had a previous CT scan showing brain atrophy
-and a previous head injury. The medical records did not include any comments regarding
-lack of influence (if this was the case) of these CT scan findings on the current diagnose of
-idiopathic Parkinson disease. Brain atrophy and head injury was not ircluded in the
-medical history in Rave.
-ii) Back pain and depression was included in the medical records (copy of pr ~vious records,
-present as loose notes) from a visit 03-Feb-20 12 (prior to inclusion int ;) the study). Back pain and depression was not entered into the medical history of the Rave system, and there
-was no note in the medical records, as to whether these conditions perHisted during the
-13445A study partipation
-iii) Sinus tachycardia and cervical spondylosis in the medical record was not entered in the Rave
-system as medical history.
-iv) The fo llowing concomitant medication was present in the medical records, but not entered in
-Rave: Artan (trihexyphenidyl) Y2 tablet 3 times daily, stopped on 03-Feb-2012. Ibuprofen
-(no dose stated), was taken for the least two days in May-2012. Amox cillin and herbal
-medicine had according to medical record taken since May-20 12.
-v) The following AEs were reported in the medical records but not in Rave: 1ncreasing pain
-(aggressive) headache, left frontal and temporal pain and tense/pain al over the body.
-Furthermore consider reporting weight loss and decreased appetite. At visit 6 the medical
-record included dizziness (still some was present)
-Sl082 (screened on 06-Spr-2012)
-Two AEs were present in the medical record, but not reported in the Rave system
-i) Breath shortness, which the patient had had for years but which was now ·ncreased. Consider
-to include it also in the medical history in Rave
-ii) Increased sweating
-SllSl (screened on 27-Jun-2012)
-I. The medical record included as medical history information: constipation, urine cysts and
-cholelithiasis; none of these were included in Rave.
-2. The medical record included one AE: Patient fell and hurt the foot, which was not entered into
-the Rave system.
-For the non conformance 2008-005_10, the reported date is 7/09/2012;
-the closed date is 23/11/2012;
-the rating is Major;
-And the non Conformance type is Other.
-								
-
-
-
-
-Non Conformance 2008-005_12 is found during Audit 2008-005;
-Lack of ensuring quality assurance and quality control to ensure protocol compliance (ICH-GCP 5.1.1).
-
-This was evidenced by:
-For the patients reviewed, the Investigator had for all visits, reported the outcome of the physical and
-neurological examinations as normal, even though some were abnormal due to tl e Parkinson
-disease's physical and neurological changes. Examples are: tremor, rigidity, muscular tension
-increased, limbs moving slowly, mask face etc.
-The Investigator had reported the full outcome of these examinations in the source, but had been
-requested to enter normal in the Rave.
-Covance informed the Auditor, that according to Lundbeck's instruction the physical and
-neurological examinations have to be completed as normal, even if they are abnormal due to the
-Parkinson disease.
-This instruction is not in accordance with the protocol
-For the non conformance 2008-005_12, the reported date is 7/09/2012;
-the closed date is 3/12/2012;
-the rating is Major;
-And the non Conformance type is Deviation from Process and procedures.
-										
-Non Conformance 2008-005_13 is found during Audit 2008-005;
-Failure to ensure validity for electronic trial data handling and/or remote electronic data systems
-(ICH-GCP 5.5.1A) .
-The Rave system indicates that if a laboratory result is clinically significant at the screening
-visit, the patient must not be included. This is not in conformity with the ;>rotocol exclusion
-criteria #3, which states could (include laboratory tests at screening).
-For subject S 1002 at screening the Investigator (XKP) entered into the Rave system, that the
-blood glucose value was clinical significant (this patient had an already k11ow type II
-diabetes). The Rave system fired an automatic request to make the patien a screen failure.
-Subsequently the Investigator changed the blood glucose value to not clirical significant- as
-she found the patient eligible and after discussion with Covance (according to Covance). The
-Investigator made a note in the source, to document that she still conside1 the blood glucose
-value clinical significant and that the patient could be included in spite of this
-B) The Rave system also includes for ECG results, that if the ECG is abnomtal and clinically
-significant at the screening visit, the patient must not be included. This is not in conformity
-with the protocol.
-For the non conformance 2008-005_13, the reported date is 7/09/2012;
-the closed date is 3/12/2012;
-the rating is Major;
-And the non Conformance type is Deviation from Process and procedures.
-
-Non Conformance 2008-005_14 is found during Audit 2008-005;
-Delay in making the updated Investigator Brochure available to the site (ICH-GCP 5.12.2).
-Investigator Brochure version 20, issued in English 20-Aug-2011, was first submitted to EC on 09-May-2012. The Chinese version was issued 23-Apr-2012- so apparently it took about 8 month to create the translation. 
-For the non conformance 2008-005_14, the reported date is 7/09/2012;
-the closed date is 31/10/2012;
-the rating is Major;
-And the non Conformance type is Other.
-
-Non Conformance 2008-005_15 is found during Audit 2008-005;
-Failure to inform the involved parties (monitors, investigators, pharmacists and storage managers) of acceptable storage temperature and conditions (ICH-GCP 5.13.2).
-
-IMP Order 10056, temperature logger active during shipment, showed highest temperature 29,7
-without any alarm
-Order 10062 temperature logger showed highest temperature as 32.8 during transport without
-alarm
-Order 10068 temperature logger showed highest temperature as 33.4, without any alarm
-Order 10075 temperature logger show highest temperature as 29.4, without any alarm
-Order 10056 temperature logger, showed highest temperature as 29,7 without any alarm
-At the site, there is no explanation for why these high temperatures are permitted or what would
-be acceptable/not acceptable for the site and a monitor/auditor/inspector to verify .
-For the non conformance 2008-005_15, the reported date is 7/09/2012;
-the closed date is 4/10/2012;
-the rating is Minor;
-And the non Conformance type is Other.
-										
-Non Conformance 2008-005_16 is found during Audit 2008-005;
-Inadequate monitoring CICH-GCP 5.18.1-5. 18.6).
-The quality of the monitoring in particular the source data verification was found to be inadequate,
-please refer to observations # 8 (lack of access to all records) and # 10 (inconsistent data and lack of
-reporting by the site of concomitant medication and reporting of AEs).
-A) The monitor did not seek access to the full medical records for patients that had previously
-been hospitali sed in the department. For subjectS 1002 a copy of a discharge summary had
-been used for the monitoring.
-B) Further the CRA was not aware, that the hospital had an electronic record system for the
-hospitalised patients, and had therefore not asked for access to see these records, when
-relevant.
-C) According to the monitoring visit reports, there had been a delay in SDV at this high
-recruiting site. The CRA several times stated that she did not have enough time to do the
-SDV: Trip report#5 from visit on 12-Apr-2012, Trip Report #6 fTom visit on 24-May-2012
-and Trip Report#7 on 15-J un-20 12. It was not clear what had been done to overcome this lack
-of adequate monitoring resources at the site or how this had been resolved
-The following delays were observed (examples):
-i) Sll45 only screening visit and PDQ-5 from the baseline visit (visit date: 11-Jul-2012)
-was monitored.
-ii) S11 12 not monitored. For the screening visit of 17-May-2012 data was not entered
-until 20-Jul-201 2, and the baseline visit of25-May was data entered on 11 and 23 of
-Jun-2012
-iii) SIIOO the screening of04-May-2012 and baseline visit of 17-May-2012 were
-monitored, but none of the following visits
-iv) S1091 up to and including visit 4 31-May-2012 was monitored. Visit 5 which took
-place 29-Jun-2012 was not yet monitored
-v) S 1145 the screening visit of20-Jun-2012 was monitored but for the baseline visit 11-Jul-2012 only PDQ-39 and HEA was monitored
-
-vi)
-vii)
-S 1150 was not monitored at all, the screening visit was 18-Jul-20 12
-S I 165 the screening visit 16-Jul-20 12 was monitored, but none of the following visits
-D) The CRA answered a clinical question to the Investigator within the Rave system: For subject
-S 1002 at screening the Investigator (XKP) entered into the Rave system, trat the blood
-glucose value was clinical significant (this patient had an already know type II diabetes). The
-Rave system fired an automatic query.
-Further the CRA, answered the query to the Investigator in Rave, which was 'The laboratory
-result is reported as clinically significant. If at Screening make sure the patient is a screening
-failure. After Screening, check that the corresponding AE has been created.' The CRA
-answered: 'Due to the patient has DM II medical history, the glucose high value is clinically
-significant, but it's not related to exclusion criteria.' (CRA from System). Any medical
-questions should be answered by the site and not the CRA.
-E) The source worksheets provided by Covance were found to be deficient on the following
-ISSUe:
-i) There was no separate neurological examination worksheet, but one single ti ck box, at the end
-of the physical examination worksheet. If the Investigator only documented the
-neurological examination on the worksheet, there would be a lack of details for the
-neurological examination
-ii) The worksheet for the dermatological examination, only contained one sin ~le row of tick
-boxes, and it was unclear what the dermatologist was ticking off for- if it was for the
-examination done; and then it was not possible to include any description if something
-was found or there was an absence of finding. The form did include a statement that any
-findings had to be reported in the medical records by the dermatologist.
-F) DKLU1077892 CIOMS (version date received by manufacturer 23-May-2012) states that no
-treatment was received however the patient received metformin 0.25mg 3 times daily since
-24-Mar-2012 and diamicron 50 mg daily since 25-Mar-2012, both prescribed for type II
-diabetes. These data was entered in the Rave on 11-Jun-20 11 .
-Within the CIOMS it is stated: Smoking ??? - according to the Rave and source the patient
-smokes.
-For the non conformance 2008-005_16, the reported date is 7/09/2012;
-the closed date is 3/12/2012;
-the rating is Major;
-And the non Conformance type is Other.
-											
-Non Conformance 2008-005_17 is found during Audit 2008-005;
-Lack of availability of documents for audits and inspections and for successful management of the trial by the sponsor (ICH-GCP 8.1).
-A) Already from starting in-house preparations for the audits in Jun-2012, th<• auditor noticed that
-multiple documents were missing from the eTMFs. On requests some do<•uments has been
-uploaded, however still multiple documents are missing.
-B) This observation also have implication for the management of the study b f Lund beck, as the
-clinical team did not have access to documents in the eTMF, which are irrportant to maintain
-an overview of the study management by the CRO.
-Examples of missing documents:
-• Copies of EC approvals (CN original versions) were missing
-• Trip reports from site initiation visit report, monitoring visits 11-Jun-20 12 and 19-25-Jul-
-2012, and all follow up letters were missing from the eTMF prior to the audit.
-• The documentation of the investigators qualifications, medical license, and GCP training
-documentation was incomplete
-II
-• Source data identification forms (completed)
-Completed signature and delegation list for each site.
-For the non conformance 2008-005_17, the reported date is 7/09/2012;
-the closed date is 31/10/2012;
-the rating is Major;
-And the non Conformance type is Other.
-
-
-
-Non Conformance 2008-005_18 is found during Audit 2008-005;
-Lack of essential documentation to confirm the validity of the trial CICH-GCP 8.2.12.
-A) In general there was a lack of records for calibration of the equipment used forth' trial, or it had not
-been calibrated:
-i) The hospita l's technical department was responsible for calibration ofth hospital equipment
-and calibrated equipment was labelled by the department, with the date ' ' hen recalibration was
-required. However validation records were not filed in the Investigator T v1 F for the following
-equipment: ECG recording equipment(Fukuda Denshi), the sphygmomanometer for
-measurement of blood pressure and centrifuges used
-ii) Further the scale and the site's min/max thermometer for monitoring oft~ e IMP storage
-temperature were not calibrated
-iii) The centrifuge which had been supplied by Lundbeck, had been out of order (was removed
-during the audit for re-calibration after the repair); however there was no documentation
-available for the substitute centrifuge, which had been used for quite a w'1 ile.
-B) The CY template provided by Covance for the staff to complete, did not require/ illlows to document
-relevant cl inical experience and GCP training, including the date of the training
-C) A copy of the Site Initiation Visit report was not fi led in the Investigator TMF (I¢ H-GCP 8.2.20)
-A temperature excursion was found for IMP storage 18-Apr-20 12, this had been reported to Lundbeck, and the
-report was present, however the response to the deviation and the conclusion with regard to use of the. IMP was
-not filed in the Investigator TMF.
-For the non conformance 2008-005_18, the reported date is 7/09/2012;
-the closed date is 23/11/2012;
-the rating is Major;
-And the non Conformance type is Data breach.
-										
-Non Conformance 2008-005_1 is found during Audit 2008-005;
-Non-compliance by IRB/EC with the principles of ICH-GCP, with regard to the following ( ICH GCP 3.1.1-3.1.9).
-The Auditor could not have access to the procedures of EC (please refer to obs#2) and consequently,
-was unable to verify the following ICH requirements:
-A) The approval letter did not mention what the Investigator had to submit to EC while the study
-was on-going ie:
-B) Status of the trial conducted at intervals of at least annually (ICH-GCP 3.1.4)
-C) EC did not specify* in their approval, that no deviations from, or changes to the protocol
-should be initiated without the prior written EC approval/favourable opinion of an appropriate
-amendment, except when necessary to eliminate an immediate hazard or when changes
-involves only logistical or administrative aspects of the trial (ICH-GCP 3.3.7)
-D) EC did not specify* in their approval, that the investigator should promptly report to the EC:
-a) deviations from or changes to the protocol to eliminate immediate hazards to the trial
-subjects b) changes increasing the risk to subjects and/or affecting significantly the conduct of
-the trial c) all ADRs that are both serious and unexpected d) new information that may affect
-adversely the safety of the subjects or the conduct of the trial (ICH-GCP 3.3.8)
-Instead Covance had made a letter submitted by the PI to EC, stipulating that the following would be
-submitted to EC by the PI: SAEs occurring at the site, within 24 hours; any SAEs from other sites in
-China monthly; SUSARs and SADRs quarterly, and major protocol deviations. The letter was signed
-by the PI and approved by the EC vice chairman. The frequency for submission of the SUSAR
-listings was later updated to be submitted every 6 months.
-Inadequacies of the EC approval document: It was unclear if the PI abstained from voting and was
-still present or if he stepped out of the meeting. The PI confirmed that he first presented the protocol
-and then stepped out of the meeting room, when the Committee voted for the protocol.
-For the non conformance 2008-005_1, the reported date is 7/09/2012;
-the closed date is 7/01/2013;
-the rating is Minor;
-And the non Conformance type is Deviation from Process and procedures.
-
-Non Conformance 2008-005_2 is found during Audit 2008-005;
-Non-compliance by IRB/EC with the principles of ICH-GCP, with regard to the following (ICH-GCP 3.4).
-Failure to provide investigators, sponsors with its written procedures:
-The chairman of EC/the PI stated that the procedures of EC were confidential and were not made available for the monitor or could be subjected to review by the Auditor.
-For the non conformance 2008-005_2, the reported date is 7/09/2012;
-the closed date is 7/01/2013;
-the rating is Minor;
-And the non Conformance type is Deviation from Process and procedures.
-
-
-
-
-
-Non Conformance 2008-005_3 is found during Audit 2008-005;
-The investigators did not provide full evidence of their qualifications in the CV and one investigator had not received update GCP training for more than 10 years (ICH-GCP 4.1.1).
-
-A)
-The CVs did not capture enough information about GCP training (dates/year) and in general there was a lack of details about previous clinical trial experience. In general the GCP training documentation was present separately.
-Examples:
-i)
-PI: CV did not capture any clinical trial experience, also it did not clearly state that he is a neurologist
-ii)
-SI (XKP): CV did not capture any clinical trial experience.
-iii)
-SI (LJ): CV did not capture any clinical trial experience, but some clinical research experience. And it did not capture any information about GCP training. If she has not received any GCP training, she should receive it immediately.
-B)
-The PI had not received any updated GCP training since 2001.
-For the non conformance 2008-005_3, the reported date is 7/09/2012;
-the closed date is 7/01/2013;
-the rating is Minor;
-And the non Conformance type is Personnel.
-
-Non Conformance 2008-005_4 is found during Audit 2008-005;
-Inadequate delegation /delegation records (ICH-GCP 4.1.5).
-
-A)
-The ECG Department recorded the ECGs, and if the recordings showed abnormalities, a cardiologist would evaluate the ECG. The cardiologist stamped and initialled the ECG traces for his review. According to the site, they had a written agreement with the ECG department; however this was not filed in the Investigator TMF. Furhter the CV was not collected from the head of the ECG department and filed in the Investigator TMF. The CV is required because the cardiologist evaluates the ECG tracings.
-Inadequate delegation: The SCs were not delegated to enter data into the medical records.
-For the non conformance  2008-005_4, the reported date is 7/09/2012;
-the closed date is 7/01/2013;
-the rating is Minor;
-And the non Conformance type is Personnel.
-									
-
-
-Non Conformance 2008-005_5 is found during Audit 2008-005;
-Lack of adequate resources with regard to data entry and lack of documentation for PI training and overview of staff (ICH-GCP 4.2.3).
-
-A)
-Insufficient resources were allocated to do data entry into the eCRF/Rave system, as demonstrated by delay in data entry for up to 3-7 weeks by the site staff into the eCRF/Rave system (obs # 9)
-B)
-There was a lack of documentation for the Principal Investigator’s training and overview of staff. According to the PI, he had trained the staff in the protocol and the study was discussed during weekly staff meetings, however this was not documented.
-For the non conformance 2008-005_5, the reported date is 7/09/2012;
-the closed date is 7/01/2013;
-the rating is Minor;
-And the non Conformance type is Other.
-
-Non Conformance 2008-005_11 is found during Audit 2008-005;
-Failure by the investigator to report SAEs (initial and/or follow up reports) timely to the sponsor and EC (ICH-GCP 4.11.1).
-A)
-S1002, DKLU1077892, worsening of Parkinson disease. The patient was hospitalised in the Department on Friday 23-Mar-2012, however this was first reported in Rave on Monday 26-Mar-2012.
-B)
-S1084, DKLU1080807, hospitalisation due to right leg infection on 22-May-2012. The SAE was reported in the Rave on 24-May-2012. The Investigator stated, he had been informed late about this incidence; however this was not documented in the medical record.
-For the non conformance 2008-005_11, the reported date is 7/09/2012;
-the closed date is 7/01/2013;
-the rating is Minor;
-And the non Conformance type is Deviation from Process and procedures.
-											
-										
-								
