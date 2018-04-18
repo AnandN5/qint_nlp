@@ -1,14 +1,17 @@
 # from nltk.corpus import wordnet
 from CombinationTagger import NGramTagger
+from TrainedTagger import CustomTrainedTagger
 
-tagger = NGramTagger()
+combo_tagger = NGramTagger()
+trained_tagger = CustomTrainedTagger()
 
 
 def process_data(file):
     with open(file, 'r') as f:
         sentences = f.read()
-        tagged_sents = tagger.tag(sentences)
-        print(tagged_sents[:500])
+        tagged_sents = combo_tagger.tag(sentences)
+        # tagged_sents = trained_tagger.tag(sentences)
+        print(tagged_sents)
 
 
 def main():
