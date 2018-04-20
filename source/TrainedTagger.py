@@ -1,102 +1,102 @@
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.feature_extraction import DictVectorizer
-from sklearn.pipeline import Pipeline
-import os
+# from sklearn.tree import DecisionTreeClassifier
+# from sklearn.feature_extraction import DictVectorizer
+# from sklearn.pipeline import Pipeline
 import utils
-from nltk import word_tokenize, sent_tokenize, pos_tag
+import nltk
+from nltk import word_tokenize, sent_tokenize, NaiveBayesClassifier
 
 
-train_data_dir = '/Users/qbuser/Documents/pythonWorks/BigDataWorks/qint_nlp/source/data/training_resource'
-clf = Pipeline([('vectorizer', DictVectorizer(sparse=False)),
-                ('classifier', DecisionTreeClassifier(criterion='entropy'))])
+# clf = Pipeline([('vectorizer', DictVectorizer(sparse=False)),
+#                 ('classifier', DecisionTreeClassifier(criterion='entropy'))])
 
 
-class CustomTrainedTagger(object):
-    """Class to train pos tag in custom way using DecisionTreeClassifier."""
+class CustomTrainedTagger(nltk.TaggerI):
+    """
+       Class to train pos tag in custom way using DecisionTreeClassifier.
+       Context which considers while tagging takes previous word and its 'tag'
+       i.e history of tags
+    """
 
     def __init__(self):
-        train_sents, test_sents = self.__training_testing_dataset()
-        self.__text_classifier(train_sents, test_sents)
+        self.train_sents, self.test_sents = utils.training_testing_dataset()
+        train_set = self.__transformed_train_set(self.train_sents)
+        self.classifier = NaiveBayesClassifier.train(train_set)
+        print('Training completed')
+        # print('Accuracy: ', self.evaluate(self.test_sents))
+        import pickle
+        with open('trained_tagger.pkl', 'wb') as out:
+            clf = self.classifier
+            pickle.dump(clf, out, -1)
 
     def tag(self, sentences):
         sentences = sent_tokenize(sentences)
         tagged_sentences = []
+        history = []
 
-        import pickle
-        with open('customtagger.pkl', 'rb') as inp:
-            clf = pickle.load(inp)
-            for sent in sentences:
-                sent = word_tokenize(sent)
-                tags = clf.predict([self.__features(sent, index)
-                                    for index in range(len(sent))])
-                zipped = zip(sent, tags)
-                tagged_sentences.append([x for x in zipped])
+        for sent in sentences:
+            sent = word_tokenize(sent)
+            for i, word in enumerate(sent):
+                featureset = self.__features(sent, i, history)
+                tag = self.classifier.classify(featureset)
+                history.append(tag)
+            zipped = zip(sent, history)
+            tagged_sentences.append([x for x in zipped])
+
         return tagged_sentences
 
-    def __training_testing_dataset(self):
-        tagged_sents = []
-
+    def __features(self, untagd_sents, index, history):
+        """
+         untagged_sents sentence: [w1, w2, ...], index: the index of the word
+        """
         try:
-            files = [f for f in os.listdir(train_data_dir) if os.path.isfile(
-                os.path.join(train_data_dir, f))]
+            return {
+                'word': untagd_sents[index],
+                'is_first': index == 0,
+                'is_last': index == len(untagd_sents) - 1,
+                'is_capitalized': untagd_sents[index][0].upper() == untagd_sents[index][0],
+                'is_all_caps': untagd_sents[index].upper() == untagd_sents[index],
+                'is_all_lower': untagd_sents[index].lower() == untagd_sents[index],
+                'prefix-1': untagd_sents[index][0],
+                'prefix-2': untagd_sents[index][:2],
+                'prefix-3': untagd_sents[index][:3],
+                'suffix-1': untagd_sents[index][-1],
+                'suffix-2': untagd_sents[index][-2:],
+                'suffix-3': untagd_sents[index][-3:],
+                'prev_word': '' if index == 0 else untagd_sents[index - 1],
+                'prev_tag': '' if index == 0 else history[index - 1],
+                'next_word': '' if index == len(untagd_sents) - 1 else untagd_sents[index + 1],
+                'has_hyphen': '-' in untagd_sents[index],
+                'is_numeric': untagd_sents[index].isdigit(),
+                'capitals_inside': untagd_sents[index][1:].lower() != untagd_sents[index][1:]
+            }
         except Exception as e:
-            raise e
+            raise(e)
 
-        for file in files:
-            file_path = os.path.join(train_data_dir, file)
-            if utils.is_txt_file(file_path):
-                with open(file_path, 'r') as f:
-                    sents = sent_tokenize(f.read())
-                    for sent in sents:
-                        tagged_sents.append(pos_tag(word_tokenize(sent)))
-
-        size = int(len(tagged_sents) * 0.9)
-        train_sents = tagged_sents[:size]
-        test_sents = tagged_sents[size:]
-        return train_sents, test_sents
-
-    def __features(self, tagged_sents, index):
-        """ tagged sentence: [w1, w2, ...], index: the index of the word """
-        return {
-            'word': tagged_sents[index],
-            'is_first': index == 0,
-            'is_last': index == len(tagged_sents) - 1,
-            'is_capitalized': tagged_sents[index][0].upper() == tagged_sents[index][0],
-            'is_all_caps': tagged_sents[index].upper() == tagged_sents[index],
-            'is_all_lower': tagged_sents[index].lower() == tagged_sents[index],
-            'prefix-1': tagged_sents[index][0],
-            'prefix-2': tagged_sents[index][:2],
-            'prefix-3': tagged_sents[index][:3],
-            'suffix-1': tagged_sents[index][-1],
-            'suffix-2': tagged_sents[index][-2:],
-            'suffix-3': tagged_sents[index][-3:],
-            'prev_word': '' if index == 0 else tagged_sents[index - 1],
-            'next_word': '' if index == len(tagged_sents) - 1 else tagged_sents[index + 1],
-            'has_hyphen': '-' in tagged_sents[index],
-            'is_numeric': tagged_sents[index].isdigit(),
-            'capitals_inside': tagged_sents[index][1:].lower() != tagged_sents[index][1:]
-        }
-
-    def __text_classifier(self, train_sents, test_sents):
-        X, y = self.__transform_to_dataset(train_sents)
-        # Use only the first 10K samples if you're running it multiple times.
-        clf.fit(X[:10000], y[:10000])
-        print('Training completed')
-
-        X_test, y_test = self.__transform_to_dataset(test_sents)
-        print("Accuracy:", clf.score(X_test, y_test))
-
-        import pickle
-        with open('customtagger.pkl', 'wb') as outp:
-            pickle.dump(clf, outp, -1)
+    # def __features(self, sentence, i, history):
+    #     features = {
+    #         "suffix(1)": sentence[i][-1:],
+    #         "suffix(2)": sentence[i][-2:],
+    #         "suffix(3)": sentence[i][-3:]
+    #     }
+    #     if i == 0:
+    #         features["prev-word"] = "<START>"
+    #         features["prev-tag"] = "<START>"
+    #     else:
+    #         features["prev-word"] = sentence[i - 1]
+    #         features["prev-tag"] = history[i - 1]
+    #     return features
 
     def __untag_sentence(self, tagged_sentences):
         return [w for w, t in tagged_sentences]
 
-    def __transform_to_dataset(self, tagged_sentences):
-        X, y = [], []
+    def __transformed_train_set(self, tagged_sentences):
+        train_set = []
         for tagged in tagged_sentences:
+            history = []
             for index in range(len(tagged)):
-                X.append(self.__features(self.__untag_sentence(tagged), index))
-                y.append(tagged[index][1])
-        return X, y
+                featureset = self.__features(
+                    self.__untag_sentence(tagged), index, history)
+                tag = tagged[index][1]
+                train_set.append((featureset, tag))
+                history.append(tag)
+        return train_set

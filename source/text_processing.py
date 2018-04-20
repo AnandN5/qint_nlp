@@ -2,16 +2,16 @@
 from CombinationTagger import NGramTagger
 from TrainedTagger import CustomTrainedTagger
 
-combo_tagger = NGramTagger()
+# combo_tagger = NGramTagger()
 trained_tagger = CustomTrainedTagger()
 
 
 def process_data(file):
     with open(file, 'r') as f:
         sentences = f.read()
-        tagged_sents = combo_tagger.tag(sentences)
-        # tagged_sents = trained_tagger.tag(sentences)
-        print(tagged_sents)
+        # tagged_sents = combo_tagger.tag(sentences)
+        tagged_sents = trained_tagger.tag(sentences)
+        print(tagged_sents[:500])
 
 
 def main():
