@@ -3,7 +3,8 @@
 # from sklearn.pipeline import Pipeline
 import utils
 import nltk
-from nltk import word_tokenize, sent_tokenize, NaiveBayesClassifier
+from nltk import NaiveBayesClassifier
+import os
 
 
 # clf = Pipeline([('vectorizer', DictVectorizer(sparse=False)),
@@ -21,28 +22,22 @@ class CustomTrainedTagger(nltk.TaggerI):
         self.train_sents, self.test_sents = utils.training_testing_dataset()
         train_set = self.__transformed_train_set(self.train_sents)
         self.classifier = NaiveBayesClassifier.train(train_set)
-        print('Training completed')
+        print('Trained tagger training completed')
         # print('Accuracy: ', self.evaluate(self.test_sents))
         import pickle
-        with open('trained_tagger.pkl', 'wb') as out:
+        with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'trained_tagger.pkl'), 'wb') as out:
             clf = self.classifier
             pickle.dump(clf, out, -1)
 
-    def tag(self, sentences):
-        sentences = sent_tokenize(sentences)
-        tagged_sentences = []
+    def tag(self, sent):
         history = []
-
-        for sent in sentences:
-            sent = word_tokenize(sent)
-            for i, word in enumerate(sent):
-                featureset = self.__features(sent, i, history)
-                tag = self.classifier.classify(featureset)
-                history.append(tag)
-            zipped = zip(sent, history)
-            tagged_sentences.append([x for x in zipped])
-
-        return tagged_sentences
+        for i, word in enumerate(sent):
+            featureset = self.__features(sent, i, history)
+            tag = self.classifier.classify(featureset)
+            history.append(tag)
+        zipped = zip(sent, history)
+        tagged = [x for x in zipped]
+        return tagged
 
     def __features(self, untagd_sents, index, history):
         """

@@ -1,7 +1,7 @@
 import pickle
-from nltk.tokenize import word_tokenize, sent_tokenize
 import nltk
 import utils
+import os
 
 train_data_dir = '/Users/qbuser/Documents/pythonWorks/BigDataWorks/qint_nlp/source/data/training_resource'
 
@@ -12,13 +12,11 @@ class NGramTagger:
         self.train_sents, self.test_sents = utils.training_testing_dataset()
         self.__train_tagger(self.__tagging_model())
 
-    def tag(self, sentences):
-        token_sentences = sent_tokenize(sentences)
-        with open('b_tagger.pkl', 'rb') as tag_in:
+    def tag(self, sent_tokens):
+        with open(os.path.join(os.path.dirname(os.path.abspath(__file__)),'b_tagger.pkl', 'rb')) as tag_in:
             tagger = pickle.load(tag_in)
             return tagger.tag(
-                [w for sent in token_sentences for w in word_tokenize(sent)])
-
+                [w for sent in sent_tokens for w in sent])
 
     def __tagging_model(self):
         train_sents = self.train_sents
@@ -48,5 +46,5 @@ class NGramTagger:
 
         print('Accuracy :', b_tagger.evaluate(test_sents))
 
-        with open('b_tagger.pkl', 'wb') as out:
+        with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'b_tagger.pkl', 'wb')) as out:
             pickle.dump(b_tagger, out, -1)

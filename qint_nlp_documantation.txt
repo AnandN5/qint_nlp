@@ -1,0 +1,37 @@
+Creating Tagged sentences for training and testing
+
+#1
+Ananlyse data to be processed.
+
+#2
+Create a folder for storing data which is to be used for training.
+
+#3
+Create list of sentneces by splitting the training data in the folder to sentences(nltk.sent_tokenize)
+
+#3
+Tokenize each sentences in the list(nltk.word_tokenize).
+
+#4
+Tag the tokenized sentences.(nltk.pos_tag())
+
+#5
+Split the tagged sentences to training data and test data.
+
+#6
+Convert the list of tokenized tagged sentences(training and test data) to list of tagged words to be used as trainig inputs.
+
+
+Creating Combinational NGram Tagger
+
+#7
+Create a Combinational NGram Tagger with backoffs(Default tagger, Unigram tagger, bigram Tagger)
+
+#8
+Prepare a training model which uses the most frequent tags for a word.
+
+#9
+Use the tagged list of words to train the tagger.
+
+#10
+Pickle the tagger and store it.

@@ -1,5 +1,6 @@
 import os
-from nltk import word_tokenize, sent_tokenize, pos_tag
+from nltk import word_tokenize, sent_tokenize, pos_tag, corpus
+from nltk.chunk import tree2conlltags
 
 train_data_dir = '/Users/qbuser/Documents/pythonWorks/BigDataWorks/qint_nlp/source/data/training_resource'
 
@@ -8,7 +9,7 @@ def is_txt_file(filename):
     return filename.endswith('.txt')
 
 
-def training_testing_dataset(self):
+def training_testing_dataset():
     tagged_sents = []
     try:
         files = [f for f in os.listdir(train_data_dir) if os.path.isfile(
@@ -28,3 +29,32 @@ def training_testing_dataset(self):
     train_sents = tagged_sents[:size]
     test_sents = tagged_sents[size:]
     return train_sents, test_sents
+
+
+def tokenized_sents(text):
+    sentences = sent_tokenize(text)
+    tokenized = [word_tokenize(sent) for sent in sentences]
+    return tokenized
+
+
+def chunked_training_dataset():
+    conll_train = corpus.conll2000.chunked_sents('train.txt')
+    conll_test = corpus.conll2000.chunked_sents('test.txt')
+    tag_sents_train = [tree2conlltags(tree) for tree in conll_train]
+    train_tags = [[(t, c) for (w, t, c) in chunked_sents]
+                  for chunked_sents in tag_sents_train]
+
+    tag_sents_test = [tree2conlltags(tree) for tree in conll_test]
+    test_tags = [[(t, c) for (w, t, c) in chunked_sents]
+                 for chunked_sents in tag_sents_test]
+    return train_tags, test_tags
+
+
+def tags_since_dt(sent_tags, i):
+    tags = set()
+    for tag in sent_tags[:i]:
+        if tag == 'DT':
+            tags = set()
+        else:
+            tags.add(tag)
+    return '+'.join(sorted(tags))
