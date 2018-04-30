@@ -4,6 +4,7 @@
 import utils
 import nltk
 from nltk import NaiveBayesClassifier
+from Feature_extractor import word_tag_features
 import os
 
 
@@ -32,40 +33,12 @@ class CustomTrainedTagger(nltk.TaggerI):
     def tag(self, sent):
         history = []
         for i, word in enumerate(sent):
-            featureset = self.__features(sent, i, history)
+            featureset = word_tag_features(sent, i, history)
             tag = self.classifier.classify(featureset)
             history.append(tag)
         zipped = zip(sent, history)
         tagged = [x for x in zipped]
         return tagged
-
-    def __features(self, untagd_sents, index, history):
-        """
-         untagged_sents sentence: [w1, w2, ...], index: the index of the word
-        """
-        try:
-            return {
-                'word': untagd_sents[index],
-                'is_first': index == 0,
-                'is_last': index == len(untagd_sents) - 1,
-                'is_capitalized': untagd_sents[index][0].upper() == untagd_sents[index][0],
-                'is_all_caps': untagd_sents[index].upper() == untagd_sents[index],
-                'is_all_lower': untagd_sents[index].lower() == untagd_sents[index],
-                'prefix-1': untagd_sents[index][0],
-                'prefix-2': untagd_sents[index][:2],
-                'prefix-3': untagd_sents[index][:3],
-                'suffix-1': untagd_sents[index][-1],
-                'suffix-2': untagd_sents[index][-2:],
-                'suffix-3': untagd_sents[index][-3:],
-                'prev_word': '' if index == 0 else untagd_sents[index - 1],
-                'prev_tag': '' if index == 0 else history[index - 1],
-                'next_word': '' if index == len(untagd_sents) - 1 else untagd_sents[index + 1],
-                'has_hyphen': '-' in untagd_sents[index],
-                'is_numeric': untagd_sents[index].isdigit(),
-                'capitals_inside': untagd_sents[index][1:].lower() != untagd_sents[index][1:]
-            }
-        except Exception as e:
-            raise(e)
 
     # def __features(self, sentence, i, history):
     #     features = {
@@ -89,7 +62,7 @@ class CustomTrainedTagger(nltk.TaggerI):
         for tagged in tagged_sentences:
             history = []
             for index in range(len(tagged)):
-                featureset = self.__features(
+                featureset = word_tag_features(
                     self.__untag_sentence(tagged), index, history)
                 tag = tagged[index][1]
                 train_set.append((featureset, tag))

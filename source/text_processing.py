@@ -19,6 +19,10 @@ def process_data(file):
         # tagged_sents = trained_tagger.tag(sentences)
         # tagged_sents = brill_tagger.tag(sentences)
         tagged_sents = tagged_text(sentences, taggers[1])
+        print('tree format')
+        for i, t in enumerate(tagged_sents):
+            print('{}.'.format(i))
+            print(t)
 
         with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'iob_tagged_output.txt'), 'w') as out:
             for i, sent in enumerate(tagged_sents):
@@ -37,9 +41,10 @@ def tagged_text(text, tagger):
     elif tagger == taggers[1]:
         print('trained tagger')
         # Trained tagger tagging
+        chunker = ConsecutiveNPChunker()
         for sent in tokenized:
             tagged = trained_tagger.tag(sent)
-            chunked = ConsecutiveNPChunker().parse(tagged)
+            chunked = chunker.parse(tagged)
             tagged_sentences.append(chunked)
         return tagged_sentences
         print('trained tagger')
