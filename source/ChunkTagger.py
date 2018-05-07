@@ -1,4 +1,4 @@
-from nltk import NaiveBayesClassifier, TaggerI
+from nltk import MaxentClassifier, TaggerI
 from Feature_extractor import chunk_features
 import utils
 
@@ -7,7 +7,7 @@ class NgramChunkTagger(TaggerI):
     def __init__(self):
         self.train_set, self.test_set = utils.chunked_training_dataset()
         print('Ngram chunk tagger training started')
-        self.classifier = NaiveBayesClassifier.train(
+        self.classifier = MaxentClassifier.train(
             self.__transformed_training_set())
         print('Ngram chunk tagger training completed')
 

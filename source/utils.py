@@ -32,8 +32,9 @@ def training_testing_dataset():
 
 
 def tokenized_sents(text):
-    sentences = sent_tokenize(text)
+    sentences = text.split('\n')
     tokenized = [word_tokenize(sent) for sent in sentences]
+    tokenized = list(filter(None, tokenized))
     return tokenized
 
 
@@ -58,3 +59,17 @@ def tags_since_dt(sent_tags, i):
         else:
             tags.add(tag)
     return '+'.join(sorted(tags))
+
+
+def noun_phrases(sent_tree):
+    NPs = []
+    for subtree in sent_tree.subtrees(lambda t: t.label() == 'NP'):
+        NPs.append(subtree.leaves())
+    return NPs
+
+
+def verb_phrases(sent_trees):
+    VPs = []
+    for subtree in sent_trees.subtrees(lambda t: t.node == 'VP'):
+        VPs.append(subtree.leaves())
+    return VPs
