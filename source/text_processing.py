@@ -45,6 +45,7 @@ def tagged_text(text, tagger):
         # Trained tagger tagging
         for sent in tokenized:
             tagged = trained_tagger.tag(sent)
+            print('non chunked:', tagged)
             chunked = chunker.parse(tagged)
             tagged_sentences.append(chunked)
         return tagged_sentences
