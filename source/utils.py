@@ -73,3 +73,9 @@ def verb_phrases(sent_trees):
     for subtree in sent_trees.subtrees(lambda t: t.node == 'VP'):
         VPs.append(subtree.leaves())
     return VPs
+
+
+def process_entities_list(ent1, ent2):
+    ent1 = ' '.join([e[0] for e in ent1])
+    ent2 = ' '.join([e[0] for e in ent2])
+    return ent1, ent2

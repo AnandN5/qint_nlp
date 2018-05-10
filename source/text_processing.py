@@ -5,6 +5,7 @@ from BrillTagger import BrillTagger
 from ConsecutiveNPChunker import ConsecutiveNPChunker
 from utils import tokenized_sents, noun_phrases
 from RegexChunker import RegexChunker
+from ChunkExtractor import ChunkExtractor
 import os
 
 # combo_tagger = NGramTagger()
@@ -18,9 +19,11 @@ def process_data(file):
         sentences = f.read()
         tagged_sents = tagged_text(sentences, taggers[1])
         print('tree format')
+        extractor = ChunkExtractor()
         for i, t in enumerate(tagged_sents):
             print('{}.'.format(i))
             print(t)
+            extractor.extract_entities(t)
 
         with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'iob_tagged_output.txt'), 'w') as out:
             for i, sent in enumerate(tagged_sents):
@@ -45,7 +48,6 @@ def tagged_text(text, tagger):
         # Trained tagger tagging
         for sent in tokenized:
             tagged = trained_tagger.tag(sent)
-            print('non chunked:', tagged)
             chunked = chunker.parse(tagged)
             tagged_sentences.append(chunked)
         return tagged_sentences
