@@ -8,7 +8,7 @@ from nltk import RegexpParser
 #                        {<DT>?<JJ>*<NN.*>+}
 # """
 grammar = """ENTITY : {<DT>?<JJ>*<NN.*>+<CD>*}
-     {<DT>*<JJ>*<CD>*}
+     {<JJ>*<CD>*}
      {<NN.*>}
      RELATION: {<V.*>+<IN>*}
      {<DT>?<JJ>*<NN.*>+}

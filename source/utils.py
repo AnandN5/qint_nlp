@@ -33,6 +33,7 @@ def training_testing_dataset():
 
 def tokenized_sents(text):
     sentences = text.split('\n')
+    # sentences = sent_tokenize(text)
     tokenized = [word_tokenize(sent) for sent in sentences]
     tokenized = list(filter(None, tokenized))
     return tokenized
@@ -75,7 +76,8 @@ def verb_phrases(sent_trees):
     return VPs
 
 
-def process_entities_list(ent1, ent2):
-    ent1 = ' '.join([e[0] for e in ent1])
-    ent2 = ' '.join([e[0] for e in ent2])
-    return ent1, ent2
+def process_entities_list(ent1, ent2, relation):
+    ent1 = ' '.join([e[0] for ent in ent1 for e in ent])
+    ent2 = ' '.join([e[0] for ent in ent2 for e in ent])
+    rel = ' '.join([r[0] for r in relation])
+    return ent1, ent2, rel

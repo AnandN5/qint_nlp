@@ -10,7 +10,8 @@ import os
 
 # combo_tagger = NGramTagger()
 trained_tagger = CustomTrainedTagger()
-brill_tagger = BrillTagger()
+# brill_tagger = BrillTagger()
+brill_tagger = 'brill'
 taggers = ['combination', 'trained', 'brill']
 
 
