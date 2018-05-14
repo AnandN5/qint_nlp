@@ -12,6 +12,7 @@ grammar = """ENTITY : {<DT>?<JJ>*<NN.*>+<CD>*}
      {<NN.*>}
      RELATION: {<V.*>+<IN>*}
      {<DT>?<JJ>*<NN.*>+}
+     {<DT|VBN>+}
      """
 
 

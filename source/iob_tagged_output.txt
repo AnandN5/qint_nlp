@@ -15,7 +15,7 @@
   for/IN
   (ENTITY study/NN trial/NN)
   (ENTITY no/DT GXP/NNP)
-  no/DT
+  (RELATION no/DT)
   :/:
   (ENTITY 10796/CD)
   and/CC
@@ -114,7 +114,7 @@
   ,/,
   and/CC
   (RELATION included/VBD)
-  the/DT
+  (RELATION the/DT)
   (RELATION following/VBG)
   (ENTITY activities/NNS)
   :/:)
@@ -177,7 +177,7 @@
   that/IN
   (ENTITY the/DT pre-screening/JJ visit/NN procedures/NNS)
   (RELATION including/VBG)
-  the/DT
+  (RELATION the/DT)
   (ENTITY pre-screening/JJ))
 15
 (S
@@ -234,7 +234,7 @@
 (S
   (ENTITY Information/NNP)
   about/IN
-  the/DT
+  (RELATION the/DT)
   (ENTITY three/CD)
   (ENTITY kits/NNS)
   with/IN
@@ -296,7 +296,7 @@
   of/IN
   (ENTITY the/DT data/NNS)
   (RELATION reported/VBN in/IN)
-  the/DT
+  (RELATION the/DT)
   (ENTITY e-CRFs/JJ)
   and/CC
   (ENTITY consistency/NN)
@@ -313,7 +313,7 @@
   (RELATION were/VBD)
   (ENTITY discrepancies/NNS)
   between/IN
-  the/DT
+  (RELATION the/DT)
   (ENTITY e-CRF/JJ)
   and/CC
   (ENTITY medical/JJ notes/NNS)
@@ -328,7 +328,7 @@
   (RELATION e.g/VBP)
   ./.)
 24
-(S a/DT ./. For/IN (ENTITY Subject/JJ 1054/CD) :/:)
+(S (RELATION a/DT) ./. For/IN (ENTITY Subject/JJ 1054/CD) :/:)
 25
 (S (ENTITY i/NN) ./.)
 26
@@ -404,9 +404,9 @@
   (ENTITY the/DT Telephone/NNP)
   (ENTITY pre-screening/JJ log/NN)
   on/IN
-  the/DT
+  (RELATION the/DT)
   (ENTITY 7-March/JJ)
-  a/DT
+  (RELATION a/DT)
   (ENTITY “/JJ)
   chat/WP
   (ENTITY visit/NN ”/NN)
@@ -424,14 +424,14 @@
   to/TO
   (ENTITY evidence/NN)
   that/IN
-  the/DT
+  (RELATION the/DT)
   (ENTITY “/JJ)
   chat/WP
   (ENTITY visit/NN ”/NN)
   (RELATION took/VBD)
   (ENTITY place/NN)
   on/IN
-  the/DT
+  (RELATION the/DT)
   (ENTITY 08-Mar-2012/CD)
   or/CC
   that/IN
@@ -439,7 +439,7 @@
   (RELATION had/VBD taken/VBN)
   (ENTITY place/NN)
   at/IN
-  all/DT
+  (RELATION all/DT)
   ./.)
 29
 (S (ENTITY b/NN) ./. For/IN (ENTITY subject/JJ 1367/CD) :/:)
@@ -451,7 +451,7 @@
   (ENTITY the/DT module/NN)
   (ENTITY “/JJ medical/JJ history/NN ”/NN)
   in/IN
-  the/DT
+  (RELATION the/DT)
   (ENTITY e-CRF/JJ)
   it/PRP
   (RELATION was/VBD documented/VBN that/IN)
@@ -535,7 +535,7 @@
 (S (ENTITY i/NN) ./.)
 36
 (S
-  The/DT
+  (RELATION The/DT)
   (RELATION screening/VBG)
   (ENTITY visit/NN MADRS/NNP source/NN sheet/NN)
   (RELATION did/VBD)
@@ -600,7 +600,7 @@
   (RELATION checked/VBN)
   (ENTITY eligibility/NN ”/NNP yes/NNS)
   or/CC
-  no/DT
+  (RELATION no/DT)
   and/CC
   (ENTITY nothing/NN)
   (RELATION is/VBZ checked/VBN)
@@ -785,7 +785,7 @@
   all/PDT
   (ENTITY subjects/NNS)
   (RELATION reviewed/VBN during/IN)
-  the/DT
+  (RELATION the/DT)
   (ENTITY audit/JJ))
 51
 (S
@@ -844,7 +844,7 @@
   (ENTITY ICH-GCP/NNP 5.16.2/CD)
   )/))
 55
-(S a/DT ./.)
+(S (RELATION a/DT) ./.)
 56
 (S
   (RELATION According/VBG)
@@ -931,7 +931,7 @@
   of/IN
   (ENTITY information/NN)
   on/IN
-  the/DT
+  (RELATION the/DT)
   ``/``
   ''/''
   (ENTITY Investigator/NNP Source/NNP Agreement/NNP)
@@ -942,7 +942,7 @@
   )/))
 62
 (S
-  a/DT
+  (RELATION a/DT)
   ./.
   When/WRB
   (RELATION reviewing/VBG)
@@ -1037,7 +1037,7 @@
   (ENTITY ICH-GCP/NNP 8.2.10/CD)
   )/))
 71
-(S a/DT ./.)
+(S (RELATION a/DT) ./.)
 72
 (S
   (ENTITY CV/NNP)
@@ -1059,7 +1059,7 @@
   and/CC
   (ENTITY approval/NN documentation/NN)
   (RELATION was/VBD missing/VBG in/IN)
-  the/DT
+  (RELATION the/DT)
   (ENTITY e-TMF/JJ))
 75
 (S (ENTITY //AASS/NNP 10-Jul-2012/CD))
@@ -1161,7 +1161,7 @@
   for/IN
   (ENTITY study/NN trial/NN)
   (ENTITY no/DT GXP/NNP)
-  no/DT
+  (RELATION no/DT)
   :/:
   (ENTITY 10403/CD)
   ;/:
@@ -1292,7 +1292,7 @@
   ,/,
   and/CC
   (RELATION included/VBD)
-  the/DT
+  (RELATION the/DT)
   (RELATION following/VBG)
   (ENTITY activities/NNS)
   :/:)
@@ -1386,7 +1386,7 @@
   ./.)
 101
 (S
-  The/DT
+  (RELATION The/DT)
   (ENTITY primary/JJ)
   and/CC
   (ENTITY back-up/JJ coordinators/NNS)
@@ -1706,7 +1706,7 @@
   ./.)
 113
 (S
-  The/DT
+  (RELATION The/DT)
   (RELATION Ongoing/VBG)
   (ENTITY Site/NNP Visit/NNP report/NN)
   for/IN
@@ -1819,7 +1819,7 @@
   (ENTITY the/DT PI/NNP)
   to/TO
   (RELATION get/VB)
-  the/DT
+  (RELATION the/DT)
   (RELATION supporting/VBG)
   (ENTITY documentation/NN)
   from/IN
@@ -2181,7 +2181,7 @@
   (RELATION was/VBD)
   not/RB
   (RELATION defined/VBN in/IN)
-  any/DT
+  (RELATION any/DT)
   of/IN
   (ENTITY the/DT medical/JJ progress/NN notes/NNS)
   and/CC
@@ -2314,7 +2314,7 @@
   (RELATION contribute/VB)
   significantly/RB
   to/TO
-  the/DT
+  (RELATION the/DT)
   (ENTITY primary/JJ)
   and/CC
   (ENTITY secondary/JJ endpoints/NNS)
@@ -2329,7 +2329,7 @@
   (ENTITY the/DT investigative/JJ team/NN)
   to/TO
   (RELATION be/VB listed/VBN on/IN)
-  the/DT
+  (RELATION the/DT)
   (ENTITY 1572/CD)
   ./.
   In/IN
@@ -2401,7 +2401,7 @@
   from/IN
   (ENTITY the/DT scale/NN manager/NN)
   (RELATION allowing/VBG for/IN)
-  the/DT
+  (RELATION the/DT)
   (ENTITY primary/JJ)
   and/CC
   (ENTITY back-up/JJ study/NN coordinators/NNS)
@@ -2413,7 +2413,7 @@
   (ENTITY Neuro-psychologists/NNS)
   to/TO
   (RELATION conduct/VB)
-  the/DT
+  (RELATION the/DT)
   (ENTITY neuropsychological/JJ)
   (RELATION testing/VBG)
   ,/,
@@ -2534,7 +2534,7 @@
   or/CC
   (ENTITY 04-Apr-2012/CD)
   ./.
-  The/DT
+  (RELATION The/DT)
   latest/JJS
   (RELATION monitoring/VBG)
   (ENTITY visit/NN)
@@ -2642,7 +2642,7 @@
   (RELATION is/VBZ)
   not/RB
   (RELATION captured/VBN in/IN)
-  any/DT
+  (RELATION any/DT)
   of/IN
   (ENTITY the/DT study/NN documentation/NN)
   (RELATION reviewed/VBN)
@@ -2698,7 +2698,7 @@
   (ENTITY Escitalopram/NNP)
   for/IN
   (ENTITY study/NN trial/NN)
-  no/DT
+  (RELATION no/DT)
   :/:
   (ENTITY 10990/CD)
   ;/:
@@ -2815,7 +2815,7 @@
   ,/,
   and/CC
   (RELATION included/VBD)
-  the/DT
+  (RELATION the/DT)
   (RELATION following/VBG)
   (ENTITY activities/NNS)
   :/:)
@@ -2882,7 +2882,7 @@
   per/IN
   (ENTITY the/DT source/NN document/NN)
   ,/,
-  these/DT
+  (RELATION these/DT)
   (RELATION were/VBD)
   only/RB
   (RELATION reviewed/VBN on/IN)
@@ -2904,7 +2904,7 @@
   (ENTITY the/DT telephone/NN)
   ;/:
   however/RB
-  this/DT
+  (RELATION this/DT)
   (RELATION was/VBD)
   not/RB
   (RELATION documented/VBN)
@@ -2914,7 +2914,7 @@
   For/IN
   (ENTITY the/DT non/JJ conformance/NN 2005-011_1/CD)
   ,/,
-  the/DT
+  (RELATION the/DT)
   (RELATION reported/VBN)
   (ENTITY date/NN)
   (RELATION is/VBZ)
@@ -2953,7 +2953,7 @@
   )/))
 165
 (S
-  a/DT
+  (RELATION a/DT)
   )/)
   There/EX
   (RELATION were/VBD)
@@ -2966,7 +2966,7 @@
   for/IN
   (ENTITY subject/JJ S1080/NNP)
   ;/:
-  both/DT
+  (RELATION both/DT)
   (RELATION were/VBD signed/VBN by/IN)
   (ENTITY the/DT PI/NNP)
   but/CC
@@ -2982,7 +2982,7 @@
   (RELATION sign/VB before/IN)
   (ENTITY the/DT subject/NN)
   ./.
-  This/DT
+  (RELATION This/DT)
   (RELATION is/VBZ)
   not/RB
   (RELATION considered/VBN)
@@ -3061,7 +3061,7 @@
   For/IN
   (ENTITY the/DT non/JJ conformance/NN 2005-011_2/CD)
   ,/,
-  the/DT
+  (RELATION the/DT)
   (RELATION reported/VBN)
   (ENTITY date/NN)
   (RELATION is/VBZ)
@@ -3106,7 +3106,7 @@
 (S I/PRP -/: (ENTITY Subject/NNP S1798/NNP) :/:)
 172
 (S
-  a/DT
+  (RELATION a/DT)
   )/)
   As/IN
   per/IN
@@ -3118,7 +3118,7 @@
   all/PDT
   ;/:
   however/RB
-  the/DT)
+  (RELATION the/DT))
 173
 (S
   (ENTITY medical/JJ records/NNS)
@@ -3140,7 +3140,7 @@
   in/IN
   (ENTITY the/DT evenings/NNS)
   ./.
-  This/DT
+  (RELATION This/DT)
   (RELATION is/VBZ))
 175
 (S
@@ -3152,7 +3152,7 @@
   (ENTITY 22-0ct-2008/CD)
   ,/,
   while/IN
-  the/DT)
+  (RELATION the/DT))
 176
 (S
   (ENTITY subject/JJ)
@@ -3222,7 +3222,7 @@
   (ENTITY frequency/NN)
   ;/:
   however/RB
-  this/DT
+  (RELATION this/DT)
   (RELATION was/VBD)
   not/RB
   (RELATION recorded/VBN as/IN)
@@ -3233,7 +3233,7 @@
   as/IN
   well/RB
   as/IN
-  the/DT)
+  (RELATION the/DT))
 183
 (S
   (ENTITY concomitant/JJ drug/NN)
@@ -3283,7 +3283,7 @@
   ,/,
   which/WDT
   (RELATION were/VBD noted/VBN in/IN)
-  a/DT)
+  (RELATION a/DT))
 188
 (S
   (ENTITY Letter/NNP)
@@ -3307,7 +3307,7 @@
   (ENTITY these/DT medications/NNS)
   ,/,
   as/IN
-  these/DT
+  (RELATION these/DT)
   (RELATION were/VBD)
   not/RB
   (RELATION reported/VBN in/IN)
@@ -3315,7 +3315,7 @@
   ./.
   In/IN
   (ENTITY the/DT same/JJ way/NN)
-  the/DT)
+  (RELATION the/DT))
 190
 (S
   (ENTITY stress/NN)
@@ -3335,7 +3335,7 @@
   then/RB
   (ENTITY irritability/NN)
   (RELATION were/VBD noted/VBN in/IN)
-  the/DT
+  (RELATION the/DT)
   (ENTITY subject/JJ medical/JJ))
 192
 (S
@@ -3351,7 +3351,7 @@
   For/IN
   (ENTITY the/DT non/JJ conformance/NN 2005-011_3/CD)
   ,/,
-  the/DT
+  (RELATION the/DT)
   (RELATION reported/VBN)
   (ENTITY date/NN)
   (RELATION is/VBZ)
@@ -3449,7 +3449,7 @@
   (ENTITY abdominal/JJ pain/NN)
   '/''
   ,/,
-  the/DT)
+  (RELATION the/DT))
 200
 (S
   only/RB
@@ -3542,7 +3542,7 @@
   (ENTITY a/DT psychiatric/JJ decompensation/NN)
   ,/,
   and/CC
-  the/DT
+  (RELATION the/DT)
   (ENTITY subject/JJ)
   (RELATION stayed/VBN at/IN))
 209
@@ -3612,7 +3612,7 @@
   (ENTITY 10/CD)
   (ENTITY Jun/NNP 2008/CD)
   (RELATION was/VBD noted/VBN in/IN)
-  the/DT)
+  (RELATION the/DT))
 215
 (S
   (ENTITY eCRF/NN)
@@ -3634,7 +3634,7 @@
   in/IN
   (ENTITY Jun-2007/NNP)
   ;/:
-  this/DT)
+  (RELATION this/DT))
 217
 (S
   (RELATION was/VBD)
@@ -3645,7 +3645,7 @@
   (RELATION is/VBZ)
   (ENTITY unclear/JJ)
   if/IN
-  this/DT
+  (RELATION this/DT)
   should/MD
   (RELATION have/VB been/VBN noted/VBN in/IN)
   (ENTITY the/DT eCRF/NN)
@@ -3701,9 +3701,9 @@
   of/IN
   (ENTITY pains/NNS)
   ./.
-  This/DT
+  (RELATION This/DT)
   (RELATION was/VBD)
-  an/DT
+  (RELATION an/DT)
   (RELATION excluded/VBN)
   (ENTITY concomitant/JJ medication/NN)
   (/(
@@ -3732,7 +3732,7 @@
 (S
   not/RB
   (RELATION reported/VBN on/IN)
-  the/DT
+  (RELATION the/DT)
   (ENTITY 5AE/CD)
   (ENTITY CIOM5/NNP form/NN)
   as/IN
@@ -3747,14 +3747,14 @@
   (ENTITY 1/CD)
   (ENTITY month/NN)
   before/IN
-  the/DT
+  (RELATION the/DT)
   (ENTITY 5AE/CD)
   'acute/POS
   (ENTITY abdominal/JJ pain/NN)
   '/''
   and/CC
   (RELATION continued/VBN during/IN)
-  the/DT)
+  (RELATION the/DT))
 226
 (S
   (ENTITY event/NN)
@@ -3768,7 +3768,7 @@
   in/IN
   (ENTITY the/DT CIOM5/NNP)
   (RELATION was/VBD left/VBN with/IN)
-  a/DT)
+  (RELATION a/DT))
 227
 (S (ENTITY comment/NN) 'CM/MD not/RB (ENTITY available/JJ) '/'' ./.)
 228
@@ -3789,7 +3789,7 @@
   that/IN
   they/PRP
   (RELATION were/VBD followed/VBN in/IN)
-  the/DT)
+  (RELATION the/DT))
 230
 (S
   (ENTITY clinic/JJ)
@@ -3850,13 +3850,13 @@
   (RELATION be/VB verified/VBN in/IN)
   (ENTITY the/DT source/NN)
   ./.
-  This/DT
+  (RELATION This/DT)
   (RELATION prevented/VBN among/IN)
   (ENTITY others/NNS verification/NN)
   that/IN)
 236
 (S
-  some/DT
+  (RELATION some/DT)
   of/IN
   (ENTITY the/DT eligibility/NN criteria/NNS)
   (/(
@@ -3898,7 +3898,7 @@
   (RELATION look/VB if/IN)
   (ENTITY further/JJ source/NN documentation/NN)
   for/IN
-  the/DT)
+  (RELATION the/DT))
 241
 (S
   (ENTITY 5AE/CD)
@@ -3909,7 +3909,7 @@
   (RELATION was/VBD)
   (ENTITY present/JJ)
   in/IN
-  the/DT
+  (RELATION the/DT)
   (ENTITY clinic/JJ))
 242
 (S
@@ -3918,7 +3918,7 @@
   as/IN
   (ENTITY supportive/JJ documentation/NN)
   for/IN
-  the/DT
+  (RELATION the/DT)
   (ENTITY 5AE/CD)
   (ENTITY cases/NNS)
   ./.
@@ -3933,7 +3933,7 @@
   (ENTITY discrepancies/NNS)
   (RELATION are/VBP confirmed/VBN)
   ,/,
-  the/DT
+  (RELATION the/DT)
   (ENTITY 5AE/CD))
 244
 (S (ENTITY cases/CIOM5/NN) may/MD (RELATION be/VB updated/VBN) ./.)
@@ -3942,7 +3942,7 @@
   For/IN
   (ENTITY the/DT non/JJ conformance/NN 2005-011_4/CD)
   ,/,
-  the/DT
+  (RELATION the/DT)
   (RELATION reported/VBN)
   (ENTITY date/NN)
   (RELATION is/VBZ)
@@ -3978,7 +3978,7 @@
   ./.)
 247
 (S
-  a/DT
+  (RELATION a/DT)
   )/)
   As/IN
   per/IN
@@ -4008,7 +4008,7 @@
 (S
   to/TO
   (RELATION receive/VB)
-  the/DT
+  (RELATION the/DT)
   (ENTITY two/CD)
   (RELATION following/VBG)
   (ENTITY IP/JJ numbers/NNS)
@@ -4038,7 +4038,7 @@
   (RELATION was/VBD)
   (ENTITY no/DT follow-up/JJ documentation/NN)
   (RELATION regarding/VBG)
-  this/DT
+  (RELATION this/DT)
   and/CC
   it/PRP
   (RELATION is/VBZ)
@@ -4054,7 +4054,7 @@
   (ENTITY eg/NN)
   :/:
   if/IN
-  the/DT
+  (RELATION the/DT)
   (ENTITY two/CD)
   (RELATION allocated/VBN)
   (ENTITY IMP/NNP packs/NNS)
@@ -4098,7 +4098,7 @@
   (ENTITY due/JJ)
   to/TO
   (RELATION be/VB in/IN)
-  the/DT
+  (RELATION the/DT)
   (RELATION delivered/VBN)
   (ENTITY package/NN)
   ,/,
@@ -4117,7 +4117,7 @@
   (RELATION is/VBZ)
   (ENTITY unclear/JJ)
   if/IN
-  the/DT)
+  (RELATION the/DT))
 258
 (S
   (ENTITY pack/NN)
@@ -4125,7 +4125,7 @@
   (RELATION be/VB retrieved/VBN)
   and/CC
   how/WRB
-  this/DT
+  (RELATION this/DT)
   (RELATION was/VBD)
   further/RB
   (ENTITY followed-up/JJ)
@@ -4135,7 +4135,7 @@
   For/IN
   (ENTITY the/DT non/JJ conformance/NN 2005-011_5/CD)
   ,/,
-  the/DT
+  (RELATION the/DT)
   (RELATION reported/VBN)
   (ENTITY date/NN)
   (RELATION is/VBZ)
@@ -4174,7 +4174,7 @@
   ./.)
 261
 (S
-  The/DT
+  (RELATION The/DT)
   (RELATION following/VBG)
   (ENTITY discrepancies/NNS)
   (RELATION were/VBD noted/VBN on/IN)
@@ -4184,13 +4184,13 @@
   :/:)
 262
 (S
-  a/DT
+  (RELATION a/DT)
   )/)
   (ENTITY Randomisation/NNP numbers/NNS)
   for/IN
   (ENTITY 6/CD)
   of/IN
-  the/DT
+  (RELATION the/DT)
   (RELATION randomised/VBN)
   (ENTITY patients/NNS)
   (RELATION were/VBD lacking/VBG)
@@ -4214,7 +4214,7 @@
   (ENTITY b/NN)
   )/)
   Additionally/RB
-  the/DT
+  (RELATION the/DT)
   (RELATION
     following/VBG
     mistakes/lacked/VBN
@@ -4270,7 +4270,7 @@
   (ENTITY this/DT patient/NN)
   could/MD
   (RELATION be/VB retrieved/VBN in/IN)
-  the/DT
+  (RELATION the/DT)
   (ENTITY hospital/JJ))
 269
 (S
@@ -4282,13 +4282,18 @@
   should/MD
   (RELATION be/VB corrected/completed/VBN))
 270
-(S with/IN the/DT (RELATION lacking/VBG) (ENTITY information/NN) ./.)
+(S
+  with/IN
+  (RELATION the/DT)
+  (RELATION lacking/VBG)
+  (ENTITY information/NN)
+  ./.)
 271
 (S
   For/IN
   (ENTITY the/DT non/JJ conformance/NN 2005-011_6/CD)
   ,/,
-  the/DT
+  (RELATION the/DT)
   (RELATION reported/VBN)
   (ENTITY date/NN)
   (RELATION is/VBZ)
@@ -4342,7 +4347,7 @@
   only/RB
   (ENTITY 3/CD)
   of/IN
-  the/DT
+  (RELATION the/DT)
   (ENTITY 4/CD)
   (ENTITY SAEs/NNP)
   (RELATION reported/VBN for/IN)
@@ -4375,7 +4380,7 @@
   as/IN
   (ENTITY the/DT correspondence/NN)
   (RELATION regarding/VBG)
-  this/DT)
+  (RELATION this/DT))
 277
 (S (ENTITY case/NN) ./.)
 278
@@ -4396,7 +4401,7 @@
   For/IN
   (ENTITY the/DT non/JJ conformance/NN 2005-011_7/CD)
   ,/,
-  the/DT
+  (RELATION the/DT)
   (RELATION reported/VBN)
   (ENTITY date/NN)
   (RELATION is/VBZ)
@@ -4456,7 +4461,7 @@
   (ENTITY pharmacovigilance/NN activities/NNS)
   for/IN
   (ENTITY study/NN trial/NN)
-  no/DT
+  (RELATION no/DT)
   :/:
   (ENTITY 12936A/CD)
   ./.)
@@ -4476,7 +4481,7 @@
   (RELATION has/VBZ been/VBN scheduled/VBN as/IN)
   (ENTITY part/NN)
   of/IN
-  the/DT
+  (RELATION the/DT)
   (ENTITY possible/JJ)
   (RELATION upgrade/VBN)
   to/TO
@@ -4522,7 +4527,7 @@
   ,/,
   and/CC
   (RELATION included/VBD)
-  the/DT
+  (RELATION the/DT)
   (RELATION following/VBG)
   (ENTITY activities/NNS)
   :/:)
@@ -4606,7 +4611,7 @@
   ./.)
 297
 (S
-  a/DT
+  (RELATION a/DT)
   )/)
   (ENTITY The/DT site/NN)
   (RELATION had/VBD developed/VBN)
@@ -4638,7 +4643,7 @@
   For/IN
   (ENTITY the/DT non/JJ conformance/NN 2006-022_2a/CD)
   ,/,
-  the/DT
+  (RELATION the/DT)
   (RELATION reported/VBN)
   (ENTITY date/NN)
   (RELATION is/VBZ)
@@ -4774,7 +4779,7 @@
   ./.)
 305
 (S
-  a/DT
+  (RELATION a/DT)
   )/)
   (ENTITY Metabolomics/proteomics/NNPS)
   (RELATION testing/VBG)
@@ -4821,7 +4826,7 @@
   (RELATION had/VBD)
   (ENTITY access/NN)
   to/TO
-  a/DT
+  (RELATION a/DT)
   (RELATION refrigerated/VBN)
   (ENTITY centrifuge/NN)
   ,/,
@@ -4829,7 +4834,7 @@
   (RELATION did/VBD)
   not/RB
   (RELATION use/VB)
-  the/DT
+  (RELATION the/DT)
   (RELATION refrigerated/VBN)
   (ENTITY centrifuge/NN)
   to/TO
@@ -4840,7 +4845,7 @@
   (RELATION used/VBN did/VBD)
   not/RB
   (RELATION meet/VB)
-  the/DT
+  (RELATION the/DT)
   (RELATION required/VBN)
   (ENTITY speed/JJ)
   for/IN
@@ -5110,7 +5115,7 @@
   ./.)
 314
 (S
-  a/DT
+  (RELATION a/DT)
   )/)
   It/PRP
   (RELATION is/VBZ)
@@ -5292,7 +5297,7 @@
   (ENTITY b/NN)
   )/)
   For/IN
-  some/DT
+  (RELATION some/DT)
   of/IN
   (ENTITY the/DT subjects/NNS)
   ,/,
@@ -5438,20 +5443,20 @@
   ./.)
 326
 (S
-  a/DT
+  (RELATION a/DT)
   )/)
   Although/IN
   (ENTITY telephone/NN)
   (RELATION screen/VBN)
   (ENTITY questionnaires/NNS)
   (RELATION were/VBD completed/VBN for/IN)
-  each/DT
+  (RELATION each/DT)
   of/IN
   (ENTITY the/DT patients/NNS)
   (RELATION enrolled/VBN in/IN)
   (ENTITY the/DT clinical/JJ trial/NN)
   ;/:
-  these/DT
+  (RELATION these/DT)
   (RELATION had/VBD)
   not/RB
   (RELATION been/VBN printed/VBN)
@@ -5475,7 +5480,7 @@
   (RELATION documented/VBN)
   (ENTITY evidence/NN)
   that/IN
-  the/DT
+  (RELATION the/DT)
   (RELATION completed/VBN)
   (ENTITY questionnaires/NNS)
   (RELATION had/VBD been/VBN reviewed/VBN by/IN)
@@ -5486,7 +5491,7 @@
   (RELATION were/VBD)
   (ENTITY some/DT discrepancies/NNS)
   between/IN
-  the/DT
+  (RELATION the/DT)
   (RELATION completed/VBN)
   (ENTITY questionnaires/NNS)
   and/CC
@@ -5665,7 +5670,7 @@
   (RELATION were/VBD)
   (ENTITY no/DT medical/JJ progress/NN notes/NNS)
   (RELATION written/VBN at/IN)
-  any/DT
+  (RELATION any/DT)
   of/IN
   (ENTITY the/DT patients/NNS)
   (RELATION ’/VBP)
@@ -5678,7 +5683,7 @@
   (ENTITY The/DT anamnesis//NN)
   (ENTITY psychiatric/JJ evaluation/NN)
   (RELATION completed/VBN at/IN)
-  the/DT
+  (RELATION the/DT)
   (RELATION screening/VBG)
   (ENTITY visit/NN)
   (RELATION consisted/VBN of/IN)
@@ -5766,7 +5771,7 @@
   (RELATION entitled/VBD)
   (ENTITY “/JJ Inclusion/Exclusion/NNP Criteria/NNP ”/NNP)
   (RELATION included/VBD in/IN)
-  the/DT
+  (RELATION the/DT)
   (RELATION screening/VBG)
   (ENTITY source/NN documentation/NN)
   (RELATION had/VBD been/VBN completed/VBN for/IN)
@@ -5786,7 +5791,7 @@
   after/IN
   (ENTITY the/DT completion/NN)
   of/IN
-  the/DT
+  (RELATION the/DT)
   (RELATION screening/VBG)
   (ENTITY visit./NN)
   ``/``)
@@ -5858,7 +5863,7 @@
   (RELATION was/VBD)
   (ENTITY no/DT telephone/NN contact/NN)
   with/IN
-  the/DT
+  (RELATION the/DT)
   (RELATION treating/VBG)
   (ENTITY physician/NN)
   or/CC
@@ -5886,7 +5891,7 @@
   although/IN
   (ENTITY a/DT fax/JJ form/NN)
   (RELATION documenting/VBG)
-  the/DT
+  (RELATION the/DT)
   (ENTITY three/CD)
   (ENTITY attempts/NNS)
   (RELATION made/VBN)
@@ -5957,7 +5962,7 @@
 (S
   (ENTITY d/NN)
   )/)
-  The/DT
+  (RELATION The/DT)
   (RELATION screening/VBG)
   (ENTITY ECG/NNP)
   for/IN
@@ -5977,7 +5982,7 @@
   (RELATION did/VBD)
   not/RB
   (RELATION show/VB)
-  the/DT
+  (RELATION the/DT)
   (ENTITY three/CD)
   (ENTITY evaluable/JJ beats/NNS)
   per/IN
@@ -6046,7 +6051,7 @@
   and/CC
   (ENTITY data/NNS)
   (RELATION reported/VBN in/IN)
-  the/DT
+  (RELATION the/DT)
   (ENTITY eCRFs/JJ)
   –/POS
   (ENTITY non-compliance/NN)
@@ -6057,7 +6062,7 @@
   (ENTITY CFR/NNP 312.62/CD)
   ./.)
 345
-(S a/DT )/) For/IN (ENTITY subject/JJ S1164/NNP) :/:)
+(S (RELATION a/DT) )/) For/IN (ENTITY subject/JJ S1164/NNP) :/:)
 346
 (S
   (ENTITY i/NN)
@@ -6068,7 +6073,7 @@
   within/IN
   (ENTITY the/DT source/NN documentation/NN)
   at/IN
-  the/DT
+  (RELATION the/DT)
   (RELATION screening/VBG)
   (ENTITY visit/NN)
   (/(
@@ -6193,7 +6198,7 @@
   and/CC
   (ENTITY data/NNS)
   (RELATION reported/VBN in/IN)
-  the/DT
+  (RELATION the/DT)
   (ENTITY eCRFs/JJ)
   –/POS
   (ENTITY non-compliance/NN)
@@ -6228,7 +6233,7 @@
   For/IN
   (ENTITY the/DT non/JJ conformance/NN 2006-022_7b/CD)
   ,/,
-  the/DT
+  (RELATION the/DT)
   (RELATION reported/VBN)
   (ENTITY date/NN)
   (RELATION is/VBZ)
@@ -6261,7 +6266,7 @@
   and/CC
   (ENTITY data/NNS)
   (RELATION reported/VBN in/IN)
-  the/DT
+  (RELATION the/DT)
   (ENTITY eCRFs/JJ)
   –/POS
   (ENTITY non-compliance/NN)
@@ -6424,7 +6429,7 @@
   and/CC
   (ENTITY data/NNS)
   (RELATION reported/VBN in/IN)
-  the/DT
+  (RELATION the/DT)
   (ENTITY eCRFs/JJ)
   –/POS
   (ENTITY non-compliance/NN)
@@ -6451,7 +6456,7 @@
   ;/:
   however/RB
   ,/,
-  this/DT
+  (RELATION this/DT)
   (RELATION was/VBD)
   not/RB
   (RELATION captured/VBN in/IN)
@@ -6605,7 +6610,7 @@
   to/TO
   (ENTITY the/DT PRO/NNP guidelines/NNS)
   ,/,
-  the/DT
+  (RELATION the/DT)
   (RELATION delayed/VBN)
   (ENTITY recall/NN exercise/NN)
   in/IN
@@ -6715,7 +6720,7 @@
   ;/:
   it/PRP
   (RELATION appears/VBZ)
-  this/DT
+  (RELATION this/DT)
   (RELATION was/VBD)
   (ENTITY an/DT error/NN)
   and/CC
@@ -6816,7 +6821,7 @@
   :/:)
 375
 (S
-  a/DT
+  (RELATION a/DT)
   )/)
   For/IN
   (ENTITY S1439/NNP)
@@ -7135,17 +7140,17 @@
   ./.)
 385
 (S
-  a/DT
+  (RELATION a/DT)
   )/)
   (RELATION According/VBG)
   to/TO
-  the/DT
+  (RELATION the/DT)
   (RELATION Monitoring/VBG)
   (ENTITY plan/NN)
   (RELATION dated/VBD)
   (ENTITY 19-Dec-2011/CD)
   ,/,
-  the/DT
+  (RELATION the/DT)
   (ENTITY first/JJ)
   (RELATION monitoring/VBG)
   (ENTITY visit/NN)
@@ -7161,7 +7166,7 @@
   (RELATION was/VBD enrolled/VBN on/IN)
   (ENTITY 12-Mar-2012/CD)
   and/CC
-  the/DT
+  (RELATION the/DT)
   (ENTITY first/JJ)
   (RELATION monitoring/VBG)
   (ENTITY visit/NN)
@@ -7233,7 +7238,7 @@
 (S
   (RELATION According/VBG)
   to/TO
-  the/DT
+  (RELATION the/DT)
   (RELATION Monitoring/VBG)
   (ENTITY plan/NN)
   ,/,
@@ -7252,7 +7257,7 @@
   ./.
   However/RB
   ,/,
-  the/DT
+  (RELATION the/DT)
   (RELATION following/VBG)
   (ENTITY visits/NNS)
   (RELATION did/VBD)
@@ -7314,7 +7319,7 @@
   (ENTITY ie/NN)
   :/:
   between/IN
-  the/DT
+  (RELATION the/DT)
   (ENTITY 17-Aug-2012/CD)
   and/CC
   (ENTITY 15-Oct-2012/CD)
@@ -7379,11 +7384,11 @@
   (ENTITY the/DT monitor/NN)
   should/MD
   (RELATION submit/VB)
-  a/DT
+  (RELATION a/DT)
   (RELATION written/VBN)
   (ENTITY report/NN)
   after/IN
-  each/DT
+  (RELATION each/DT)
   (RELATION monitoring/VBG)
   (ENTITY visit/NN)
   ;/:
@@ -7393,7 +7398,7 @@
   (ENTITY the/DT site/NN visits/NNS)
   that/IN
   (RELATION have/VBP occurred/VBN on/IN)
-  the/DT
+  (RELATION the/DT)
   (ENTITY 29-Oct/JJ)
   ,/,
   (ENTITY 08-09-Nov/JJ)
@@ -7405,7 +7410,7 @@
   (RELATION monitoring/VBG)
   (ENTITY visit/NN report/NN)
   (RELATION grouping/VBG)
-  the/DT
+  (RELATION the/DT)
   (ENTITY three/CD)
   (ENTITY visits/NNS)
   (RELATION was/VBD written./VBN)
@@ -7481,7 +7486,7 @@
   ./.)
 398
 (S
-  a/DT
+  (RELATION a/DT)
   )/)
   When/WRB
   (RELATION questioned/VBN about/IN)
@@ -7645,7 +7650,7 @@
   (RELATION is/VBZ)
   (ENTITY aware/JJ)
   of/IN
-  the/DT
+  (RELATION the/DT)
   (RELATION preferred/VBN)
   (ENTITY temperature/NN condition/NN)
   for/IN
@@ -7669,7 +7674,7 @@
   although/IN
   (ENTITY the/DT site/NN)
   (RELATION had/VBD)
-  a/DT
+  (RELATION a/DT)
   (RELATION refrigerated/VBN)
   (ENTITY centrifuge/NN)
   ,/,
@@ -7721,7 +7726,7 @@
   ./.)
 407
 (S
-  a/DT
+  (RELATION a/DT)
   )/)
   (ENTITY Several/JJ essential/JJ documents/NNS)
   (RELATION were/VBD missing/VBG)
@@ -7965,7 +7970,7 @@
   to/TO
   (ENTITY the/DT sponsor/NN)
   ;/:
-  these/DT
+  (RELATION these/DT)
   (RELATION were/VBD)
   (ENTITY 1572s/CD)
   (RELATION dated/VBD)
@@ -8053,7 +8058,7 @@
   (ENTITY •/JJ)
   (ENTITY The/DT translated/JJ Spanish/JJ SIS/ICFs/NNP)
   for/IN
-  the/DT
+  (RELATION the/DT)
   (ENTITY main/JJ)
   and/CC
   (ENTITY pharmacogenetic/JJ study/NN)
@@ -8230,7 +8235,7 @@
   (ENTITY Ac/NNP AA24530/NNP)
   for/IN
   (ENTITY study/NN trial/NN)
-  no/DT
+  (RELATION no/DT)
   :/:
   (ENTITY 11918A/CD)
   ;/:
@@ -8394,7 +8399,7 @@
   (ENTITY requirements/NNS)
   to/TO
   (RELATION evaluate/VB whether/IN)
-  a/DT
+  (RELATION a/DT)
   (RELATION workaround/VBN)
   (ENTITY solution/NN)
   (RELATION is/VBZ)
@@ -8422,7 +8427,7 @@
   ,/,
   and/CC
   (RELATION included/VBD)
-  the/DT
+  (RELATION the/DT)
   (RELATION following/VBG)
   (ENTITY activities/NNS)
   :/:)
@@ -8501,7 +8506,7 @@
   (ENTITY the/DT stock/NN)
   of/IN
   (ENTITY IMP/NNP boxes/NNS)
-  the/DT
+  (RELATION the/DT)
   (RELATION following/VBG was/VBD found/VBN)
   :/:)
 460
@@ -8637,10 +8642,10 @@
   ./.
   When/WRB
   (RELATION asked/VBN about/IN)
-  this/DT
+  (RELATION this/DT)
   (ENTITY the/DT investigators/NNS)
   (RELATION answered/VBN that/IN)
-  this/DT
+  (RELATION this/DT)
   (RELATION was/VBD)
   (ENTITY the/DT documentation/NN)
   for/IN
@@ -8649,10 +8654,10 @@
   in/IN
   (ENTITY IWRS/NNP)
   ./.
-  This/DT
+  (RELATION This/DT)
   (RELATION was/VBD)
   however/RB
-  the/DT
+  (RELATION the/DT)
   only/RB
   (ENTITY documentation/NN)
   on/IN
@@ -8670,10 +8675,10 @@
   ./.)
 466
 (S
-  The/DT
+  (RELATION The/DT)
   (ENTITY same/JJ)
   (RELATION was/VBD observed/VBN for/IN)
-  the/DT
+  (RELATION the/DT)
   (ENTITY other/JJ)
   (RELATION randomised/VBN)
   (ENTITY subjects/NNS)
@@ -8761,7 +8766,7 @@
   ,/,
   (ENTITY eg/NN)
   :/:
-  the/DT
+  (RELATION the/DT)
   (RELATION screening/VBG)
   (ENTITY visit/NN)
   ,/,
@@ -8945,7 +8950,7 @@
   (ENTITY the/DT eCRF/NN)
   (RELATION regarding/VBG)
   (ENTITY the/DT previous/JJ anti-depression/NN therapy/NN)
-  the/DT)
+  (RELATION the/DT))
 476
 (S
   (ENTITY subjects/NNS)
@@ -8964,7 +8969,7 @@
   ''/''
   ''/''
   and/CC
-  the/DT
+  (RELATION the/DT)
   (ENTITY other/JJ)
   (RELATION is/VBZ)
   ``/``
@@ -8982,7 +8987,7 @@
   (ENTITY 51149/CD)
   it/PRP
   (RELATION was/VBD observed/VBN that/IN)
-  the/DT)
+  (RELATION the/DT))
 478
 (S
   (ENTITY investigators/NNS)
@@ -9001,10 +9006,10 @@
   ''/''
   ''/''
   to/TO
-  the/DT
+  (RELATION the/DT)
   (ENTITY second/JJ)
   ./.
-  The/DT)
+  (RELATION The/DT))
 479
 (S
   (ENTITY explanation/NN)
@@ -9033,7 +9038,7 @@
   and/CC
   hence/RB
   (RELATION answered/VBN with/IN)
-  no/DT
+  (RELATION no/DT)
   ./.
   (ENTITY No/DT adverse/JJ events/NNS)
   from/IN
@@ -9106,7 +9111,7 @@
 486
 (S
   (RELATION Breaking/VBG)
-  the/DT
+  (RELATION the/DT)
   (RELATION blind/VBN in/IN)
   (ENTITY emergency/NN situations/NNS)
   (RELATION is/VBZ done/VBN through/IN)
@@ -9123,7 +9128,7 @@
   (ENTITY such/JJ)
   (ENTITY a/DT code/NN)
   ./.
-  The/DT
+  (RELATION The/DT)
   (ENTITY same/JJ)
   (RELATION was/VBD noted/VBN in/IN)
   (ENTITY another/DT site/NN audit/NN)
@@ -9159,7 +9164,7 @@
   at/IN
   (ENTITY site/NN)
   ,/,
-  this/DT
+  (RELATION this/DT)
   (RELATION had/VBD)
   not/RB
   yet/RB
@@ -9226,7 +9231,7 @@
   (ENTITY site/NN)
   (RELATION was/VBD)
   only/RB
-  the/DT
+  (RELATION the/DT)
   latest/JJS
   (ENTITY edition/NN)
   of/IN
@@ -9275,7 +9280,7 @@
   (RELATION be/VB)
   (ENTITY a/DT note/NN)
   (RELATION documenting/VBG)
-  this/DT
+  (RELATION this/DT)
   ./.)
 492
 (S
@@ -9331,7 +9336,7 @@
   of/IN
   (ENTITY information/NN)
   on/IN
-  the/DT
+  (RELATION the/DT)
   ``/``
   ''/''
   (ENTITY Investigator/NNP Source/NNP Agreement/NNP)
@@ -9347,7 +9352,7 @@
   ./.)
 495
 (S
-  The/DT
+  (RELATION The/DT)
   ``/``
   ''/''
   (ENTITY Investigator/NNP Source/NNP Agreement/NNP)
@@ -9358,7 +9363,7 @@
   ./.
   When/WRB
   (RELATION reviewing/VBG)
-  the/DT)
+  (RELATION the/DT))
 496
 (S
   (ENTITY form/NN)
@@ -9379,7 +9384,7 @@
   and/CC
   (ENTITY the/DT ECG/NNP measurement/NN)
   ./.
-  This/DT
+  (RELATION This/DT)
   (RELATION is/VBZ)
   not/RB
   (ENTITY an/DT all-inclusive/JJ list/NN)
@@ -9395,7 +9400,7 @@
   to/TO
   (ENTITY the/DT requirements/NNS)
   in/IN
-  the/DT)
+  (RELATION the/DT))
 499
 (S (ENTITY protocol/NN) ./.)
 500
@@ -9442,7 +9447,7 @@
   (ENTITY randomisation/NN details/NNS)
   ''/''
   ''/''
-  both/DT
+  (RELATION both/DT)
   ``/``
   ''/''
   (ENTITY hospital/NN))
@@ -9614,7 +9619,7 @@
   (ENTITY 16-Oct-2007/CD)
   for/IN
   (ENTITY study/NN trial/NN)
-  no/DT
+  (RELATION no/DT)
   :/:
   (ENTITY 12936A/CD)
   ./.
@@ -9648,7 +9653,7 @@
   ,/,
   and/CC
   (RELATION included/VBD)
-  the/DT
+  (RELATION the/DT)
   (RELATION following/VBG)
   (ENTITY activities/NNS)
   :/:)
@@ -9725,7 +9730,7 @@
   (RELATION providing/VBG)
   (ENTITY documentation/NN)
   on/IN
-  the/DT)
+  (RELATION the/DT))
 522
 (S
   (ENTITY patient/NN)
@@ -9753,7 +9758,7 @@
   (RELATION evidencing/VBG that/IN)
   (ENTITY the/DT investigator/NN)
   (RELATION had/VBD made/VBN)
-  an/DT)
+  (RELATION an/DT))
 524
 (S
   (ENTITY attempt/NN)
@@ -9798,7 +9803,7 @@
   For/IN
   (ENTITY the/DT non/JJ conformance/NN 2007-026_1/CD)
   ,/,
-  the/DT
+  (RELATION the/DT)
   (RELATION reported/VBN)
   (ENTITY date/NN)
   (RELATION is/VBZ)
@@ -9834,7 +9839,7 @@
   (ENTITY ECG/NNP)
   (ENTITY tracings-/JJ non-compliance/NN)
   with/IN
-  the/DT)
+  (RELATION the/DT))
 531
 (S (ENTITY protocol/NN section/NN 5.4.7/CD) ./.)
 532
@@ -9874,7 +9879,7 @@
   to/TO
   (RELATION include/VB)
   either/CC
-  the/DT)
+  (RELATION the/DT))
 535
 (S
   (ENTITY complete/JJ header/NN)
@@ -9928,7 +9933,7 @@
   For/IN
   (ENTITY the/DT non/JJ conformance/NN 2007-026_2/CD)
   ,/,
-  the/DT
+  (RELATION the/DT)
   (RELATION reported/VBN)
   (ENTITY date/NN)
   (RELATION is/VBZ)
@@ -9981,7 +9986,7 @@
   )/))
 543
 (S
-  a/DT
+  (RELATION a/DT)
   )/)
   As/IN
   (RELATION required/VBN in/IN)
@@ -9999,7 +10004,7 @@
   how/WRB
   (ENTITY the/DT patients/NNS)
   (RELATION were/VBD recruited/VBN including/VBG)
-  any/DT
+  (RELATION any/DT)
   (ENTITY prescreening/JJ))
 545
 (S
@@ -10011,7 +10016,7 @@
   (RELATION included/VBN in/IN)
   (ENTITY the/DT medical/JJ ·records/NNS)
   ;/:
-  the/DT)
+  (RELATION the/DT))
 546
 (S
   (RELATION following/VBG)
@@ -10053,7 +10058,7 @@
   In/IN
   (ENTITY addition/NN)
   ,/,
-  the/DT
+  (RELATION the/DT)
   (ENTITY initial/JJ))
 551
 (S
@@ -10094,7 +10099,7 @@
   (RELATION informed/VBN)
   (ENTITY consent/NN form/NN)
   prior/RB
-  the/DT
+  (RELATION the/DT)
   (RELATION screening/VBG)
   (ENTITY visit/NN)
   ;/:)
@@ -10105,7 +10110,7 @@
   (ENTITY no/DT medical/JJ notes/NNS)
   (RELATION written/VBN)
   prior/RB
-  the/DT
+  (RELATION the/DT)
   (RELATION screening/VBG)
   (ENTITY visit/NN)
   ./.
@@ -10118,7 +10123,7 @@
   (RELATION indicated/VBN)
   (ENTITY briefly/NN)
   that/IN
-  the/DT
+  (RELATION the/DT)
   (RELATION informed/VBN)
   (ENTITY consent/NN form/NN)
   (RELATION had/VBD been/VBN provided/VBN)
@@ -10182,7 +10187,7 @@
   (RELATION lacked/VBD)
   (ENTITY identification/NN)
   of/IN
-  the/DT
+  (RELATION the/DT)
   (ENTITY clinic/JJ)
   and/CC
   (ENTITY investigator/NN)
@@ -10246,7 +10251,7 @@
   For/IN
   (ENTITY the/DT non/JJ conformance/NN 2007-026_3/CD)
   ,/,
-  the/DT
+  (RELATION the/DT)
   (RELATION reported/VBN)
   (ENTITY date/NN)
   (RELATION is/VBZ)
@@ -10314,7 +10319,7 @@
   (ENTITY s·/NN)
   :/:
   (RELATION ated/VBN in/IN)
-  the/DT)
+  (RELATION the/DT))
 574
 (S
   (ENTITY medica/JJ l/NN notes/NNS)
@@ -10339,7 +10344,7 @@
   For/IN
   (ENTITY the/DT non/JJ conformance/NN 2007-026_4/CD)
   ,/,
-  the/DT
+  (RELATION the/DT)
   (RELATION reported/VBN)
   (ENTITY date/NN)
   (RELATION is/VBZ)
@@ -10368,7 +10373,7 @@
   of/IN
   (ENTITY the/DT investigator/NN TMF/NNP)
   for/IN
-  the/DT
+  (RELATION the/DT)
   (ENTITY long-term/JJ)
   (RELATION archiving/VBG)
   -/:
@@ -10412,7 +10417,7 @@
   up/RP
   above/IN
   (ENTITY the/DT maximum/JJ capacity/NN)
-  the/DT)
+  (RELATION the/DT))
 581
 (S
   (ENTITY snap/JJ binders/NNS)
@@ -10451,7 +10456,7 @@
   For/IN
   (ENTITY the/DT non/JJ conformance/NN 2007-026_5/CD)
   ,/,
-  the/DT
+  (RELATION the/DT)
   (RELATION reported/VBN)
   (ENTITY date/NN)
   (RELATION is/VBZ)
@@ -10520,7 +10525,7 @@
   and/CC
   (ENTITY sub-investi9ator/NN)
   at/IN
-  the/DT)
+  (RELATION the/DT))
 588
 (S
   (ENTITY close8/JJ)
@@ -10560,7 +10565,7 @@
   if/IN
   there/EX
   (RELATION is/VBZ)
-  a/DT)
+  (RELATION a/DT))
 591
 (S
   (ENTITY change/NN)
@@ -10570,14 +10575,14 @@
   (ENTITY the/DT financial/JJ disclosure/NN statements/NNS)
   ,/,
   and/CC
-  this/DT
+  (RELATION this/DT)
   up/RP
   to/TO
   (RELATION ont/VB)
   !/.
   year/RBR
   after/IN
-  the/DT)
+  (RELATION the/DT))
 592
 (S
   (ENTITY completion/NN)
@@ -10600,7 +10605,7 @@
   For/IN
   (ENTITY the/DT non/JJ conformance/NN 2007-026_7/CD)
   ,/,
-  the/DT
+  (RELATION the/DT)
   (RELATION reported/VBN)
   (ENTITY date/NN)
   (RELATION is/VBZ)
@@ -10661,7 +10666,7 @@
 (S
   (ENTITY system/NN)
   (RELATION was/VBD missing/VBG from/IN)
-  the/DT
+  (RELATION the/DT)
   (ENTITY 1-TMF/JJ)
   ,/,
   instead/RB
@@ -10671,7 +10676,7 @@
   ''/''
   (ENTITY the/DT SAE/NNP form/NN)
   (RELATION is/VBZ)
-  the/DT)
+  (RELATION the/DT))
 599
 (S
   (ENTITY eCRF/NN)
@@ -10698,7 +10703,7 @@
   should/MD
   (RELATION be/VB filed/VBN))
 601
-(S in/IN the/DT (ENTITY 1-TMF/JJ) ./.)
+(S in/IN (RELATION the/DT) (ENTITY 1-TMF/JJ) ./.)
 602
 (S
   (ENTITY No/DT correction/NN)
@@ -10717,7 +10722,7 @@
   For/IN
   (ENTITY the/DT non/JJ conformance/NN 2007-026_8/CD)
   ,/,
-  the/DT
+  (RELATION the/DT)
   (RELATION reported/VBN)
   (ENTITY date/NN)
   (RELATION is/VBZ)
@@ -10772,7 +10777,7 @@
   (ENTITY maintenance/NN)
   for/IN
   (ENTITY study/NN trial/NN)
-  no/DT
+  (RELATION no/DT)
   :/:
   (ENTITY 11985A/CD)
   and/CC
@@ -10815,7 +10820,7 @@
   ,/,
   and/CC
   (RELATION included/VBD)
-  the/DT
+  (RELATION the/DT)
   (RELATION following/VBG)
   (ENTITY activities/NNS)
   :/:)
@@ -10868,7 +10873,7 @@
   (RELATION taken/VBN within/IN)
   (ENTITY three/DT months/NNS)
   of/IN
-  the/DT
+  (RELATION the/DT)
   (RELATION screening/VBG)
   (ENTITY visit/NN)
   (RELATION was/VBD)
@@ -10889,7 +10894,7 @@
   For/IN
   (ENTITY the/DT non/JJ conformance/NN 2007-030_1/CD)
   ,/,
-  the/DT
+  (RELATION the/DT)
   (RELATION reported/VBN)
   (ENTITY date/NN)
   (RELATION is/VBZ)
@@ -10922,13 +10927,13 @@
   ./.)
 619
 (S
-  a/DT
+  (RELATION a/DT)
   )/)
   (ENTITY The/DT CD-ROM/NNP)
   (RELATION including/VBG)
   (ENTITY the/DT eCRFs/JJ copy/NN)
   for/IN
-  the/DT
+  (RELATION the/DT)
   (ENTITY 11492A/CD)
   (ENTITY patients/NNS)
   at/IN
@@ -10947,7 +10952,7 @@
   )/)
   (ENTITY The/DT SUSARs/NNP listings/NNS)
   (RELATION had/VBD)
-  the/DT
+  (RELATION the/DT)
   (RELATION following/VBG)
   (ENTITY discrepancies/NNS)
   :/:)
@@ -10990,7 +10995,7 @@
   For/IN
   (ENTITY the/DT non/JJ conformance/NN 2007-030_2/CD)
   ,/,
-  the/DT
+  (RELATION the/DT)
   (RELATION reported/VBN)
   (ENTITY date/NN)
   (RELATION is/VBZ)
@@ -11022,7 +11027,7 @@
   (ENTITY Inadequate/NNP process/NN)
   for/IN
   (RELATION providing/VBG within/IN)
-  the/DT
+  (RELATION the/DT)
   (ENTITY agreed/JJ)
   (RELATION timelines/VBZ)
   (ENTITY the/DT off-site/JJ archived/JJ I-TMF/NNP)
@@ -11035,7 +11040,7 @@
   ./.)
 627
 (S
-  a/DT
+  (RELATION a/DT)
   )/)
   (RELATION According/VBG)
   to/TO
@@ -11070,7 +11075,7 @@
   to/TO
   (ENTITY RECALL/NNP)
   on/IN
-  the/DT
+  (RELATION the/DT)
   (ENTITY 25-Jun-2012/JJ)
   at/IN
   (ENTITY 09:33/CD)
@@ -11088,7 +11093,7 @@
   (RELATION been/VBN shipped/VBN until/IN)
   (ENTITY the/DT afternoon/NN)
   of/IN
-  the/DT
+  (RELATION the/DT)
   (ENTITY 27-Jun-2012/JJ)
   ./.
   In/IN
@@ -11126,7 +11131,7 @@
   to/TO
   (ENTITY the/DT investigator/NN)
   ;/:
-  the/DT
+  (RELATION the/DT)
   only/RB
   (ENTITY contact/NN information/NN)
   (RELATION provided/VBN by/IN)
@@ -11180,7 +11185,7 @@
   For/IN
   (ENTITY the/DT non/JJ conformance/NN 2007-030_3/CD)
   ,/,
-  the/DT
+  (RELATION the/DT)
   (RELATION reported/VBN)
   (ENTITY date/NN)
   (RELATION is/VBZ)
@@ -11241,7 +11246,7 @@
   :/:)
 633
 (S
-  a/DT
+  (RELATION a/DT)
   )/)
   (ENTITY The/DT first/JJ shipment/NN)
   of/IN
@@ -11310,7 +11315,7 @@
   (ENTITY ”/NNP)
   (RELATION applied/VBN)
   to/TO
-  each/DT
+  (RELATION each/DT)
   of/IN
   (ENTITY the/DT randomisation/NN kits/NNS)
   or/CC
@@ -11346,7 +11351,7 @@
   (RELATION were/VBD observed/VBN on/IN)
   (ENTITY the/DT IMP/NNP shipments/NNS forms/NNS)
   for/IN
-  each/DT
+  (RELATION each/DT)
   of/IN
   (ENTITY the/DT six/NN shipments/NNS)
   (RELATION made/VBN)
@@ -11366,7 +11371,7 @@
   For/IN
   (ENTITY the/DT non/JJ conformance/NN 2007-030_4/CD)
   ,/,
-  the/DT
+  (RELATION the/DT)
   (RELATION reported/VBN)
   (ENTITY date/NN)
   (RELATION is/VBZ)
@@ -11455,7 +11460,7 @@
   ,/,
   however/RB
   ,/,
-  some/DT
+  (RELATION some/DT)
   of/IN
   (ENTITY the/DT IMP/NNP shipments/NNS)
   and/CC
@@ -11637,7 +11642,7 @@
   For/IN
   (ENTITY the/DT non/JJ conformance/NN 2007-030_5/CD)
   ,/,
-  the/DT
+  (RELATION the/DT)
   (RELATION reported/VBN)
   (ENTITY date/NN)
   (RELATION is/VBZ)
@@ -11670,7 +11675,7 @@
   of/IN
   (ENTITY the/DT investigator/NN TMF/NNP)
   for/IN
-  the/DT
+  (RELATION the/DT)
   (ENTITY long-term/JJ)
   (RELATION archiving/VBG)
   -/:
@@ -11680,7 +11685,7 @@
   ./.)
 653
 (S
-  a/DT
+  (RELATION a/DT)
   )/)
   (ENTITY Original/NNP)
   (ENTITY medical/JJ records/NNS)
@@ -11742,8 +11747,7 @@
   )/)
   (ENTITY Documents/NNP)
   from/IN
-  both/DT
-  the/DT
+  (RELATION both/DT the/DT)
   (ENTITY 11492A/CD)
   and/CC
   (ENTITY 11492C/CD)
@@ -11757,23 +11761,23 @@
   (RELATION included/VBD)
   (ENTITY the/DT patient/NN binder/NN)
   for/IN
-  the/DT
+  (RELATION the/DT)
   (ENTITY 11492C/CD)
   (ENTITY study/NN)
   (RELATION followed/VBN by/IN)
-  the/DT)
+  (RELATION the/DT))
 661
 (S
   (ENTITY patient/NN binder/NN)
   of/IN
-  the/DT
+  (RELATION the/DT)
   (ENTITY 11492A/CD)
   (ENTITY study/NN)
   ./.
   In/IN
   (ENTITY addition/NN snap/NN binders/NNS)
   (RELATION were/VBD packed/VBN with/IN)
-  the/DT)
+  (RELATION the/DT))
 662
 (S
   (ENTITY binders/NNS)
@@ -11781,7 +11785,7 @@
   (ENTITY two/CD)
   (ENTITY patients/NNS)
   ;/:
-  this/DT
+  (RELATION this/DT)
   (RELATION made/VBD)
   it/PRP
   (RELATION difficult/VBD)
@@ -11790,7 +11794,7 @@
   ./.
   (ENTITY The/DT audit/NN team/NN)
   (RELATION repacked/VBD)
-  the/DT)
+  (RELATION the/DT))
 663
 (S
   (ENTITY study/NN binders/NNS)
@@ -11804,7 +11808,7 @@
 664
 (S
   for/IN
-  the/DT
+  (RELATION the/DT)
   (ENTITY 11492A/CD)
   (ENTITY study/NN)
   in/IN
@@ -11827,7 +11831,7 @@
   For/IN
   (ENTITY the/DT non/JJ conformance/NN 2007-030_6/CD)
   ,/,
-  the/DT
+  (RELATION the/DT)
   (RELATION reported/VBN)
   (ENTITY date/NN)
   (RELATION is/VBZ)
@@ -11892,7 +11896,7 @@
   (ENTITY 14-Dec-2007/CD)
   for/IN
   (ENTITY study/NN trial/NN)
-  no/DT
+  (RELATION no/DT)
   :/:
   (ENTITY 13098A/CD)
   ./.
@@ -11923,7 +11927,7 @@
   ,/,
   and/CC
   (RELATION included/VBD)
-  the/DT
+  (RELATION the/DT)
   (RELATION following/VBG)
   (ENTITY activities/NNS)
   :/:)
@@ -11987,7 +11991,7 @@
   ,/,
   however/RB
   ,/,
-  the/DT)
+  (RELATION the/DT))
 680
 (S
   (ENTITY concomitant/JJ medication/NN)
@@ -12009,7 +12013,7 @@
   For/IN
   (ENTITY the/DT non/JJ conformance/NN 2008-001_1/CD)
   ,/,
-  the/DT
+  (RELATION the/DT)
   (RELATION reported/VBN)
   (ENTITY date/NN)
   (RELATION is/VBZ)
@@ -12046,7 +12050,7 @@
   ./.)
 685
 (S
-  a/DT
+  (RELATION a/DT)
   )/)
   (ENTITY Subject/NNP 51589/CD)
   I/PRP
@@ -12236,7 +12240,7 @@
   which/WDT
   (RELATION lead/VBD)
   to/TO
-  the/DT)
+  (RELATION the/DT))
 703
 (S
   (ENTITY diagnosis/NN)
@@ -12273,7 +12277,7 @@
   ./.
   (RELATION According/VBG)
   to/TO
-  the/DT)
+  (RELATION the/DT))
 706
 (S
   (ENTITY investigator/NN)
@@ -12299,7 +12303,7 @@
   (ENTITY a/DT query/NN)
   (RELATION had/VBD been/VBN issued/VBN)
   to/TO
-  the/DT)
+  (RELATION the/DT))
 708
 (S (ENTITY investigator/NN) ./.)
 709
@@ -12339,7 +12343,7 @@
   For/IN
   (ENTITY the/DT non/JJ conformance/NN 2008-001_2/CD)
   ,/,
-  the/DT
+  (RELATION the/DT)
   (RELATION reported/VBN)
   (ENTITY date/NN)
   (RELATION is/VBZ)
@@ -12367,7 +12371,7 @@
   (ENTITY Inadequate/NNP process/NN)
   for/IN
   (RELATION providing/VBG within/IN)
-  the/DT
+  (RELATION the/DT)
   (ENTITY agreed/JJ)
   (RELATION timelines/VBZ)
   (ENTITY the/DT off-site/JJ archived/JJ ITMF/NNP)
@@ -12380,7 +12384,7 @@
   ./.)
 715
 (S
-  a/DT
+  (RELATION a/DT)
   )/)
   (RELATION According/VBG)
   to/TO
@@ -12389,7 +12393,7 @@
   (ENTITY the/DT off-site/JJ archived/JJ booklet/NN)
   and/CC
   on/IN
-  the/DT)
+  (RELATION the/DT))
 716
 (S
   (ENTITY RECALL/NNP Retrieval/NNP Form/NNP)
@@ -12411,7 +12415,7 @@
   ./.
   (ENTITY A/DT fax/NN confirmation/NN)
   (RELATION demonstrated/VBD that/IN)
-  the/DT)
+  (RELATION the/DT))
 718
 (S
   (ENTITY Retrieval/NNP Form/NNP)
@@ -12423,7 +12427,7 @@
   to/TO
   (ENTITY RECALL/NNP)
   on/IN
-  the/DT
+  (RELATION the/DT)
   (ENTITY 25-Jun-/JJ))
 719
 (S
@@ -12446,7 +12450,7 @@
   (RELATION shipped/VBN until/IN)
   (ENTITY the/DT afternoon/NN)
   of/IN
-  the/DT
+  (RELATION the/DT)
   (ENTITY 27-Jun-2012/JJ)
   ./.
   In/IN
@@ -12485,7 +12489,7 @@
   to/TO
   (ENTITY the/DT investigator/NN)
   ;/:
-  the/DT
+  (RELATION the/DT)
   only/RB)
 724
 (S
@@ -12507,7 +12511,7 @@
   (RELATION request/VB for/IN)
   (ENTITY the/DT RCA/NNP department/NN)
   ./.
-  The/DT)
+  (RELATION The/DT))
 726
 (S
   (ENTITY investigator/NN)
@@ -12520,7 +12524,7 @@
   (RELATION call/VB)
   (ENTITY Lundbeck/NNP)
   at/IN
-  the/DT)
+  (RELATION the/DT))
 727
 (S
   (ENTITY number/NN)
@@ -12551,7 +12555,7 @@
   For/IN
   (ENTITY the/DT non/JJ conformance/NN 2008-001_3/CD)
   ,/,
-  the/DT
+  (RELATION the/DT)
   (RELATION reported/VBN)
   (ENTITY date/NN)
   (RELATION is/VBZ)
@@ -12620,7 +12624,7 @@
 (S
   (ENTITY Patient/NNP 1006/CD)
   (RELATION signed/VBN)
-  the/DT
+  (RELATION the/DT)
   (RELATION informed/VBN)
   (ENTITY consent/NN)
   on/IN
@@ -12630,7 +12634,7 @@
   he/PRP
   (ENTITY data/NNS entry/NN)
   for/IN
-  the/DT)
+  (RELATION the/DT))
 735
 (S
   (RELATION screening/VBG)
@@ -12678,7 +12682,7 @@
   and/CC
   how/WRB
   could/MD
-  this/DT)
+  (RELATION this/DT))
 738
 (S
   (ENTITY date/NN)
@@ -12711,7 +12715,7 @@
   (ENTITY these/DT documents/NNS)
   it/PRP
   (RELATION was/VBD)
-  the/DT)
+  (RELATION the/DT))
 741
 (S
   (ENTITY unapproved/JJ version/NN 0.1/CD)
@@ -12738,24 +12742,24 @@
   (RELATION see/VB from/IN)
   (ENTITY the/DT documentation/NN)
   (ENTITY available/JJ)
-  the/DT
+  (RELATION the/DT)
   (ENTITY corresponding/JJ))
 743
 (S
   (ENTITY date/NN)
   to/TO
-  the/DT
+  (RELATION the/DT)
   (RELATION approved/VBN)
   (ENTITY eCRF/NN)
   and/CC
   (ENTITY the/DT corresponding/JJ migration/NN dates/NNS)
   for/IN
-  the/DT)
+  (RELATION the/DT))
 744
 (S
   (ENTITY implementation/NN)
   of/IN
-  the/DT
+  (RELATION the/DT)
   (RELATION updated/VBN)
   (ENTITY eCRFs/NN)
   ./.)
@@ -12773,7 +12777,7 @@
   For/IN
   (ENTITY the/DT non/JJ conformance/NN 2008-001_4/CD)
   ,/,
-  the/DT
+  (RELATION the/DT)
   (RELATION reported/VBN)
   (ENTITY date/NN)
   (RELATION is/VBZ)
@@ -12826,7 +12830,7 @@
   ./.)
 748
 (S
-  a/DT
+  (RELATION a/DT)
   )/)
   Although/IN
   (ENTITY the/DT responsible/JJ person/NN)
@@ -12875,7 +12879,7 @@
   (ENTITY this/DT Call/NNP Center/NNP)
   (RELATION was/VBD used/VBN for/IN)
   all/PDT
-  the/DT)
+  (RELATION the/DT))
 753
 (S
   (ENTITY sites/NNS)
@@ -12951,7 +12955,7 @@
   For/IN
   (ENTITY the/DT non/JJ conformance/NN 2008-001_5/CD)
   ,/,
-  the/DT
+  (RELATION the/DT)
   (RELATION reported/VBN)
   (ENTITY date/NN)
   (RELATION is/VBZ)
@@ -12986,7 +12990,7 @@
   he/PRP
   (ENTITY investigator/NN TMF/NNP)
   for/IN
-  the/DT
+  (RELATION the/DT)
   (ENTITY long-term/JJ)
   (RELATION archiving/VBG)
   -/:
@@ -13002,7 +13006,7 @@
   (RELATION were/VBD packed/VBN filling/VBG)
   up/RP
   above/IN
-  the/DT
+  (RELATION the/DT)
   (ENTITY maximum/JJ))
 764
 (S
@@ -13019,7 +13023,7 @@
   (RELATION taking/VBG)
   out/RP
   of/IN
-  the/DT)
+  (RELATION the/DT))
 765
 (S
   (ENTITY iboxes/NNS)
@@ -13049,7 +13053,7 @@
   For/IN
   (ENTITY the/DT non/JJ conformance/NN 2008-001_6/CD)
   ,/,
-  the/DT
+  (RELATION the/DT)
   (RELATION reported/VBN)
   (ENTITY date/NN)
   (RELATION is/VBZ)
@@ -13097,7 +13101,7 @@
   (ENTITY place/NN)
   for/IN
   (ENTITY study/NN trial/NN)
-  no/DT
+  (RELATION no/DT)
   :/:
   (ENTITY 12023A/CD)
   and/CC
@@ -13155,7 +13159,7 @@
   ,/,
   and/CC
   (RELATION included/VBD)
-  the/DT
+  (RELATION the/DT)
   (RELATION following/VBG)
   (ENTITY activities/NNS)
   :/:)
@@ -13207,7 +13211,7 @@
   (ENTITY 21/CD)
   (ENTITY -Jun-2011/NNP)
   :/:
-  the/DT)
+  (RELATION the/DT))
 781
 (S
   (ENTITY subject/JJ)
@@ -13235,7 +13239,7 @@
   (ENTITY the/DT subject/JJ medical/JJ records/NNS)
   ./.
   Although/IN
-  the/DT)
+  (RELATION the/DT))
 783
 (S
   (ENTITY protocol/NN deviation/NN)
@@ -13254,7 +13258,7 @@
   For/IN
   (ENTITY the/DT non/JJ conformance/NN 2008-002_1/CD)
   ,/,
-  the/DT
+  (RELATION the/DT)
   (RELATION reported/VBN)
   (ENTITY date/NN)
   (RELATION is/VBZ)
@@ -13305,7 +13309,7 @@
   (ENTITY few/JJ days/NNS)
   prior/RB
   to/TO
-  the/DT)
+  (RELATION the/DT))
 789
 (S
   (RELATION screening/VBG)
@@ -13354,7 +13358,7 @@
   As/IN
   per/IN
   (ENTITY the/DT PI/NNP)
-  this/DT
+  (RELATION this/DT)
   (RELATION was/VBD)
   only/RB
   (ENTITY a/DT suggestion/NN)
@@ -13366,20 +13370,20 @@
   ./.
   It/PRP
   (RELATION was/VBD noticed/VBN that/IN)
-  some/DT
+  (RELATION some/DT)
   of/IN
   (ENTITY the/DT subjects/NNS)
   (RELATION went/VBD)
   back/RB
   (ENTITY fast/JJ)
   (RELATION ing/VBG for/IN)
-  the/DT)
+  (RELATION the/DT))
 794
 (S
   (RELATION screening/VBG)
   (ENTITY visit/NN)
   and/CC
-  some/DT
+  (RELATION some/DT)
   (RELATION did/VBD)
   not/RB
   ./.)
@@ -13394,7 +13398,7 @@
   (RELATION requesting/VBG)
   or/CC
   (RELATION suggesting/VBG)
-  a/DT)
+  (RELATION a/DT))
 796
 (S
   (ENTITY subject/JJ)
@@ -13424,7 +13428,7 @@
   For/IN
   (ENTITY the/DT non/JJ conformance/NN 2008-002_2/CD)
   ,/,
-  the/DT
+  (RELATION the/DT)
   (RELATION reported/VBN)
   (ENTITY date/NN)
   (RELATION is/VBZ)
@@ -13464,7 +13468,7 @@
   ./.)
 801
 (S
-  a/DT
+  (RELATION a/DT)
   )/)
   (RELATION According/VBG)
   to/TO
@@ -13491,7 +13495,7 @@
 803
 (S
   (RELATION reporting/VBG)
-  these/DT
+  (RELATION these/DT)
   into/IN
   (ENTITY the/DT eCRF/NN)
   for/IN
@@ -13579,7 +13583,7 @@
   For/IN
   (ENTITY the/DT non/JJ conformance/NN 2008-002_3/CD)
   ,/,
-  the/DT
+  (RELATION the/DT)
   (RELATION reported/VBN)
   (ENTITY date/NN)
   (RELATION is/VBZ)
@@ -13644,7 +13648,7 @@
   ,/,
   there/EX
   (RELATION was/VBD)
-  no/DT)
+  (RELATION no/DT))
 816
 (S
   (ENTITY explanation/NN)
@@ -13655,7 +13659,7 @@
   in/IN
   (ENTITY the/DT medical/JJ progress/NN notes/NNS)
   (RELATION indicating/VBG)
-  the/DT)
+  (RELATION the/DT))
 817
 (S
   (RELATION lacking/VBG)
@@ -13671,7 +13675,7 @@
   For/IN
   (ENTITY the/DT non/JJ conformance/NN 2008-002_4/CD)
   ,/,
-  the/DT
+  (RELATION the/DT)
   (RELATION reported/VBN)
   (ENTITY date/NN)
   (RELATION is/VBZ)
@@ -13752,7 +13756,7 @@
   narrower/RB
   ./.
   When/WRB
-  the/DT)
+  (RELATION the/DT))
 824
 (S
   (ENTITY header/NN)
@@ -13794,7 +13798,7 @@
   (RELATION were/VBD provided/VBN by/IN)
   (ENTITY Lundbeck/NNP)
   ,/,
-  this/DT
+  (RELATION this/DT)
   may/MD
   (RELATION concern/VB)
   all/PDT
@@ -13820,7 +13824,7 @@
   For/IN
   (ENTITY the/DT non/JJ conformance/NN 2008-002_5/CD)
   ,/,
-  the/DT
+  (RELATION the/DT)
   (RELATION reported/VBN)
   (ENTITY date/NN)
   (RELATION is/VBZ)
@@ -13859,17 +13863,17 @@
 (S
   There/EX
   (RELATION was/VBD)
-  no/DT
+  (RELATION no/DT)
   (RELATION documented/VBN)
   (ENTITY evidence/NN)
   either/RB
   in/IN
   (ENTITY the/DT sponsor/NN eTMF/NN)
   or/CC
-  the/DT
+  (RELATION the/DT)
   I/PRP
   (RELATION -TMF/VBP that/IN)
-  an/DT)
+  (RELATION an/DT))
 833
 (S
   (ENTITY annual/JJ renewal/NN report/NN)
@@ -13886,7 +13890,7 @@
   For/IN
   (ENTITY the/DT non/JJ conformance/NN 2008-002_6/CD)
   ,/,
-  the/DT
+  (RELATION the/DT)
   (RELATION reported/VBN)
   (ENTITY date/NN)
   (RELATION is/VBZ)
@@ -13956,7 +13960,7 @@
   we/PRP
   (RELATION re/VBP sent/VBN)
   to/TO
-  the/DT)
+  (RELATION the/DT))
 839
 (S
   (ENTITY investigator/NN)
@@ -13971,7 +13975,7 @@
   ./.
   In/IN
   (ENTITY addition/NN)
-  the/DT
+  (RELATION the/DT)
   (RELATION following/VBG))
 840
 (S (ENTITY discrepancies/NNS) (RELATION were/VBD found/VBN) :/:)
@@ -13988,7 +13992,7 @@
   for/IN
   (ENTITY every/NN SUSARS/NNP)
   (RELATION reported/VBN in/IN)
-  the/DT)
+  (RELATION the/DT))
 842
 (S
   (ENTITY line/NN)
@@ -14000,7 +14004,7 @@
   ;/:
   (ENTITY a/DT letter/NN)
   (RELATION was/VBD sent/VBN for/IN)
-  the/DT
+  (RELATION the/DT)
   (ENTITY initial/JJ))
 843
 (S
@@ -14065,7 +14069,7 @@
   For/IN
   (ENTITY the/DT non/JJ conformance/NN 2008-002_7/CD)
   ,/,
-  the/DT
+  (RELATION the/DT)
   (RELATION reported/VBN)
   (ENTITY date/NN)
   (RELATION is/VBZ)
@@ -14096,7 +14100,7 @@
   ;/:
   (ENTITY Unclear/NNP)
   (RELATION handling/VBG of/IN)
-  a/DT
+  (RELATION a/DT)
   wrongly/RB
   (RELATION randomised/VBN)
   (ENTITY subject/JJ)
@@ -14186,7 +14190,7 @@
   For/IN
   (ENTITY the/DT non/JJ conformance/NN 2008-002_8/CD)
   ,/,
-  the/DT
+  (RELATION the/DT)
   (RELATION reported/VBN)
   (ENTITY date/NN)
   (RELATION is/VBZ)
@@ -14236,7 +14240,7 @@
   of/IN
   (ENTITY the/DT pdf/NN)
   of/IN
-  the/DT
+  (RELATION the/DT)
   ·/``
   ~CRF/SYM
   (ENTITY pages/NNS)
@@ -14261,7 +14265,7 @@
 (S
   (ENTITY Patient/NNP 1159/CD)
   (RELATION signed/VBN)
-  the/DT
+  (RELATION the/DT)
   (RELATION informed/VBN)
   (ENTITY consent/NN)
   on/IN
@@ -14271,7 +14275,7 @@
   :/:
   (ENTITY a/DT entry/NN)
   for/IN
-  the/DT)
+  (RELATION the/DT))
 865
 (S
   (RELATION screening/VBG)
@@ -14333,7 +14337,7 @@
   (RELATION be/VB)
   later/RB
   than/IN
-  the/DT)
+  (RELATION the/DT))
 869
 (S (ENTITY data/NNS entry/NN date/NN) ./.)
 870
@@ -14353,20 +14357,20 @@
   of/IN
   (ENTITY the/DT versions/NNS)
   of/IN
-  the/DT)
+  (RELATION the/DT))
 871
 (S
   (ENTITY eCRF/NN)
   or/CC
   to/TO
   (RELATION have/VB)
-  a/DT
+  (RELATION a/DT)
   (RELATION listing/VBG indicating/VBG as/IN)
   to/TO
   when/WRB
   (ENTITY these/DT versions/NNS)
   (RELATION were/VBD migrated/VBN at/IN)
-  the/DT)
+  (RELATION the/DT))
 872
 (S
   (ENTITY country/NN)
@@ -14397,7 +14401,7 @@
   For/IN
   (ENTITY the/DT non/JJ conformance/NN 2008-002_9/CD)
   ,/,
-  the/DT
+  (RELATION the/DT)
   (RELATION reported/VBN)
   (ENTITY date/NN)
   (RELATION is/VBZ)
@@ -14440,7 +14444,7 @@
   ./.)
 877
 (S
-  a/DT
+  (RELATION a/DT)
   )/)
   TheCA/EX
   (ENTITY acknowledgment/NN)
@@ -14451,7 +14455,7 @@
   (RELATION was/VBD)
   rot/RB
   (RELATION located/VBN in/IN)
-  the/DT)
+  (RELATION the/DT))
 878
 (S (ENTITY sponsor/NN eTMF/NN))
 879
@@ -14467,7 +14471,7 @@
   (ENTITY the/DT I-TMF/NNP)
   ;/:
   only/RB
-  th/DT
+  (RELATION th/DT)
   •~/``
   (RELATION consolidated/VBN))
 880
@@ -14484,7 +14488,7 @@
   (ENTITY 20-0ct-2011/CD)
   (RELATION pertaining/VBG)
   to/TO
-  the/DT)
+  (RELATION the/DT))
 882
 (S
   (ENTITY Urinalysis/NNP Microscopy/NNP)
@@ -14502,7 +14506,7 @@
   not/RB
   (RELATION included/VBN in/IN)
   (ENTITY the/DT sponsor/NN TMF/NNP)
-  an/DT
+  (RELATION an/DT)
   :/:
   :I/``
   it/PRP
@@ -14524,7 +14528,7 @@
   to/TO
   (ENTITY Urinalysis/NNP Microscopic/NNP)
   (RELATION indicated/VBD that/IN)
-  the/DT)
+  (RELATION the/DT))
 886
 (S
   ``/``
@@ -14573,7 +14577,7 @@
   and/CC
   (ENTITY patients/NNS)
   (RELATION including/VBG)
-  the/DT)
+  (RELATION the/DT))
 890
 (S
   (ENTITY visit/NN)
@@ -14685,7 +14689,7 @@
   For/IN
   (ENTITY the/DT non/JJ conformance/NN 2008-002_9/CD)
   ,/,
-  the/DT
+  (RELATION the/DT)
   (RELATION reported/VBN)
   (ENTITY date/NN)
   (RELATION is/VBZ)
@@ -14720,7 +14724,7 @@
   ./.)
 902
 (S
-  a/DT
+  (RELATION a/DT)
   )/)
   (ENTITY Incorrect/NNP Financial/NNP Disclosure/NNP forms/NNS)
   (RELATION signed/VBN by/IN)
@@ -14805,16 +14809,16 @@
   of/IN
   (ENTITY the/DT IMP/NNP tear-off/NN labels/NNS)
   (RELATION was/VBD lacking/VBG from/IN)
-  the/DT
+  (RELATION the/DT)
   (RELATION dedicated/VBN)
   (ENTITY label/JJ sheet/NN)
   ;/:
-  this/DT)
+  (RELATION this/DT))
 910
 (S
   (ENTITY concerned/JJ one/CD)
   of/IN
-  the/DT
+  (RELATION the/DT)
   (RELATION four/VBN)
   (ENTITY IMP/NNP boxes/NNS)
   which/WDT
@@ -14828,7 +14832,7 @@
   (ENTITY subject/JJ 51159/CD)
   (ENTITY the/DT randomisation/NN number/NN R4271/NNP number/NN)
   (RELATION is/VBZ lacking/VBG on/IN)
-  the/DT)
+  (RELATION the/DT))
 912
 (S (ENTITY subject/JJ identification/NN list/NN))
 913
@@ -14838,7 +14842,7 @@
   For/IN
   (ENTITY the/DT non/JJ conformance/NN 2008-002_10/CD)
   ,/,
-  the/DT
+  (RELATION the/DT)
   (RELATION reported/VBN)
   (ENTITY date/NN)
   (RELATION is/VBZ)
@@ -14884,7 +14888,7 @@
   (ENTITY maintenance/NN)
   for/IN
   (ENTITY study/NN trial/NN)
-  no/DT
+  (RELATION no/DT)
   :/:
   (ENTITY 13267A/CD)
   and/CC
@@ -14987,7 +14991,7 @@
   (ENTITY Acme/NNP Corporation/NNP ’/NNP s/NN requirements/NNS)
   to/TO
   (RELATION evaluate/VB whether/IN)
-  a/DT
+  (RELATION a/DT)
   (RELATION workaround/VBN)
   (ENTITY solution/NN)
   (RELATION is/VBZ)
@@ -15011,7 +15015,7 @@
   :/:
   (ENTITY CDR/SCE/NNP)
   for/IN
-  the/DT
+  (RELATION the/DT)
   (RELATION intended/VBN use/VB)
   ./.
   Also/RB
@@ -15050,7 +15054,7 @@
   ,/,
   and/CC
   (RELATION included/VBD)
-  the/DT
+  (RELATION the/DT)
   (RELATION following/VBG)
   (ENTITY activities/NNS)
   :/:)
@@ -15087,7 +15091,7 @@
   of/IN
   (ENTITY compliance/NN)
   with/IN
-  the/DT
+  (RELATION the/DT)
   (RELATION approved/VBN)
   (ENTITY protocol/NN)
   (/(
@@ -15096,7 +15100,7 @@
   ./.)
 934
 (S
-  A/DT
+  (RELATION A/DT)
   )/)
   (RELATION According/VBG)
   to/TO
@@ -15121,7 +15125,7 @@
   (RELATION did/VBD)
   (ENTITY the/DT Patient-Reported/JJ Outcome/NNP scales/NNS)
   ./.
-  This/DT
+  (RELATION This/DT)
   (RELATION is/VBZ)
   not/RB
   in/IN
@@ -15166,7 +15170,7 @@
   although/IN
   not/RB
   (RELATION required/VBN by/IN)
-  the/DT)
+  (RELATION the/DT))
 939
 (S (ENTITY protocol/NN))
 940
@@ -15194,7 +15198,7 @@
   (ENTITY the/DT site/NN)
   ./.
   For/IN
-  some/DT
+  (RELATION some/DT)
   of/IN
   (ENTITY the/DT data/NNS)
   ,/,
@@ -15202,12 +15206,12 @@
   (RELATION were/VBD)
   (ENTITY identical/JJ)
   at/IN
-  some/DT)
+  (RELATION some/DT))
 942
 (S
   (ENTITY subsequent/JJ days/NNS)
   ./.
-  This/DT
+  (RELATION This/DT)
   (RELATION was/VBD)
   (ENTITY the/DT case/NN)
   for/IN
@@ -15229,7 +15233,7 @@
 (S
   For/IN
   (ENTITY S/NNP 1049/CD)
-  the/DT
+  (RELATION the/DT)
   (RELATION following/VBG)
   (ENTITY data/NNS)
   (RELATION were/VBD)
@@ -15279,7 +15283,7 @@
   after/IN
   (ENTITY review/NN)
   of/IN
-  the/DT)
+  (RELATION the/DT))
 948
 (S
   (RELATION completed/VBN)
@@ -15305,13 +15309,13 @@
   (RELATION are/VBP)
   also/RB
   (RELATION signed/VBN by/IN)
-  both/DT
+  (RELATION both/DT)
   (ENTITY the/DT patient/NN)
   and/CC
   (ENTITY the/DT care-giver/NN)
   ./.
   From/IN
-  the/DT)
+  (RELATION the/DT))
 950
 (S
   (ENTITY review/NN)
@@ -15358,7 +15362,7 @@
   ./.)
 953
 (S
-  The/DT
+  (RELATION The/DT)
   (ENTITY 13445/CD)
   (ENTITY Patient/NNP Reported-outcomes/NNP Guideline/NNP)
   ,/,
@@ -15399,7 +15403,7 @@
   For/IN
   (ENTITY the/DT non/JJ conformance/NN 2008-005_6/CD)
   ,/,
-  the/DT
+  (RELATION the/DT)
   (RELATION reported/VBN)
   (ENTITY date/NN)
   (RELATION is/VBZ)
@@ -15453,11 +15457,11 @@
 (S
   (ENTITY All/NNP)
   of/IN
-  the/DT
+  (RELATION the/DT)
   (RELATION included/VBN)
   (ENTITY patients/NNS)
   (RELATION were/VBD consented/VBN during/IN)
-  the/DT
+  (RELATION the/DT)
   (RELATION screening/VBG)
   (ENTITY visit/NN)
   ./.
@@ -15491,7 +15495,7 @@
   ./.)
 961
 (S
-  A/DT
+  (RELATION A/DT)
   )/)
   (RELATION According/VBG)
   to/TO
@@ -15506,13 +15510,13 @@
   for/IN
   (ENTITY the/DT visits/NNS)
   to/TO
-  the/DT)
+  (RELATION the/DT))
 962
 (S
   (ENTITY clinic/JJ)
   ,/,
   however/RB
-  this/DT
+  (RELATION this/DT)
   (RELATION was/VBD)
   not/RB
   (RELATION documented/VBN in/IN)
@@ -15528,7 +15532,7 @@
   how/WRB
   (ENTITY ample/JJ time/NN)
   (RELATION was/VBD ensured/VBN during/IN)
-  the/DT
+  (RELATION the/DT)
   (RELATION screening/VBG)
   (ENTITY visit/NN)
   ./.
@@ -15540,12 +15544,12 @@
   (ENTITY future/JJ studies/NNS)
   to/TO
   (RELATION consider/VB changing/VBG)
-  the/DT
+  (RELATION the/DT)
   (RELATION informed/VBN)
   (ENTITY consent/NN process/NN)
   to/TO
   (RELATION ensure/VB that/IN)
-  the/DT)
+  (RELATION the/DT))
 965
 (S
   (ENTITY patients/NNS)
@@ -15586,7 +15590,7 @@
   For/IN
   (ENTITY the/DT non/JJ conformance/NN 2008-005_7/CD)
   ,/,
-  the/DT
+  (RELATION the/DT)
   (RELATION reported/VBN)
   (ENTITY date/NN)
   (RELATION is/VBZ)
@@ -15674,7 +15678,7 @@
   (ENTITY absence/NN)
   of/IN
   (ENTITY relevant/JJ psychiatric/JJ diseases/NNS)
-  The/DT
+  (RELATION The/DT)
   (RELATION following/VBG))
 973
 (S
@@ -15684,7 +15688,7 @@
   :/:)
 974
 (S
-  A/DT
+  (RELATION A/DT)
   )/)
   (ENTITY The/DT CRA/NNP)
   (RELATION did/VBD)
@@ -15736,7 +15740,7 @@
   (ENTITY S/NNP 1/CD 002/CD)
   )/)
   ./.
-  This/DT)
+  (RELATION This/DT))
 977
 (S
   (ENTITY patient/NN)
@@ -15750,7 +15754,7 @@
   to/TO
   (RELATION enrolment/VB)
   and/CC
-  a/DT
+  (RELATION a/DT)
   (ENTITY second/JJ)
   during/IN)
 978
@@ -15791,7 +15795,7 @@
 981
 (S
   however/RB
-  this/DT
+  (RELATION this/DT)
   (RELATION is/VBZ)
   not/RB
   (RELATION mentioned/VBN in/IN)
@@ -15923,7 +15927,7 @@
   For/IN
   (ENTITY the/DT non/JJ conformance/NN 2008-005_8/CD)
   ,/,
-  the/DT
+  (RELATION the/DT)
   (RELATION reported/VBN)
   (ENTITY date/NN)
   (RELATION is/VBZ)
@@ -15980,7 +15984,7 @@
   )/)
   it/PRP
   (RELATION was/VBD noticed/VBN that/IN)
-  the/DT
+  (RELATION the/DT)
   (ENTITY folio\\/JJ)
   (RELATION ing/VBG)
   (ENTITY visits/NNS)
@@ -16084,7 +16088,7 @@
   For/IN
   (ENTITY the/DT non/JJ conformance/NN 2008-005_9/CD)
   ,/,
-  the/DT
+  (RELATION the/DT)
   (RELATION reported/VBN)
   (ENTITY date/NN)
   (RELATION is/VBZ)
@@ -16163,7 +16167,7 @@
 (S
   (ENTITY Due/JJ)
   to/TO
-  this/DT
+  (RELATION this/DT)
   and/CC
   (ENTITY due/JJ)
   to/TO
@@ -16190,7 +16194,7 @@
   ./.)
 1010
 (S
-  The/DT
+  (RELATION The/DT)
   (RELATION following/VBG)
   (ENTITY observations/NNS)
   (RELATION were/VBD made/VBN)
@@ -16248,7 +16252,7 @@
   to/TO
   (ENTITY medical/JJ record/NN)
   ,/,
-  this/DT
+  (RELATION this/DT)
   (RELATION was/VBD)
   not/RB
   (RELATION included/VBN))
@@ -16272,7 +16276,7 @@
   it-/PRP$
   (ENTITY a/DT note/NN)
   about/IN
-  this/DT
+  (RELATION this/DT)
   (RELATION is/VBZ))
 1017
 (S
@@ -16325,7 +16329,7 @@
   (ENTITY REM/NNP)
   (ENTITY sleep/JJ disorder/NN)
   ,/,
-  this/DT
+  (RELATION this/DT)
   (RELATION was/VBD)
   not/RB
   (RELATION entered/VBN in/IN)
@@ -16371,7 +16375,7 @@
   (ENTITY influence/NN)
   (/(
   if/IN
-  this/DT
+  (RELATION this/DT)
   (RELATION was/VBD)
   (ENTITY the/DT case/NN)
   )/)
@@ -16393,7 +16397,7 @@
   (RELATION was/VBD)
   not/RB
   (RELATION ircluded/VBN in/IN)
-  the/DT)
+  (RELATION the/DT))
 1028
 (S (ENTITY medical/JJ history/NN) in/IN (ENTITY Rave/NNP) ./.)
 1029
@@ -16454,7 +16458,7 @@
   whether/WRB
   (ENTITY these/DT conditions/NNS)
   (RELATION perHisted/VBN during/IN)
-  the/DT)
+  (RELATION the/DT))
 1032
 (S (ENTITY 13445A/CD) (ENTITY study/NN partipation/NN))
 1033
@@ -16513,7 +16517,7 @@
   )/)
   ,/,
   (RELATION was/VBD taken/VBN for/IN)
-  the/DT
+  (RELATION the/DT)
   least/JJS
   (ENTITY two/CD)
   (ENTITY days/NNS)
@@ -16537,7 +16541,7 @@
 (S
   (ENTITY v/NN)
   )/)
-  The/DT
+  (RELATION The/DT)
   (RELATION following/VBG)
   (ENTITY AEs/NNP)
   (RELATION were/VBD reported/VBN in/IN)
@@ -16578,7 +16582,7 @@
   ./.
   At/IN
   (ENTITY visit/NN 6/CD)
-  the/DT
+  (RELATION the/DT)
   (ENTITY medical/JJ))
 1042
 (S
@@ -16587,7 +16591,7 @@
   (ENTITY dizziness/NN)
   (/(
   still/RB
-  some/DT
+  (RELATION some/DT)
   (RELATION was/VBD)
   (ENTITY present/JJ)
   )/))
@@ -16665,7 +16669,7 @@
   ;/:
   (ENTITY none/NN)
   of/IN
-  these/DT
+  (RELATION these/DT)
   (RELATION were/VBD included/VBN in/IN)
   (ENTITY Rave/NNP)
   ./.)
@@ -16695,7 +16699,7 @@
   For/IN
   (ENTITY the/DT non/JJ conformance/NN 2008-005_10/CD)
   ,/,
-  the/DT
+  (RELATION the/DT)
   (RELATION reported/VBN)
   (ENTITY date/NN)
   (RELATION is/VBZ)
@@ -16734,7 +16738,7 @@
   )/)
   ./.)
 1055
-(S This/DT (RELATION was/VBD evidenced/VBN by/IN) :/:)
+(S (RELATION This/DT) (RELATION was/VBD evidenced/VBN by/IN) :/:)
 1056
 (S
   For/IN
@@ -16749,7 +16753,7 @@
   (RELATION reported/VBN)
   (ENTITY the/DT outcome/NN)
   of/IN
-  the/DT
+  (RELATION the/DT)
   (ENTITY physical/JJ)
   and/CC)
 1057
@@ -16760,7 +16764,7 @@
   ,/,
   even/RB
   though/IN
-  some/DT
+  (RELATION some/DT)
   (RELATION were/VBD)
   (ENTITY abnormal/JJ due/JJ)
   to/TO
@@ -16827,7 +16831,7 @@
   (ENTITY Lundbeck/NNP)
   's/POS
   (ENTITY instruction/NN)
-  the/DT
+  (RELATION the/DT)
   (ENTITY physical/JJ)
   and/CC)
 1063
@@ -16844,7 +16848,7 @@
   (RELATION are/VBP)
   (ENTITY abnormal/JJ due/JJ)
   to/TO
-  the/DT)
+  (RELATION the/DT))
 1064
 (S (ENTITY Parkinson/NNP disease/NN) ./.)
 1065
@@ -16861,7 +16865,7 @@
   For/IN
   (ENTITY the/DT non/JJ conformance/NN 2008-005_12/CD)
   ,/,
-  the/DT
+  (RELATION the/DT)
   (RELATION reported/VBN)
   (ENTITY date/NN)
   (RELATION is/VBZ)
@@ -16913,7 +16917,7 @@
   clinically/RB
   (ENTITY significant/JJ)
   at/IN
-  the/DT
+  (RELATION the/DT)
   (RELATION screening/VBG))
 1069
 (S
@@ -16924,13 +16928,13 @@
   not/RB
   (RELATION be/VB included/VBN)
   ./.
-  This/DT
+  (RELATION This/DT)
   (RELATION is/VBZ)
   not/RB
   in/IN
   (ENTITY conformity/NN)
   with/IN
-  the/DT
+  (RELATION the/DT)
   ;/:
   >/``
   (ENTITY rotocol/NN exclusion/NN))
@@ -16964,7 +16968,7 @@
   (ENTITY the/DT Rave/NNP system/NN)
   ,/,
   that/IN
-  the/DT)
+  (RELATION the/DT))
 1072
 (S
   (ENTITY blood/NN)
@@ -16974,7 +16978,7 @@
   (/(
   (ENTITY this/DT patient/NN)
   (RELATION had/VBD)
-  an/DT
+  (RELATION an/DT)
   already/RB
   (RELATION k11ow/VBP)
   (ENTITY type/NN II/NNP))
@@ -16989,7 +16993,7 @@
   to/TO
   (RELATION make/VB)
   (ENTITY the/DT patien/NN)
-  a/DT
+  (RELATION a/DT)
   (RELATION screen/VBN)
   (ENTITY failure/NN)
   ./.)
@@ -17020,7 +17024,7 @@
   (ENTITY Covance/NNP)
   )/)
   ./.
-  The/DT)
+  (RELATION The/DT))
 1076
 (S
   (ENTITY Investigator/NNP)
@@ -17047,7 +17051,7 @@
   (RELATION be/VB included/VBN in/IN)
   (ENTITY spite/NN)
   of/IN
-  this/DT)
+  (RELATION this/DT))
 1078
 (S
   (ENTITY B/NNP)
@@ -17069,7 +17073,7 @@
 (S
   (ENTITY significant/JJ)
   at/IN
-  the/DT
+  (RELATION the/DT)
   (RELATION screening/VBG)
   (ENTITY visit/NN)
   ,/,
@@ -17078,7 +17082,7 @@
   not/RB
   (RELATION be/VB included/VBN)
   ./.
-  This/DT
+  (RELATION This/DT)
   (RELATION is/VBZ)
   not/RB
   in/IN
@@ -17090,7 +17094,7 @@
   For/IN
   (ENTITY the/DT non/JJ conformance/NN 2008-005_13/CD)
   ,/,
-  the/DT
+  (RELATION the/DT)
   (RELATION reported/VBN)
   (ENTITY date/NN)
   (RELATION is/VBZ)
@@ -17122,7 +17126,7 @@
   (ENTITY Delay/NNP)
   in/IN
   (RELATION making/VBG)
-  the/DT
+  (RELATION the/DT)
   (RELATION updated/VBN)
   (ENTITY Investigator/NNP Brochure/NNP)
   (ENTITY available/JJ)
@@ -17165,7 +17169,7 @@
   For/IN
   (ENTITY the/DT non/JJ conformance/NN 2008-005_14/CD)
   ,/,
-  the/DT
+  (RELATION the/DT)
   (RELATION reported/VBN)
   (ENTITY date/NN)
   (RELATION is/VBZ)
@@ -17193,7 +17197,7 @@
   (ENTITY Failure/NNP)
   to/TO
   (RELATION inform/VB)
-  the/DT
+  (RELATION the/DT)
   (RELATION involved/VBN)
   (ENTITY parties/NNS)
   (/(
@@ -17309,7 +17313,7 @@
   For/IN
   (ENTITY the/DT non/JJ conformance/NN 2008-005_15/CD)
   ,/,
-  the/DT
+  (RELATION the/DT)
   (RELATION reported/VBN)
   (ENTITY date/NN)
   (RELATION is/VBZ)
@@ -17389,7 +17393,7 @@
   ./.)
 1100
 (S
-  A/DT
+  (RELATION A/DT)
   )/)
   (ENTITY The/DT monitor/NN)
   (RELATION did/VBD)
@@ -17436,7 +17440,7 @@
   (RELATION had/VBD)
   (ENTITY an/DT electronic/JJ record/NN system/NN)
   for/IN
-  the/DT)
+  (RELATION the/DT))
 1104
 (S
   (ENTITY hospitalised/JJ patients/NNS)
@@ -17460,7 +17464,7 @@
   )/)
   (RELATION According/VBG)
   to/TO
-  the/DT
+  (RELATION the/DT)
   (RELATION monitoring/VBG)
   (ENTITY visit/NN reports/NNS)
   ,/,
@@ -17470,7 +17474,7 @@
   in/IN
   (ENTITY SDV/NNP)
   at/IN
-  this/DT
+  (RELATION this/DT)
   (ENTITY high/JJ))
 1107
 (S
@@ -17487,7 +17491,7 @@
   (ENTITY enough/JJ time/NN)
   to/TO
   (RELATION do/VB)
-  the/DT)
+  (RELATION the/DT))
 1108
 (S
   (ENTITY SDV/NNP)
@@ -17534,11 +17538,11 @@
   (ENTITY the/DT site/NN)
   or/CC
   how/WRB
-  this/DT
+  (RELATION this/DT)
   (RELATION had/VBD been/VBN resolved/VBN))
 1111
 (S
-  The/DT
+  (RELATION The/DT)
   (RELATION following/VBG)
   (ENTITY delays/NNS)
   (RELATION were/VBD observed/VBN)
@@ -17574,7 +17578,7 @@
   (RELATION monitored/VBN)
   ./.
   For/IN
-  the/DT
+  (RELATION the/DT)
   (RELATION screening/VBG)
   (ENTITY visit/NN)
   of/IN
@@ -17604,7 +17608,7 @@
   (ENTITY iii/NN)
   )/)
   (ENTITY SIIOO/NNP)
-  the/DT
+  (RELATION the/DT)
   (RELATION screening/VBG)
   (ENTITY of04-May-2012/JJ)
   and/CC
@@ -17619,7 +17623,7 @@
   but/CC
   (ENTITY none/NN)
   of/IN
-  the/DT
+  (RELATION the/DT)
   (RELATION following/VBG)
   (ENTITY visits/NNS))
 1119
@@ -17650,7 +17654,7 @@
   (ENTITY v/NN)
   )/)
   (ENTITY S/NNP 1145/CD)
-  the/DT
+  (RELATION the/DT)
   (RELATION screening/VBG)
   (ENTITY visit/NN of20-Jun-2012/CD)
   (RELATION was/VBD monitored/VBN)
@@ -17674,7 +17678,7 @@
   (RELATION monitored/VBN at/IN)
   all/PDT
   ,/,
-  the/DT
+  (RELATION the/DT)
   (RELATION screening/VBG)
   (ENTITY visit/NN)
   (RELATION was/VBD)
@@ -17684,7 +17688,7 @@
   (ENTITY S/NNP)
   I/PRP
   (ENTITY 165/CD)
-  the/DT
+  (RELATION the/DT)
   (RELATION screening/VBG)
   (ENTITY visit/NN)
   (ENTITY 16-Jul-20/JJ 12/CD)
@@ -17693,7 +17697,7 @@
   but/CC
   (ENTITY none/NN)
   of/IN
-  the/DT
+  (RELATION the/DT)
   (RELATION following/VBG)
   (ENTITY visits/NNS))
 1126
@@ -17732,13 +17736,13 @@
   (/(
   (ENTITY this/DT patient/NN)
   (RELATION had/VBD)
-  an/DT
+  (RELATION an/DT)
   already/RB
   (RELATION know/VB)
   (ENTITY type/NN II/NNP diabetes/NNS)
   )/)
   ./.
-  The/DT)
+  (RELATION The/DT))
 1129
 (S
   (ENTITY Rave/NNP system/NN)
@@ -17773,7 +17777,7 @@
   (RELATION Screening/VBG make/VB sure/VB)
   (ENTITY the/DT patient/NN)
   (RELATION is/VBZ)
-  a/DT
+  (RELATION a/DT)
   (RELATION screening/VBG))
 1132
 (S
@@ -17844,7 +17848,7 @@
   (RELATION were/VBD found/VBN)
   to/TO
   (RELATION be/VB deficient/VBN on/IN)
-  the/DT
+  (RELATION the/DT)
   (RELATION following/VBG))
 1137
 (S (ENTITY ISSUe/NNP) :/:)
@@ -17868,7 +17872,7 @@
   (RELATION box/VB)
   ,/,
   at/IN
-  the/DT
+  (RELATION the/DT)
   (RELATION end/VBN))
 1139
 (S
@@ -17879,7 +17883,7 @@
   (ENTITY the/DT Investigator/NNP)
   only/RB
   (RELATION documented/VBN)
-  the/DT)
+  (RELATION the/DT))
 1140
 (S
   (ENTITY neurological/JJ examination/NN)
@@ -17893,7 +17897,7 @@
   of/IN
   (ENTITY details/NNS)
   for/IN
-  the/DT)
+  (RELATION the/DT))
 1141
 (S (ENTITY neurological/JJ examination/NN))
 1142
@@ -17928,7 +17932,7 @@
   if/IN
   it/PRP
   (RELATION was/VBD for/IN)
-  the/DT)
+  (RELATION the/DT))
 1144
 (S
   (ENTITY examination/NN)
@@ -17959,7 +17963,7 @@
   (RELATION did/VBD include/VB)
   (ENTITY a/DT statement/NN)
   that/IN
-  any/DT)
+  (RELATION any/DT))
 1146
 (S
   (ENTITY findings/NNS)
@@ -17982,7 +17986,7 @@
   )/)
   (ENTITY states/NNS)
   that/IN
-  no/DT)
+  (RELATION no/DT))
 1148
 (S
   (ENTITY treatment/NN)
@@ -18003,7 +18007,7 @@
   daily/RB
   (ENTITY since/NN 25-Mar-2012/CD)
   ,/,
-  both/DT
+  (RELATION both/DT)
   (RELATION prescribed/VBN for/IN)
   (ENTITY type/NN II/NNP))
 1150
@@ -18041,7 +18045,7 @@
   For/IN
   (ENTITY the/DT non/JJ conformance/NN 2008-005_16/CD)
   ,/,
-  the/DT
+  (RELATION the/DT)
   (RELATION reported/VBN)
   (ENTITY date/NN)
   (RELATION is/VBZ)
@@ -18096,7 +18100,7 @@
   ./.)
 1159
 (S
-  A/DT
+  (RELATION A/DT)
   )/)
   Already/RB
   from/IN
@@ -18120,7 +18124,7 @@
   ./.
   On/IN
   (ENTITY requests/NNS)
-  some/DT
+  (RELATION some/DT)
   (RELATION do/VBP)
   </#
   (ENTITY •uments/NNS)
@@ -18151,7 +18155,7 @@
   (RELATION beck/VBD)
   ,/,
   as/IN
-  the/DT)
+  (RELATION the/DT))
 1163
 (S
   (ENTITY clinical/JJ team/NN)
@@ -18210,7 +18214,7 @@
   (ENTITY 2012/CD)
   ,/,
   and/CC
-  all/DT
+  (RELATION all/DT)
   (RELATION follow/VBP)
   up/RP
   (ENTITY letters/NNS)
@@ -18258,7 +18262,7 @@
   For/IN
   (ENTITY the/DT non/JJ conformance/NN 2008-005_17/CD)
   ,/,
-  the/DT
+  (RELATION the/DT)
   (RELATION reported/VBN)
   (ENTITY date/NN)
   (RELATION is/VBZ)
@@ -18294,7 +18298,7 @@
   ./.)
 1176
 (S
-  A/DT
+  (RELATION A/DT)
   )/)
   In/IN
   (ENTITY general/JJ)
@@ -18358,7 +18362,7 @@
   v1/FW
   (ENTITY F/NNP)
   for/IN
-  the/DT
+  (RELATION the/DT)
   (RELATION following/VBG))
 1181
 (S
@@ -18437,7 +18441,7 @@
   which/WDT
   (RELATION had/VBD been/VBN used/VBN for/IN)
   (ENTITY quite/NN)
-  a/DT
+  (RELATION a/DT)
   w'1/WP
   (ENTITY ile/NN)
   ./.)
@@ -18468,7 +18472,7 @@
   (RELATION including/VBG)
   (ENTITY the/DT date/NN)
   of/IN
-  the/DT
+  (RELATION the/DT)
   (RELATION training/VBG))
 1190
 (S
@@ -18491,13 +18495,13 @@
   (ENTITY IMP/NNP storage/NN)
   (ENTITY 18-Apr-20/JJ 12/CD)
   ,/,
-  this/DT
+  (RELATION this/DT)
   (RELATION had/VBD been/VBN reported/VBN)
   to/TO
   (ENTITY Lundbeck/NNP)
   ,/,
   and/CC
-  the/DT)
+  (RELATION the/DT))
 1192
 (S
   (ENTITY report/NN)
@@ -18514,7 +18518,7 @@
   (ENTITY regard/NN)
   to/TO
   (RELATION use/VB of/IN)
-  the/DT
+  (RELATION the/DT)
   ./.
   (ENTITY IMP/NNP)
   (RELATION was/VBD))
@@ -18529,7 +18533,7 @@
   For/IN
   (ENTITY the/DT non/JJ conformance/NN 2008-005_18/CD)
   ,/,
-  the/DT
+  (RELATION the/DT)
   (RELATION reported/VBN)
   (ENTITY date/NN)
   (RELATION is/VBZ)
@@ -18565,7 +18569,7 @@
   with/IN
   (ENTITY regard/NN)
   to/TO
-  the/DT
+  (RELATION the/DT)
   (RELATION following/VBG)
   (/(
   (ENTITY ICH/NNP GCP/NNP 3.1.1-3.1.9/CD)
@@ -18598,13 +18602,13 @@
   (ENTITY unable/JJ)
   to/TO
   (RELATION verify/VB)
-  the/DT
+  (RELATION the/DT)
   (RELATION following/VBG)
   (ENTITY ICH/NNP requirements/NNS)
   :/:)
 1198
 (S
-  A/DT
+  (RELATION A/DT)
   )/)
   (ENTITY The/DT approval/NN letter/NN)
   (RELATION did/VBD)
@@ -18665,7 +18669,7 @@
   (ENTITY EC/NNP)
   (ENTITY approval/favourable/JJ opinion/NN)
   of/IN
-  an/DT
+  (RELATION an/DT)
   (ENTITY appropriate/JJ))
 1203
 (S
@@ -18713,7 +18717,7 @@
   :/:)
 1206
 (S
-  a/DT
+  (RELATION a/DT)
   )/)
   (ENTITY deviations/NNS)
   from/IN
@@ -18748,7 +18752,7 @@
   (RELATION ADRs/VBP)
   that/WDT
   (RELATION are/VBP)
-  both/DT
+  (RELATION both/DT)
   (ENTITY serious/JJ)
   and/CC
   (ENTITY unexpected/JJ d/NN)
@@ -18781,7 +18785,7 @@
   (ENTITY EC/NNP)
   ,/,
   (RELATION stipulating/VBG that/IN)
-  the/DT
+  (RELATION the/DT)
   (RELATION following/VBG)
   would/MD
   (RELATION be/VB))
@@ -18867,7 +18871,7 @@
   if/IN
   he/PRP
   (RELATION stepped/VBD out/IN of/IN)
-  the/DT
+  (RELATION the/DT)
   (RELATION meeting/VBG)
   ./.
   (ENTITY The/DT PI/NNP)
@@ -18881,7 +18885,7 @@
   and/CC
   then/RB
   (RELATION stepped/VBN out/IN of/IN)
-  the/DT
+  (RELATION the/DT)
   (RELATION meeting/VBG)
   (ENTITY room/NN)
   ,/,
@@ -18895,7 +18899,7 @@
   For/IN
   (ENTITY the/DT non/JJ conformance/NN 2008-005_1/CD)
   ,/,
-  the/DT
+  (RELATION the/DT)
   (RELATION reported/VBN)
   (ENTITY date/NN)
   (RELATION is/VBZ)
@@ -18935,7 +18939,7 @@
   with/IN
   (ENTITY regard/NN)
   to/TO
-  the/DT
+  (RELATION the/DT)
   (RELATION following/VBG)
   (/(
   (ENTITY ICH-GCP/NNP 3.4/CD)
@@ -18984,7 +18988,7 @@
   For/IN
   (ENTITY the/DT non/JJ conformance/NN 2008-005_2/CD)
   ,/,
-  the/DT
+  (RELATION the/DT)
   (RELATION reported/VBN)
   (ENTITY date/NN)
   (RELATION is/VBZ)
@@ -19040,7 +19044,7 @@
   )/)
   ./.)
 1224
-(S A/DT )/))
+(S (RELATION A/DT) )/))
 1225
 (S
   (ENTITY The/DT CVs/NNP)
@@ -19094,7 +19098,7 @@
   that/IN
   he/PRP
   (RELATION is/VBZ)
-  a/DT
+  (RELATION a/DT)
   (ENTITY neurologist/JJ))
 1229
 (S (ENTITY ii/NN) )/))
@@ -19159,7 +19163,7 @@
   (RELATION had/VBD)
   not/RB
   (RELATION received/VBN)
-  any/DT
+  (RELATION any/DT)
   (RELATION updated/VBN)
   (ENTITY GCP/NNP training/NN since/NN 2001/CD)
   ./.)
@@ -19168,7 +19172,7 @@
   For/IN
   (ENTITY the/DT non/JJ conformance/NN 2008-005_3/CD)
   ,/,
-  the/DT
+  (RELATION the/DT)
   (RELATION reported/VBN)
   (ENTITY date/NN)
   (RELATION is/VBZ)
@@ -19199,7 +19203,7 @@
   )/)
   ./.)
 1237
-(S A/DT )/))
+(S (RELATION A/DT) )/))
 1238
 (S
   (ENTITY The/DT ECG/NNP Department/NNP)
@@ -19232,14 +19236,14 @@
   ,/,
   they/PRP
   (RELATION had/VBD)
-  a/DT
+  (RELATION a/DT)
   (RELATION written/VBN)
   (ENTITY agreement/NN)
   with/IN
   (ENTITY the/DT ECG/NNP department/NN)
   ;/:
   however/RB
-  this/DT
+  (RELATION this/DT)
   (RELATION was/VBD)
   not/RB
   (RELATION filed/VBN in/IN)
@@ -19281,7 +19285,7 @@
   For/IN
   (ENTITY the/DT non/JJ conformance/NN 2008-005_4/CD)
   ,/,
-  the/DT
+  (RELATION the/DT)
   (RELATION reported/VBN)
   (ENTITY date/NN)
   (RELATION is/VBZ)
@@ -19328,7 +19332,7 @@
   )/)
   ./.)
 1242
-(S A/DT )/))
+(S (RELATION A/DT) )/))
 1243
 (S
   (ENTITY Insufficient/NNP resources/NNS)
@@ -19390,7 +19394,7 @@
   (ENTITY weekly/JJ staff/NN meetings/NNS)
   ,/,
   however/RB
-  this/DT
+  (RELATION this/DT)
   (RELATION was/VBD)
   not/RB
   (RELATION documented/VBN)
@@ -19400,7 +19404,7 @@
   For/IN
   (ENTITY the/DT non/JJ conformance/NN 2008-005_5/CD)
   ,/,
-  the/DT
+  (RELATION the/DT)
   (RELATION reported/VBN)
   (ENTITY date/NN)
   (RELATION is/VBZ)
@@ -19448,7 +19452,7 @@
   )/)
   ./.)
 1248
-(S A/DT )/))
+(S (RELATION A/DT) )/))
 1249
 (S
   (ENTITY S1002/NNP)
@@ -19466,7 +19470,7 @@
   (ENTITY Friday/NNP 23-Mar-2012/CD)
   ,/,
   however/RB
-  this/DT
+  (RELATION this/DT)
   (RELATION was/VBD)
   first/RB
   (RELATION reported/VBN in/IN)
@@ -19506,7 +19510,7 @@
   (ENTITY this/DT incidence/NN)
   ;/:
   however/RB
-  this/DT
+  (RELATION this/DT)
   (RELATION was/VBD)
   not/RB
   (RELATION documented/VBN in/IN)
@@ -19517,7 +19521,7 @@
   For/IN
   (ENTITY the/DT non/JJ conformance/NN 2008-005_11/CD)
   ,/,
-  the/DT
+  (RELATION the/DT)
   (RELATION reported/VBN)
   (ENTITY date/NN)
   (RELATION is/VBZ)
