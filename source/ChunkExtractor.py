@@ -24,6 +24,14 @@ class ChunkExtractor(object):
             sent_entities.setdefault(relation, {'ent1': e1, 'ent2': e2})
         print(sent_entities)
 
+    def extract_all_entities(self, tagged_text):
+        entities = []
+        for sent in tagged_text:
+            for subtree in list(sent.subtrees()):
+                entities.append(subtree.leaves()) if subtree.label() == 'ENTITY' else ''
+        print(entities)
+        return entities
+
     def __relation_indexes(self, sentence):
         index = []
         result = [index]

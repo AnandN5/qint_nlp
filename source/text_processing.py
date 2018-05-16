@@ -6,6 +6,7 @@ from ConsecutiveNPChunker import ConsecutiveNPChunker
 from utils import tokenized_sents, noun_phrases
 from RegexChunker import RegexChunker
 from ChunkExtractor import ChunkExtractor
+from key_recognizer import KeyRecognizer
 import os
 
 # combo_tagger = NGramTagger()
@@ -21,10 +22,11 @@ def process_data(file):
         tagged_sents = tagged_text(sentences, taggers[1])
         print('tree format')
         extractor = ChunkExtractor()
-        for i, t in enumerate(tagged_sents):
-            print('{}.'.format(i))
-            print(t)
-            extractor.extract_entities(t)
+        KeyRecognizer().train()
+        # for i, t in enumerate(tagged_sents):
+        #     print('{}.'.format(i))
+        #     print(t)
+        #     extractor.extract_entities(t)
 
         with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'iob_tagged_output.txt'), 'w') as out:
             for i, sent in enumerate(tagged_sents):

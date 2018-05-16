@@ -1,4 +1,5 @@
 import utils
+import re
 
 
 def punt_features(tokens, i):
@@ -66,4 +67,19 @@ def chunk_features(sent_tags, i, history):
         'tag+nexttag': '%s+%s' % (tag, nexttag),
         'tags_since_dt': utils.tags_since_dt(sent_tags, i)
     }
+    return features
+
+
+def primary_key_feature(leaf):
+    leaf_item = leaf[0]
+    leaf_tag = leaf[1]
+    special_characters = re.findall('[-_]+', leaf_item)
+    features = {
+        'word': leaf_item,
+        'tag': leaf_tag,
+        'contains_hyphen': '-' in leaf_item,
+        'contains_underscore': '_' in leaf_item,
+        'no:_special_characters': len(special_characters),
+        'special_characters': special_characters
+        }
     return features
