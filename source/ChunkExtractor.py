@@ -1,9 +1,12 @@
+from key_recognizer import KeyRecognizer
 import utils
 
 
 class ChunkExtractor(object):
     def __init__(self):
         self.entities_dict = {}
+        self.recognizer = KeyRecognizer()
+        self.recognizer.train()
 
     def extract_entities(self, sentence):
         sent_entities = {}
@@ -22,15 +25,34 @@ class ChunkExtractor(object):
             e1, e2, relation = utils.process_entities_list(
                 ent1, ent2, relation)
             sent_entities.setdefault(relation, {'ent1': e1, 'ent2': e2})
-        print(sent_entities)
+        return sent_entities
+
+    # def extract_all_entities(self, tagged_text):
+    #     entities = []
+    #     for sent in tagged_text:
+    #         for subtree in list(sent.subtrees()):
+    #             if subtree.label() == 'ENTITY':
+    #                 for leaf in subtree.leaves():
+    #                     # entities.append(
+    #                     #     subtree.leaves()) if subtree.label() == 'ENTITY' else ''
+    #                     entities.append(
+    #                         leaf) if leaf[1] == 'JJ' else ''
+    #     utils.write_to_file(entities)
+
+        # return entities
 
     def extract_all_entities(self, tagged_text):
         entities = []
+        audits = []
+        non_confs = []
         for sent in tagged_text:
-            for subtree in list(sent.subtrees()):
-                entities.append(subtree.leaves()) if subtree.label() == 'ENTITY' else ''
-        print(entities)
-        return entities
+            a, c = self.recognizer.tag(sent)
+            audits.append(a)
+            non_confs.append(c)
+        print(self.recognizer.classifier.show_most_informative_features())
+        for a in list(filter(None, audits)):
+            print(a)
+
 
     def __relation_indexes(self, sentence):
         index = []

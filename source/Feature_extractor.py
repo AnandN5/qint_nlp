@@ -1,5 +1,6 @@
 import utils
 import re
+import string
 
 
 def punt_features(tokens, i):
@@ -70,16 +71,25 @@ def chunk_features(sent_tags, i, history):
     return features
 
 
-def primary_key_feature(leaf):
+def key_feature(leaf):
     leaf_item = leaf[0]
     leaf_tag = leaf[1]
-    special_characters = re.findall('[-_]+', leaf_item)
+    special_characters = re.findall('[%s]+' % (string.punctuation), leaf_item)
+    letters = re.findall(
+        "[AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz]+", leaf_item)
     features = {
         'word': leaf_item,
         'tag': leaf_tag,
+        'no:_of_characters': len(leaf_item),
+        'no:_of_characters_before_hyphen': len(leaf_item[:leaf_item.index('-')]) if '-' in leaf_item else '',
+        'no:_of_characters_after_hyphen': len(leaf_item[leaf_item.index('-'): ]) if '-' in leaf_item else '',
+        'contains_no_other_characters': bool(re.match('[\d_-]+$', leaf_item)),
         'contains_hyphen': '-' in leaf_item,
+        'contains_only_1_hyphen': special_characters.count('-') == 1,
+        'contains_only_hyphen': '-' in leaf_item and '_' not in leaf_item,
         'contains_underscore': '_' in leaf_item,
-        'no:_special_characters': len(special_characters),
-        'special_characters': special_characters
-        }
+        'contains_only_1_underscore': special_characters.count('_') == 1,
+        'contains_hyphen_and_underscore': '-' in leaf_item and '_' in leaf_item,
+        'contains_only_numbers': len(letters) == 0
+    }
     return features

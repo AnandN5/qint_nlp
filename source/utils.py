@@ -1,9 +1,11 @@
 import os
+import random
 from nltk import word_tokenize, sent_tokenize, pos_tag, corpus
 from nltk.chunk import tree2conlltags
 
 train_data_dir = '/Users/qbuser/Documents/pythonWorks/BigDataWorks/qint_nlp/source/data/training_resource'
-
+key_training_data_path = '/Users/qbuser/Documents/pythonWorks/BigDataWorks/qint_nlp/source/data/training_resource/'
+aFilepath = '/Users/qbuser/Documents/pythonWorks/BigDataWorks/qint_nlp/source/data/training_resource/NoT.txt'
 
 def is_txt_file(filename):
     return filename.endswith('.txt')
@@ -29,6 +31,27 @@ def training_testing_dataset():
     train_sents = tagged_sents[:size]
     test_sents = tagged_sents[size:]
     return train_sents, test_sents
+
+
+def key_training_testing_dataset():
+    audit_number_data_path = key_training_data_path + 'audit number.txt'
+    non_conf_id_data_path = key_training_data_path + 'non conformace id.txt'
+    other_data_path = aFilepath
+    paths = [(audit_number_data_path, 'audit number'),
+             (non_conf_id_data_path, 'non_conf_id'),
+             (other_data_path, 'NoT')
+             ]
+    all_data = []
+    for path in paths:
+        with open(path[0], 'r') as fin:
+            data = [tuple(d.split())
+                    for d in list(filter(None, fin.read().split('\n')))]
+            all_data.extend([(x, path[1]) for x in data])
+    random.shuffle(all_data)
+    size = int(len(all_data) * 0.9)
+    training_data = all_data[:size]
+    testing_data = all_data[size:]
+    return training_data, testing_data
 
 
 def tokenized_sents(text):
@@ -81,3 +104,9 @@ def process_entities_list(ent1, ent2, relation):
     ent2 = ' '.join([e[0] for ent in ent2 for e in ent])
     rel = ' '.join([r[0] for r in relation])
     return ent1, ent2, rel
+
+
+def write_to_file(data):
+    with open(aFilepath, 'w') as fout:
+        for d in data:
+            fout.write('{} \t {} \n'.format(d[0], d[1]))

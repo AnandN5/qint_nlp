@@ -1,6 +1,7 @@
 from nltk import NaiveBayesClassifier
-
-training_data_path = '/Users/qbuser/Documents/pythonWorks/BigDataWorks/qint_nlp/source/data/training_resource/'
+from Feature_extractor import key_feature
+import nltk
+import utils
 
 
 class KeyRecognizer(object):
@@ -8,13 +9,29 @@ class KeyRecognizer(object):
         self.classifier = 'NaiveBayesClassifier'
 
     def train(self):
-        audit_number_data_path = training_data_path + 'audit number.txt'
-        non_conf_id_data_path = training_data_path + 'non conformace id.txt'
-        paths = [(audit_number_data_path, 'audit number'),
-                 (non_conf_id_data_path, 'non_conf_id')]
-        all_data = []
-        for path in paths:
-            with open(path[0], 'r') as fin:
-                data = [tuple(d.split()) for d in fin.read().split('\n')]
-                all_data.extend([(x, path[1]) for x in data])
-        print(all_data)
+        train_data, testing_data = utils.key_training_testing_dataset()
+        print('key training started')
+        train_featureset = [(key_feature(data[0]), data[1])
+                            for data in train_data]
+        test_featureset = [(key_feature(data[0]), data[1])
+                           for data in testing_data]
+        self.classifier = NaiveBayesClassifier.train(train_featureset)
+        print('training completed')
+        print('Accuracy:', nltk.classify.util.accuracy(
+            self.classifier, test_featureset))
+
+    def tag(self, sent_tree):
+        audits = []
+        non_confs = []
+        for subtree in list(sent_tree.subtrees()):
+            for leaf in subtree.leaves():
+                if leaf[1] == 'CD' or leaf[1] == 'JJ':
+                    featureset = key_feature(leaf)
+                    aClass = self.classifier.classify(featureset)
+                    import pdb
+                    pdb.set_trace()
+                    if aClass == 'audit number':
+                        audits.append(leaf)
+                    elif aClass == 'non_conf_id':
+                        non_confs.append(leaf)
+        return audits, non_confs
